@@ -49,14 +49,12 @@ Will output:
 06. `    <wf wid="w2" page="1" sent="1" para="1">`
 07. `      1995`
 08. `    </wf>`
-09. `      .`
-10. `      .`
-11. `      .`
-12. `    <wf wid="w196" page="1" sent="7" para="5">`
-13. `      were`
-14. `    </wf>`
-15. `  </text>`
-16. `</kaf>`
+09. `      ...`
+10. `    <wf wid="w196" page="1" sent="7" para="5">`
+11. `      were`
+12. `    </wf>`
+13. `  </text>`
+14. `</kaf>`
 
 
 ## Contributing
