@@ -41,15 +41,15 @@ $ Vicom-tokenizer-lite_EN_kernel ./ english.txt
 
 Will output:
 
- 1. `<kaf xml:lang="en" doc="english.txt">`
- 2. `  <text>`
- 3. `    <wf wid="w1" page="1" sent="1" para="1">`
- 4. `      In`
- 5. `    </wf>`
- 6. `    <wf wid="w2" page="1" sent="1" para="1">`
- 7. `      1995`
- 8. `    </wf>`
- 9. `      .`
+01. `<kaf xml:lang="en" doc="english.txt">`
+02. `  <text>`
+03. `    <wf wid="w1" page="1" sent="1" para="1">`
+04. `      In`
+05. `    </wf>`
+06. `    <wf wid="w2" page="1" sent="1" para="1">`
+07. `      1995`
+08. `    </wf>`
+09. `      .`
 10. `      .`
 11. `      .`
 12. `    <wf wid="w196" page="1" sent="7" para="5">`
