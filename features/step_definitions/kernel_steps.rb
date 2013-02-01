@@ -3,11 +3,11 @@ Given /^the fixture file "(.*?)"$/ do |filename|
   @filename = filename
 end
 
-Given /^I put it through the kernel$/ do
+Given /^I put them through the kernel$/ do
   @tmp_filename = "output_#{rand(1000)}_#{@filename}"
   @output = tmp_file(@tmp_filename)
-
-  `cat #{@input} | #{KERNEL_CORE} > #{@output}`
+  lib_dir()
+  `java -jar #{KERNEL_CORE} #{$LIB_DIR} #{@input} > #{@output}`
 end
 
 Then /^the output should match the fixture "(.*?)"$/ do |filename|
@@ -23,3 +23,9 @@ end
 def tmp_file(filename)
   File.expand_path("../../../tmp/#{filename}", __FILE__)
 end
+
+def lib_dir()
+  $LIB_DIR = File.expand_path("../../lib/", File.dirname(__FILE__))
+  $LIB_DIR += "/"
+end
+

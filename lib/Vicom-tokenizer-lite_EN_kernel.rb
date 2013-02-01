@@ -8,7 +8,7 @@ module Opener
 
       		class Configuration
         		CORE_DIR    = File.expand_path("../core", File.dirname(__FILE__))
-        		KERNEL_CORE = CORE_DIR+'/tokenizer-en.pl'
+        		KERNEL_CORE = CORE_DIR+'/tokenizer_english.jar'
       		end
 
     	  end

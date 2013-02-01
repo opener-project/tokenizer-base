@@ -1,0 +1,592 @@
+<kaf xml:lang="en" doc="english.txt">
+  <text>
+    <wf wid="w1" page="1" sent="1" para="1">
+      In
+    </wf>
+    <wf wid="w2" page="1" sent="1" para="1">
+      1995
+    </wf>
+    <wf wid="w3" page="1" sent="1" para="1">
+      ,
+    </wf>
+    <wf wid="w4" page="1" sent="1" para="1">
+      a
+    </wf>
+    <wf wid="w5" page="1" sent="1" para="1">
+      book
+    </wf>
+    <wf wid="w6" page="1" sent="1" para="1">
+      laid
+    </wf>
+    <wf wid="w7" page="1" sent="1" para="1">
+      down
+    </wf>
+    <wf wid="w8" page="1" sent="1" para="1">
+      The
+    </wf>
+    <wf wid="w9" page="1" sent="1" para="1">
+      Rules
+    </wf>
+    <wf wid="w10" page="1" sent="1" para="1">
+      to
+    </wf>
+    <wf wid="w11" page="1" sent="1" para="1">
+      find
+    </wf>
+    <wf wid="w12" page="1" sent="1" para="1">
+      Mr
+    </wf>
+    <wf wid="w13" page="1" sent="1" para="1">
+      Right
+    </wf>
+    <wf wid="w14" page="1" sent="1" para="1">
+      .
+    </wf>
+    <wf wid="w15" page="1" sent="2" para="1">
+      Now
+    </wf>
+    <wf wid="w16" page="1" sent="2" para="1">
+      updated
+    </wf>
+    <wf wid="w17" page="1" sent="2" para="1">
+      by
+    </wf>
+    <wf wid="w18" page="1" sent="2" para="1">
+      its
+    </wf>
+    <wf wid="w19" page="1" sent="2" para="1">
+      authors
+    </wf>
+    <wf wid="w20" page="1" sent="2" para="1">
+      ,
+    </wf>
+    <wf wid="w21" page="1" sent="2" para="1">
+      Tim
+    </wf>
+    <wf wid="w22" page="1" sent="2" para="1">
+      Teeman
+    </wf>
+    <wf wid="w23" page="1" sent="2" para="1">
+      asks
+    </wf>
+    <wf wid="w24" page="1" sent="2" para="1">
+      if
+    </wf>
+    <wf wid="w25" page="1" sent="2" para="1">
+      they
+    </wf>
+    <wf wid="w26" page="1" sent="2" para="1">
+      still
+    </wf>
+    <wf wid="w27" page="1" sent="2" para="1">
+      work
+    </wf>
+    <wf wid="w28" page="1" sent="3" para="2">
+      If
+    </wf>
+    <wf wid="w29" page="1" sent="3" para="2">
+      every
+    </wf>
+    <wf wid="w30" page="1" sent="3" para="2">
+      diet
+    </wf>
+    <wf wid="w31" page="1" sent="3" para="2">
+      book
+    </wf>
+    <wf wid="w32" page="1" sent="3" para="2">
+      could
+    </wf>
+    <wf wid="w33" page="1" sent="3" para="2">
+      be
+    </wf>
+    <wf wid="w34" page="1" sent="3" para="2">
+      reduced
+    </wf>
+    <wf wid="w35" page="1" sent="3" para="2">
+      to
+    </wf>
+    <wf wid="w36" page="1" sent="3" para="2">
+      “eat
+    </wf>
+    <wf wid="w37" page="1" sent="3" para="2">
+      less
+    </wf>
+    <wf wid="w38" page="1" sent="3" para="2">
+      rubbish
+    </wf>
+    <wf wid="w39" page="1" sent="3" para="2">
+      and
+    </wf>
+    <wf wid="w40" page="1" sent="3" para="2">
+      exercise”
+    </wf>
+    <wf wid="w41" page="1" sent="3" para="2">
+      ,
+    </wf>
+    <wf wid="w42" page="1" sent="3" para="2">
+      then
+    </wf>
+    <wf wid="w43" page="1" sent="3" para="2">
+      the
+    </wf>
+    <wf wid="w44" page="1" sent="3" para="2">
+      feverish
+    </wf>
+    <wf wid="w45" page="1" sent="3" para="2">
+      pages
+    </wf>
+    <wf wid="w46" page="1" sent="3" para="2">
+      of
+    </wf>
+    <wf wid="w47" page="1" sent="3" para="2">
+      infamous
+    </wf>
+    <wf wid="w48" page="1" sent="3" para="2">
+      dating
+    </wf>
+    <wf wid="w49" page="1" sent="3" para="2">
+      book
+    </wf>
+    <wf wid="w50" page="1" sent="3" para="2">
+      The
+    </wf>
+    <wf wid="w51" page="1" sent="3" para="2">
+      Rules
+    </wf>
+    <wf wid="w52" page="1" sent="3" para="2">
+      :
+    </wf>
+    <wf wid="w53" page="1" sent="3" para="2">
+      Time-Tested
+    </wf>
+    <wf wid="w54" page="1" sent="3" para="2">
+      Secrets
+    </wf>
+    <wf wid="w55" page="1" sent="3" para="2">
+      of
+    </wf>
+    <wf wid="w56" page="1" sent="3" para="2">
+      Capturing
+    </wf>
+    <wf wid="w57" page="1" sent="3" para="2">
+      The
+    </wf>
+    <wf wid="w58" page="1" sent="3" para="2">
+      Heart
+    </wf>
+    <wf wid="w59" page="1" sent="3" para="2">
+      of
+    </wf>
+    <wf wid="w60" page="1" sent="3" para="2">
+      Mr
+    </wf>
+    <wf wid="w61" page="1" sent="3" para="2">
+      Right
+    </wf>
+    <wf wid="w62" page="1" sent="3" para="2">
+      could
+    </wf>
+    <wf wid="w63" page="1" sent="3" para="2">
+      be
+    </wf>
+    <wf wid="w64" page="1" sent="3" para="2">
+      condensed
+    </wf>
+    <wf wid="w65" page="1" sent="3" para="2">
+      to
+    </wf>
+    <wf wid="w66" page="1" sent="3" para="2">
+      its
+    </wf>
+    <wf wid="w67" page="1" sent="3" para="2">
+      intended
+    </wf>
+    <wf wid="w68" page="1" sent="3" para="2">
+      straight
+    </wf>
+    <wf wid="w69" page="1" sent="3" para="2">
+      female
+    </wf>
+    <wf wid="w70" page="1" sent="3" para="2">
+      audience
+    </wf>
+    <wf wid="w71" page="1" sent="3" para="2">
+      thus
+    </wf>
+    <wf wid="w72" page="1" sent="3" para="2">
+      :
+    </wf>
+    <wf wid="w73" page="1" sent="3" para="2">
+      “Never
+    </wf>
+    <wf wid="w74" page="1" sent="3" para="2">
+      pursue
+    </wf>
+    <wf wid="w75" page="1" sent="3" para="2">
+      ,
+    </wf>
+    <wf wid="w76" page="1" sent="3" para="2">
+      be
+    </wf>
+    <wf wid="w77" page="1" sent="3" para="2">
+      pursued”
+    </wf>
+    <wf wid="w78" page="1" sent="3" para="2">
+      .
+    </wf>
+    <wf wid="w79" page="1" sent="4" para="3">
+      Its
+    </wf>
+    <wf wid="w80" page="1" sent="4" para="3">
+      thirtysomething
+    </wf>
+    <wf wid="w81" page="1" sent="4" para="3">
+      authors
+    </wf>
+    <wf wid="w82" page="1" sent="4" para="3">
+      ,
+    </wf>
+    <wf wid="w83" page="1" sent="4" para="3">
+      Sherrie
+    </wf>
+    <wf wid="w84" page="1" sent="4" para="3">
+      Schneider
+    </wf>
+    <wf wid="w85" page="1" sent="4" para="3">
+      and
+    </wf>
+    <wf wid="w86" page="1" sent="4" para="3">
+      Ellen
+    </wf>
+    <wf wid="w87" page="1" sent="4" para="3">
+      Fein
+    </wf>
+    <wf wid="w88" page="1" sent="4" para="3">
+      ,
+    </wf>
+    <wf wid="w89" page="1" sent="4" para="3">
+      taught
+    </wf>
+    <wf wid="w90" page="1" sent="4" para="3">
+      a
+    </wf>
+    <wf wid="w91" page="1" sent="4" para="3">
+      generation
+    </wf>
+    <wf wid="w92" page="1" sent="4" para="3">
+      of
+    </wf>
+    <wf wid="w93" page="1" sent="4" para="3">
+      women
+    </wf>
+    <wf wid="w94" page="1" sent="4" para="3">
+      to
+    </wf>
+    <wf wid="w95" page="1" sent="4" para="3">
+      lie
+    </wf>
+    <wf wid="w96" page="1" sent="4" para="3">
+      in
+    </wf>
+    <wf wid="w97" page="1" sent="4" para="3">
+      the
+    </wf>
+    <wf wid="w98" page="1" sent="4" para="3">
+      bath
+    </wf>
+    <wf wid="w99" page="1" sent="4" para="3">
+      before
+    </wf>
+    <wf wid="w100" page="1" sent="4" para="3">
+      a
+    </wf>
+    <wf wid="w101" page="1" sent="4" para="3">
+      date
+    </wf>
+    <wf wid="w102" page="1" sent="4" para="3">
+      intoning
+    </wf>
+    <wf wid="w103" page="1" sent="4" para="3">
+      “
+    </wf>
+    <wf wid="w104" page="1" sent="4" para="3">
+      I
+    </wf>
+    <wf wid="w105" page="1" sent="4" para="3">
+      am
+    </wf>
+    <wf wid="w106" page="1" sent="4" para="3">
+      a
+    </wf>
+    <wf wid="w107" page="1" sent="4" para="3">
+      beautiful
+    </wf>
+    <wf wid="w108" page="1" sent="4" para="3">
+      creature
+    </wf>
+    <wf wid="w109" page="1" sent="4" para="3">
+      unlike
+    </wf>
+    <wf wid="w110" page="1" sent="4" para="3">
+      any
+    </wf>
+    <wf wid="w111" page="1" sent="4" para="3">
+      other”
+    </wf>
+    <wf wid="w112" page="1" sent="4" para="3">
+      ,
+    </wf>
+    <wf wid="w113" page="1" sent="4" para="3">
+      then
+    </wf>
+    <wf wid="w114" page="1" sent="4" para="3">
+      not
+    </wf>
+    <wf wid="w115" page="1" sent="4" para="3">
+      to
+    </wf>
+    <wf wid="w116" page="1" sent="4" para="3">
+      return
+    </wf>
+    <wf wid="w117" page="1" sent="4" para="3">
+      the
+    </wf>
+    <wf wid="w118" page="1" sent="4" para="3">
+      man’s
+    </wf>
+    <wf wid="w119" page="1" sent="4" para="3">
+      calls
+    </wf>
+    <wf wid="w120" page="1" sent="4" para="3">
+      .
+    </wf>
+    <wf wid="w121" page="1" sent="5" para="4">
+      As
+    </wf>
+    <wf wid="w122" page="1" sent="5" para="4">
+      most
+    </wf>
+    <wf wid="w123" page="1" sent="5" para="4">
+      of
+    </wf>
+    <wf wid="w124" page="1" sent="5" para="4">
+      the
+    </wf>
+    <wf wid="w125" page="1" sent="5" para="4">
+      country
+    </wf>
+    <wf wid="w126" page="1" sent="5" para="4">
+      faces
+    </wf>
+    <wf wid="w127" page="1" sent="5" para="4">
+      up
+    </wf>
+    <wf wid="w128" page="1" sent="5" para="4">
+      to
+    </wf>
+    <wf wid="w129" page="1" sent="5" para="4">
+      freezing
+    </wf>
+    <wf wid="w130" page="1" sent="5" para="4">
+      temperatures
+    </wf>
+    <wf wid="w131" page="1" sent="5" para="4">
+      and
+    </wf>
+    <wf wid="w132" page="1" sent="5" para="4">
+      a
+    </wf>
+    <wf wid="w133" page="1" sent="5" para="4">
+      deluge
+    </wf>
+    <wf wid="w134" page="1" sent="5" para="4">
+      of
+    </wf>
+    <wf wid="w135" page="1" sent="5" para="4">
+      snow
+    </wf>
+    <wf wid="w136" page="1" sent="5" para="4">
+      ,
+    </wf>
+    <wf wid="w137" page="1" sent="5" para="4">
+      drivers
+    </wf>
+    <wf wid="w138" page="1" sent="5" para="4">
+      and
+    </wf>
+    <wf wid="w139" page="1" sent="5" para="4">
+      commuters
+    </wf>
+    <wf wid="w140" page="1" sent="5" para="4">
+      have
+    </wf>
+    <wf wid="w141" page="1" sent="5" para="4">
+      been
+    </wf>
+    <wf wid="w142" page="1" sent="5" para="4">
+      warned
+    </wf>
+    <wf wid="w143" page="1" sent="5" para="4">
+      to
+    </wf>
+    <wf wid="w144" page="1" sent="5" para="4">
+      prepare
+    </wf>
+    <wf wid="w145" page="1" sent="5" para="4">
+      for
+    </wf>
+    <wf wid="w146" page="1" sent="5" para="4">
+      a
+    </wf>
+    <wf wid="w147" page="1" sent="5" para="4">
+      transport
+    </wf>
+    <wf wid="w148" page="1" sent="5" para="4">
+      meltdown
+    </wf>
+    <wf wid="w149" page="1" sent="5" para="4">
+      .
+    </wf>
+    <wf wid="w150" page="1" sent="6" para="5">
+      Rail
+    </wf>
+    <wf wid="w151" page="1" sent="6" para="5">
+      companies
+    </wf>
+    <wf wid="w152" page="1" sent="6" para="5">
+      have
+    </wf>
+    <wf wid="w153" page="1" sent="6" para="5">
+      switched
+    </wf>
+    <wf wid="w154" page="1" sent="6" para="5">
+      to
+    </wf>
+    <wf wid="w155" page="1" sent="6" para="5">
+      emergency
+    </wf>
+    <wf wid="w156" page="1" sent="6" para="5">
+      timetables
+    </wf>
+    <wf wid="w157" page="1" sent="6" para="5">
+      ,
+    </wf>
+    <wf wid="w158" page="1" sent="6" para="5">
+      the
+    </wf>
+    <wf wid="w159" page="1" sent="6" para="5">
+      Highways
+    </wf>
+    <wf wid="w160" page="1" sent="6" para="5">
+      Agency
+    </wf>
+    <wf wid="w161" page="1" sent="6" para="5">
+      has
+    </wf>
+    <wf wid="w162" page="1" sent="6" para="5">
+      told
+    </wf>
+    <wf wid="w163" page="1" sent="6" para="5">
+      people
+    </wf>
+    <wf wid="w164" page="1" sent="6" para="5">
+      to
+    </wf>
+    <wf wid="w165" page="1" sent="6" para="5">
+      avoid
+    </wf>
+    <wf wid="w166" page="1" sent="6" para="5">
+      the
+    </wf>
+    <wf wid="w167" page="1" sent="6" para="5">
+      roads
+    </wf>
+    <wf wid="w168" page="1" sent="6" para="5">
+      and
+    </wf>
+    <wf wid="w169" page="1" sent="6" para="5">
+      shoppers
+    </wf>
+    <wf wid="w170" page="1" sent="6" para="5">
+      have
+    </wf>
+    <wf wid="w171" page="1" sent="6" para="5">
+      cleared
+    </wf>
+    <wf wid="w172" page="1" sent="6" para="5">
+      the
+    </wf>
+    <wf wid="w173" page="1" sent="6" para="5">
+      shelves
+    </wf>
+    <wf wid="w174" page="1" sent="6" para="5">
+      of
+    </wf>
+    <wf wid="w175" page="1" sent="6" para="5">
+      essential
+    </wf>
+    <wf wid="w176" page="1" sent="6" para="5">
+      goods
+    </wf>
+    <wf wid="w177" page="1" sent="6" para="5">
+      in
+    </wf>
+    <wf wid="w178" page="1" sent="6" para="5">
+      anticipation
+    </wf>
+    <wf wid="w179" page="1" sent="6" para="5">
+      of
+    </wf>
+    <wf wid="w180" page="1" sent="6" para="5">
+      severe
+    </wf>
+    <wf wid="w181" page="1" sent="6" para="5">
+      weather
+    </wf>
+    <wf wid="w182" page="1" sent="6" para="5">
+      over
+    </wf>
+    <wf wid="w183" page="1" sent="6" para="5">
+      most
+    </wf>
+    <wf wid="w184" page="1" sent="6" para="5">
+      of
+    </wf>
+    <wf wid="w185" page="1" sent="6" para="5">
+      England
+    </wf>
+    <wf wid="w186" page="1" sent="6" para="5">
+      and
+    </wf>
+    <wf wid="w187" page="1" sent="6" para="5">
+      Wales
+    </wf>
+    <wf wid="w188" page="1" sent="6" para="5">
+      for
+    </wf>
+    <wf wid="w189" page="1" sent="6" para="5">
+      the
+    </wf>
+    <wf wid="w190" page="1" sent="6" para="5">
+      next
+    </wf>
+    <wf wid="w191" page="1" sent="6" para="5">
+      four
+    </wf>
+    <wf wid="w192" page="1" sent="6" para="5">
+      days
+    </wf>
+    <wf wid="w193" page="1" sent="6" para="5">
+      .
+    </wf>
+    <wf wid="w194" page="1" sent="7" para="5">
+      Some
+    </wf>
+    <wf wid="w195" page="1" sent="7" para="5">
+      employers
+    </wf>
+    <wf wid="w196" page="1" sent="7" para="5">
+      were
+    </wf>
+  </text>
+</kaf>
