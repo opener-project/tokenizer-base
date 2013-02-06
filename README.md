@@ -42,12 +42,12 @@ $ Vicom-tokenizer-lite_EN_kernel ./ english.txt
 
 Will output:
 
-01. `<KAF xml:lang="en" version="v1.opener">
-02. `  <kafHeader>
-03. `    <fileDesc filename="english" filetype="TXT" />
-04. `    <linguisticProcessors layer="text">
-05. `      <lp name="openlp-en-sent" version="1" timestamp="2013-02-05T13:35:22Z"/>
-06. `      <lp name="openlp-en-tok" version="1" timestamp="2013-02-05T13:35:22Z"/>
+01. `<KAF xml:lang="en" version="v1.opener">`
+02. `  <kafHeader>`
+03. `    <fileDesc filename="english" filetype="TXT" />`
+04. `    <linguisticProcessors layer="text">`
+05. `      <lp name="openlp-en-sent" version="1" timestamp="2013-02-05T13:35:22Z"/>`
+06. `      <lp name="openlp-en-tok" version="1" timestamp="2013-02-05T13:35:22Z"/>`
 07. `    </linguisticProcessors>
 08. `  </kafHeader>
 09. `  <text>`
