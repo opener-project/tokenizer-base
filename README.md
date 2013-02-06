@@ -10,7 +10,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'Vicom-tokenizer-lite_EN_kernel', :git=>"git@github.com/opener-project/Vicom-tokenizer-lite_EN_kernel.git"
+    gem 'Vicom-tokenizer-lite_EN_kernel', :git=>"git@github.com:opener-project/Vicom-tokenizer-lite_EN_kernel.git"
 
 And then execute:
 
@@ -29,10 +29,11 @@ If you dont have specifi_install already:
 
 Once installed as a gem you can access the gem from anywhere:
 
-Vicom-tokenizer-lite_EN_kernel needs 2 arguments:
+Vicom-tokenizer-lite_EN_kernel needs 2 parameters:
 
 1. Sentence detection and tokenization model's directory path.
 2. File's path.
+3. You can also specify a 3rd parameter to use static timestamp at KAF header: -n.
 
 
 For example:
@@ -41,20 +42,27 @@ $ Vicom-tokenizer-lite_EN_kernel ./ english.txt
 
 Will output:
 
-01. `<kaf xml:lang="en" doc="english.txt">`
-02. `  <text>`
-03. `    <wf wid="w1" page="1" sent="1" para="1">`
-04. `      In`
-05. `    </wf>`
-06. `    <wf wid="w2" page="1" sent="1" para="1">`
-07. `      1995`
-08. `    </wf>`
-09. `      ...`
-10. `    <wf wid="w196" page="1" sent="7" para="5">`
-11. `      were`
+01. `<KAF xml:lang="en" version="v1.opener">
+02. `  <kafHeader>
+03. `    <fileDesc filename="english" filetype="TXT" />
+04. `    <linguisticProcessors layer="text">
+05. `      <lp name="openlp-en-sent" version="1" timestamp="2013-02-05T13:35:22Z"/>
+06. `      <lp name="openlp-en-tok" version="1" timestamp="2013-02-05T13:35:22Z"/>
+07. `    </linguisticProcessors>
+08. `  </kafHeader>
+09. `  <text>`
+10. `    <wf wid="w1" page="1" sent="1" para="1">`
+11. `      In`
 12. `    </wf>`
-13. `  </text>`
-14. `</kaf>`
+13. `    <wf wid="w2" page="1" sent="1" para="1">`
+14. `      1995`
+15. `    </wf>`
+16. `      ...`
+17. `    <wf wid="w196" page="1" sent="7" para="5">`
+18. `      were`
+19. `    </wf>`
+20. `  </text>`
+21. `</KAF>`
 
 
 ## Contributing

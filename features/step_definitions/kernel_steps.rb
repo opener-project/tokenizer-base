@@ -7,7 +7,7 @@ Given /^I put them through the kernel$/ do
   @tmp_filename = "output_#{rand(1000)}_#{@filename}"
   @output = tmp_file(@tmp_filename)
   lib_dir()
-  `java -jar #{KERNEL_CORE} #{$LIB_DIR} #{@input} > #{@output}`
+  `java -jar #{KERNEL_CORE} #{$LIB_DIR} #{@input} -n > #{@output}`
 end
 
 Then /^the output should match the fixture "(.*?)"$/ do |filename|
