@@ -1,21 +1,35 @@
+require 'tempfile'
+
 module Opener
-   module Kernel
-     module Vicom
-       module Tokenizer
-    	 module Lite
-    	   module EN
-      		VERSION = "0.0.1"
+  module Kernel
+    module Vicom
+      module Tokenizer
+        module Lite
+          class EN
+            VERSION = "0.0.2"
 
-      		class Configuration
-        		CORE_DIR    = File.expand_path("../core", File.dirname(__FILE__))
-        		KERNEL_CORE = CORE_DIR+'/tokenizer_english.jar'
-      		end
+            attr_reader :kernel, :lib
 
-    	  end
-    	end
+            def initialize
+              core_dir    = File.expand_path("../core", File.dirname(__FILE__))
+
+              @kernel      = core_dir+'/tokenizer_english.jar'
+              @lib         = core_dir+'/lib/'
+            end
+
+            def command(opts={})
+              arguments = opts[:arguments] || []
+              arguments << "-n" if opts[:test]
+
+              "java -jar #{kernel} #{lib} #{opts[:input]} #{arguments.join(' ')}"
+
+            end
+
+          end
+        end
       end
     end
   end
 end
 
-KERNEL_CORE=Opener::Kernel::Vicom::Tokenizer::Lite::EN::Configuration::KERNEL_CORE
+
