@@ -58,7 +58,7 @@ public class Tokenizer_English {
           Kaf_Header kh = new Kaf_Header("en");
           kh.add_fileDesc_filename(fileName);
           kh.add_fileDesc_filetype(fileType);
-	  kh.print_xmlroot();
+          kh.print_xmlroot();
           kh.print_root_open();
           kh.print_openHeader();
           kh.print_fileDesc();
@@ -75,10 +75,13 @@ public class Tokenizer_English {
           kh.print_linguisticProcessors_close();
 
           kh.print_closeHeader();
-
           kt.print_openText();
+          
+          int charcount = 0;
+          String txt = "";
 // Read a paragraph
           while ((line = br.readLine()) != null) {
+        	txt+=line;
 // If the paragraph is not empty
             if (line.compareTo("") != 0) {
 // Detect the sentences
@@ -87,16 +90,22 @@ public class Tokenizer_English {
               for (int i = 0; i < sentences.length; i++) {
                 tokens = tokenizer.tokenize(sentences[i]);
 // print the tokens in kaf format
+                int index=0;
+                int last_index=0;
                 for (int j = 0; j < tokens.length; j++) {
                   kt.add_sent(sentence_count);
                   kt.add_para(paragraph_count);
+                  index = line.indexOf(tokens[j], last_index);
+                  kt.add_offset(charcount + index);
                   kt.print_word("w" + word_count, tokens[j]);
                   word_count++;
+                  last_index = index;
                 }
                 sentence_count++;
               }
               paragraph_count++;
             }
+            charcount += line.length();
           }
           kt.print_closeText();
           kh.print_root_close();
