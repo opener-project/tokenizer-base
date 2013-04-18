@@ -97,7 +97,7 @@ public class Tokenizer_English {
                   kt.add_offset(charcount + index);
                   kt.print_word("w" + word_count, tokens[j]);
                   word_count++;
-                  last_index = index;
+                  last_index = index + tokens[j].length();
                 }
                 sentence_count++;
               }
