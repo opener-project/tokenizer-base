@@ -51,14 +51,14 @@ Will output:
 07. `    </linguisticProcessors>`
 08. `  </kafHeader>`
 09. `  <text>`
-10. `    <wf wid="w1" page="1" sent="1" para="1">`
+10. `    <wf wid="w1" page="1" sent="1" para="1" offset="1">`
 11. `      In`
 12. `    </wf>`
-13. `    <wf wid="w2" page="1" sent="1" para="1">`
+13. `    <wf wid="w2" page="1" sent="1" para="1" offset="4">`
 14. `      1995`
 15. `    </wf>`
 16. `      ...`
-17. `    <wf wid="w196" page="1" sent="7" para="5">`
+17. `    <wf wid="w196" page="1" sent="7" para="5" offset="1037">`
 18. `      were`
 19. `    </wf>`
 20. `  </text>`
