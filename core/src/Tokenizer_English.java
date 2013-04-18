@@ -78,10 +78,8 @@ public class Tokenizer_English {
           kt.print_openText();
           
           int charcount = 0;
-          String txt = "";
 // Read a paragraph
           while ((line = br.readLine()) != null) {
-        	txt+=line;
 // If the paragraph is not empty
             if (line.compareTo("") != 0) {
 // Detect the sentences
