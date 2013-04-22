@@ -29,16 +29,17 @@ If you dont have specifi_install already:
 
 Once installed as a gem you can access the gem from anywhere:
 
-Vicom-tokenizer-lite_EN_kernel needs 2 parameters:
-
-1. Sentence detection and tokenization model's directory path.
-2. File's path.
-3. You can also specify a 3rd parameter to use static timestamp at KAF header: -n.
+This aplication reads a text from standard input in order to tokenize.
+Aplication arguments:
+-l, --lib       sentence detection and tokenization model's directory path.
+-f, --filename  (optional) file's name.
+-t,             (optional) o use static timestamp at KAF header.
+--help,         outputs aplication help.
 
 
 For example:
 
-$ Vicom-tokenizer-lite_EN_kernel ./ english.txt
+$ cat english.txt | Vicom-tokenizer-lite_EN_kernel -f english.txt
 
 Will output:
 
@@ -58,11 +59,9 @@ Will output:
 14. `      1995`
 15. `    </wf>`
 16. `      ...`
-17. `    <wf wid="w196" page="1" sent="7" para="5" offset="1037">`
-18. `      were`
-19. `    </wf>`
-20. `  </text>`
-21. `</KAF>`
+17. `    <wf wid="w196" page="1" sent="7" para="5" offset="1037">were</wf>`
+18. `  </text>`
+19. `</KAF>`
 
 
 ## Contributing

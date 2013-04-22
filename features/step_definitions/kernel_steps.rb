@@ -1,3 +1,7 @@
+Given /^the file name "(.*?)"$/ do |name|
+  @name = name
+end
+
 Given /^the fixture file "(.*?)"$/ do |filename|
   @input = fixture_file(filename)
   @filename = filename
@@ -6,7 +10,13 @@ end
 Given /^I put them through the kernel$/ do
   tmp_filename = "output_#{rand(1000)}_#{@filename}"
   @output = tmp_file(tmp_filename)
-  `#{kernel.command(:input=>@input, :test=>true)} > #{@output}`
+
+  if @name == ''
+    @args = ['-t']
+  else
+    @args = ['-t', '-f', @name]
+  end
+  `cat #{@input} | #{kernel.command(@args)} > #{@output}`
 end
 
 Then /^the output should match the fixture "(.*?)"$/ do |filename|
