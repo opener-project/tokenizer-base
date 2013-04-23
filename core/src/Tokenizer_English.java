@@ -9,12 +9,12 @@ public class Tokenizer_English {
 	private static String MODELSDIR;
 	private static String FILE = "";
 	private static void displayHelp() {
-		System.out.println("\nThis aplication reads a text from standard input in order to tokenize.");
-		System.out.println("Aplication arguments:");
-		System.out.println("-l, --lib       sentence detection and tokenization model's directory path.");
-		System.out.println("-f, --filename  (optional) file's name.");
-		System.out.println("-t,             (optional) o use static timestamp at KAF header.");
-		System.out.println("--help,         outputs aplication help.");
+		System.err.println("\nThis aplication reads a text from standard input in order to tokenize.");
+		System.err.println("Aplication arguments:");
+		System.err.println("-l, --lib       sentence detection and tokenization model's directory path.");
+		System.err.println("-f, --filename  (optional) file's name.");
+		System.err.println("-t,             (optional) o use static timestamp at KAF header.");
+		System.err.println("--help,         outputs aplication help.");
 	}
 	private static int checkArguments(String args[]) {
 		int correct = 0;
