@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{Use this gem in a component}
   gem.homepage      = "http://opener-project.github.com/"
 
-  gem.files         = `git ls-files`.split($/)
+  gem.files         = `git ls-files`.split($/).push('core/target/vicom-tokenizer-all-1.0.jar');
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]

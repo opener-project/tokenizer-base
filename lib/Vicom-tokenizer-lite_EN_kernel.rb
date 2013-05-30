@@ -13,13 +13,14 @@ module Opener
             def initialize
               core_dir    = File.expand_path("../core", File.dirname(__FILE__))
 
-              @kernel      = core_dir+'/tokenizer_english.jar'
+              @kernel      = core_dir+'/target/vicom-tokenizer-all-1.0.jar'
               @lib         = core_dir+'/lib/'
             end
 
 	    
             def command(opts=[])
-              "java -jar #{kernel} -l #{lib} #{opts.join(' ')}"
+              #"java -jar #{kernel} -l #{lib} #{opts.join(' ')}"
+		"java -jar #{kernel} #{opts.join(' ')}"
             end
             #def command(opts={})
             #  arguments = opts[:arguments] || []
