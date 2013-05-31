@@ -12,9 +12,9 @@ Given /^I put them through the kernel$/ do
   @output = tmp_file(tmp_filename)
 
   if @name == ''
-    @args = ['-t']
+    @args = ['-t', '-l','en']
   else
-    @args = ['-t', '-f', @name]
+    @args = ['-t', '-f', @name,'-l','en']
   end
   `cat #{@input} | #{kernel.command(@args)} > #{@output}`
 end

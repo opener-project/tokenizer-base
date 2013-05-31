@@ -66,4 +66,11 @@ public class WordForm {
 		this.wid = wid;
 	}
 
+	@Override
+	public String toString() {
+		return "WordForm [wid=" + wid + ", token=" + token + ", line=" + line
+				+ ", sentence=" + sentence + ", paragraph=" + paragraph
+				+ ", offset=" + offset + ", length=" + length + "]";
+	}
+
 }

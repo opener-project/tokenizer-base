@@ -6,7 +6,7 @@ import java.util.List;
 public class WordFormGenerator {
 
 	
-	public List<WordForm> generateWordForms(List<String>textLines, String lang){
+	public List<WordForm> generateWordForms(String originalText,List<String>textLines, String lang){
 		
 		Tokenizer tokenizer=new Tokenizer();
 		SentenceDetector sentenceDetector=new SentenceDetector();
@@ -16,7 +16,9 @@ public class WordFormGenerator {
 		int line=1;
 		int paragraph=1;
 		int offset=0;
-		
+		//int perLineOffset=0;
+		int lastTokenEnd=0;
+		//int lineStartOffset=0;
 		List<WordForm>wordForms=new ArrayList<WordForm>();
 		for(int i=0;i<textLines.size();i++){
 			String textLine=textLines.get(i);
@@ -24,7 +26,9 @@ public class WordFormGenerator {
 			for(String sentence:sentences){
 				String[]tokens=tokenizer.tokenize(sentence, lang);
 				for(String token:tokens){
-					offset=textLine.indexOf(token, offset);
+					offset=originalText.indexOf(token, lastTokenEnd);
+					lastTokenEnd=offset+token.length();
+					//offset=lineStartOffset+perLineOffset;
 					WordForm wordForm=new WordForm();
 					wordForm.setWid(wid++);
 					wordForm.setToken(token);
@@ -38,6 +42,10 @@ public class WordFormGenerator {
 				sentNum++;
 			}
 			line++;
+			//reset the perLineOffset
+			//perLineOffset=0;
+			//+1 to take into account the line break itself (I don't know if this is correct)
+			//lineStartOffset+=textLine.length()+2;
 			if(shouldIncreaseParagraph(textLines, i)){
 				paragraph++;
 			}

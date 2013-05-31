@@ -23,13 +23,13 @@ public class KafGenerator {
 	private KafFileDescription kafFileDescription;
 	private List<WordForm> wordForms;
 
-	public String generateKafWithWordFormLayer(List<String> textLines,
+	public String generateKafWithWordFormLayer(String originalText,List<String> textLines,
 			String lang, boolean withTimestamp) {
 
 		kafFileDescription = new KafFileDescription(lang, withTimestamp);
 
 		WordFormGenerator wordFormGenerator = new WordFormGenerator();
-		wordForms = wordFormGenerator.generateWordForms(textLines, lang);
+		wordForms = wordFormGenerator.generateWordForms(originalText,textLines, lang);
 
 		//System.out.println("Wordforms size: "+wordForms.size());
 		
@@ -68,7 +68,7 @@ public class KafGenerator {
 				Element wf = doc.createElement("wf");
 				wf.setAttribute("wid", wordForm.getWid() + "");
 				wf.setAttribute("sent", wordForm.getSentence() + "");
-				// wf.setAttribute("para", wordForm.getParagraph()+"");
+				 wf.setAttribute("para", wordForm.getParagraph()+"");
 				wf.setAttribute("offset", wordForm.getOffset() + "");
 				wf.setAttribute("length", wordForm.getLength() + "");
 				wf.setTextContent(wordForm.getToken());

@@ -54,15 +54,17 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(is));
 		List<String> textLines = new ArrayList<String>();
 		String line = "";
+		String originalText="";
 		try {
 			while ((line = br.readLine()) != null) {
+				originalText+=line+"\n";
 				textLines.add(line.trim());
 			}
 			br.close();
 			
 			//System.out.println("textLines size: "+textLines.size());
 			String kafString = kafGenerator.generateKafWithWordFormLayer(
-					textLines, lang, withTimestamp);
+					originalText,textLines, lang, withTimestamp);
 
 			//System.out.println(kafString);
 			BufferedOutputStream bos = new BufferedOutputStream(os);
