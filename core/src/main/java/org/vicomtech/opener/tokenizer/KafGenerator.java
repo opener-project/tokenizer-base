@@ -66,7 +66,7 @@ public class KafGenerator {
 			Element text = doc.createElement("text");
 			for (WordForm wordForm : wordForms) {
 				Element wf = doc.createElement("wf");
-				wf.setAttribute("wid", wordForm.getWid() + "");
+				wf.setAttribute("wid", "w"+wordForm.getWid() + "");
 				wf.setAttribute("sent", wordForm.getSentence() + "");
 				 wf.setAttribute("para", wordForm.getParagraph()+"");
 				wf.setAttribute("offset", wordForm.getOffset() + "");
