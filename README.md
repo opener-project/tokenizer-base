@@ -38,7 +38,7 @@ Clone the repository:
 
 Go to the repository root folder
 
-	$ cd Vicom-tokenizer-lite_EN_kernel.git
+	$ cd Vicom-tokenizer-lite_EN_kernel
 
 Issue the following command:
 

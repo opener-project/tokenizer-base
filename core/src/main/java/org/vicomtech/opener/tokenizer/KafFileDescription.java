@@ -24,6 +24,12 @@ public class KafFileDescription {
 		this.linguisticProcessorNameTok="opennlp-"+lang+"-tok";
 		this.linguisticProcessorNameSent="opennlp-"+lang+"-sent";
 		this.withTimestamp = withTimestamp;
+		this.title = "";
+		this.author = "";
+		this.creationTime = "";
+		this.fileName = "";
+		this.fileType = "";
+		this.pages = "";
 	}
 
 	public String getTimestamp() {

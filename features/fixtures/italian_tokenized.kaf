@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<KAF version="v1.opener" xml:lang="it">
+  <kafHeader>
+    <fileDesc filename="italian" filetype="TXT"/>
+    <linguisticProcessors layer="text">
+      <lp name="opennlp-it-tok" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
+      <lp name="opennlp-it-sent" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
+    </linguisticProcessors>
+  </kafHeader>
+  <text>
+    <wf length="1" offset="0" para="1" sent="1" wid="w1">«</wf>
+    <wf length="8" offset="1" para="1" sent="1" wid="w2">Esistono</wf>
+    <wf length="10" offset="10" para="1" sent="1" wid="w3">situazioni</wf>
+    <wf length="1" offset="21" para="1" sent="1" wid="w4">-</wf>
+    <wf length="2" offset="23" para="1" sent="1" wid="w5">ha</wf>
+    <wf length="12" offset="26" para="1" sent="1" wid="w6">sottolineato</wf>
+    <wf length="11" offset="39" para="1" sent="1" wid="w7">Giampaolino</wf>
+    <wf length="1" offset="51" para="1" sent="1" wid="w8">-</wf>
+    <wf length="2" offset="53" para="1" sent="1" wid="w9">in</wf>
+    <wf length="3" offset="56" para="1" sent="1" wid="w10">cui</wf>
+    <wf length="2" offset="60" para="1" sent="1" wid="w11">la</wf>
+    <wf length="10" offset="63" para="1" sent="1" wid="w12">titolarità</wf>
+    <wf length="7" offset="74" para="1" sent="1" wid="w13">formale</wf>
+    <wf length="2" offset="82" para="1" sent="1" wid="w14">di</wf>
+    <wf length="6" offset="85" para="1" sent="1" wid="w15">utenze</wf>
+    <wf length="1" offset="92" para="1" sent="1" wid="w16">e</wf>
+    <wf length="6" offset="94" para="1" sent="1" wid="w17">canoni</wf>
+    <wf length="3" offset="101" para="1" sent="1" wid="w18">non</wf>
+    <wf length="8" offset="105" para="1" sent="1" wid="w19">coincide</wf>
+    <wf length="3" offset="114" para="1" sent="1" wid="w20">con</wf>
+    <wf length="6" offset="118" para="1" sent="1" wid="w21">coloro</wf>
+    <wf length="3" offset="125" para="1" sent="1" wid="w22">che</wf>
+    <wf length="2" offset="129" para="1" sent="1" wid="w23">ne</wf>
+    <wf length="10" offset="132" para="1" sent="1" wid="w24">supportano</wf>
+    <wf length="2" offset="143" para="1" sent="1" wid="w25">l'</wf>
+    <wf length="5" offset="145" para="1" sent="1" wid="w26">onere</wf>
+    <wf length="11" offset="151" para="1" sent="1" wid="w27">finanziario</wf>
+    <wf length="1" offset="162" para="1" sent="1" wid="w28">.</wf>
+    <wf length="2" offset="164" para="1" sent="2" wid="w29">In</wf>
+    <wf length="6" offset="167" para="1" sent="2" wid="w30">questi</wf>
+    <wf length="4" offset="174" para="1" sent="2" wid="w31">casi</wf>
+    <wf length="9" offset="179" para="1" sent="2" wid="w32">occorrerà</wf>
+    <wf length="3" offset="189" para="1" sent="2" wid="w33">che</wf>
+    <wf length="3" offset="193" para="1" sent="2" wid="w34">gli</wf>
+    <wf length="6" offset="197" para="1" sent="2" wid="w35">uffici</wf>
+    <wf length="9" offset="204" para="1" sent="2" wid="w36">procedano</wf>
+    <wf length="3" offset="214" para="1" sent="2" wid="w37">con</wf>
+    <wf length="6" offset="218" para="1" sent="2" wid="w38">grande</wf>
+    <wf length="10" offset="225" para="1" sent="2" wid="w39">attenzione</wf>
+    <wf length="3" offset="236" para="1" sent="2" wid="w40">per</wf>
+    <wf length="8" offset="240" para="1" sent="2" wid="w41">arrivare</wf>
+    <wf length="4" offset="249" para="1" sent="2" wid="w42">all'</wf>
+    <wf length="9" offset="253" para="1" sent="2" wid="w43">effettiva</wf>
+    <wf length="10" offset="263" para="1" sent="2" wid="w44">titolarità</wf>
+    <wf length="10" offset="274" para="1" sent="2" wid="w45">soggettiva</wf>
+    <wf length="1" offset="284" para="1" sent="2" wid="w46">»</wf>
+    <wf length="1" offset="285" para="1" sent="2" wid="w47">.</wf>
+    <wf length="3" offset="287" para="1" sent="3" wid="w48">Non</wf>
+    <wf length="2" offset="291" para="1" sent="3" wid="w49">si</wf>
+    <wf length="1" offset="294" para="1" sent="3" wid="w50">è</wf>
+    <wf length="5" offset="296" para="1" sent="3" wid="w51">fatta</wf>
+    <wf length="9" offset="302" para="1" sent="3" wid="w52">attendere</wf>
+    <wf length="2" offset="312" para="1" sent="3" wid="w53">la</wf>
+    <wf length="7" offset="315" para="1" sent="3" wid="w54">replica</wf>
+    <wf length="1" offset="323" para="1" sent="3" wid="w55">(</wf>
+    <wf length="9" offset="324" para="1" sent="3" wid="w56">indiretta</wf>
+    <wf length="1" offset="333" para="1" sent="3" wid="w57">)</wf>
+    <wf length="3" offset="335" para="1" sent="3" wid="w58">del</wf>
+    <wf length="6" offset="339" para="1" sent="3" wid="w59">numero</wf>
+    <wf length="3" offset="346" para="1" sent="3" wid="w60">due</wf>
+    <wf length="5" offset="350" para="1" sent="3" wid="w61">dell'</wf>
+    <wf length="7" offset="355" para="1" sent="3" wid="w62">Agenzia</wf>
+    <wf length="5" offset="363" para="1" sent="3" wid="w63">delle</wf>
+    <wf length="7" offset="369" para="1" sent="3" wid="w64">Entrate</wf>
+    <wf length="1" offset="376" para="1" sent="3" wid="w65">,</wf>
+    <wf length="5" offset="378" para="1" sent="3" wid="w66">Marco</wf>
+    <wf length="2" offset="384" para="1" sent="3" wid="w67">di</wf>
+    <wf length="5" offset="387" para="1" sent="3" wid="w68">Capua</wf>
+    <wf length="1" offset="392" para="1" sent="3" wid="w69">:</wf>
+    <wf length="1" offset="394" para="1" sent="3" wid="w70">«</wf>
+    <wf length="2" offset="395" para="1" sent="3" wid="w71">Il</wf>
+    <wf length="12" offset="398" para="1" sent="3" wid="w72">redditometro</wf>
+    <wf length="2" offset="411" para="1" sent="3" wid="w73">ha</wf>
+    <wf length="2" offset="414" para="1" sent="3" wid="w74">l'</wf>
+    <wf length="9" offset="416" para="1" sent="3" wid="w75">obiettivo</wf>
+    <wf length="2" offset="426" para="1" sent="3" wid="w76">di</wf>
+    <wf length="1" offset="429" para="1" sent="3" wid="w77">«</wf>
+    <wf length="12" offset="430" para="1" sent="3" wid="w78">intercettare</wf>
+    <wf length="5" offset="443" para="1" sent="3" wid="w79">forme</wf>
+    <wf length="2" offset="449" para="1" sent="3" wid="w80">di</wf>
+    <wf length="8" offset="452" para="1" sent="3" wid="w81">evasione</wf>
+    <wf length="9" offset="461" para="1" sent="3" wid="w82">spudorata</wf>
+    <wf length="1" offset="470" para="1" sent="3" wid="w83">»</wf>
+    <wf length="1" offset="472" para="1" sent="3" wid="w84">e</wf>
+    <wf length="1" offset="474" para="1" sent="3" wid="w85">«</wf>
+    <wf length="1" offset="475" para="1" sent="3" wid="w86">i</wf>
+    <wf length="5" offset="477" para="1" sent="3" wid="w87">finti</wf>
+    <wf length="6" offset="483" para="1" sent="3" wid="w88">poveri</wf>
+    <wf length="1" offset="489" para="1" sent="3" wid="w89">»</wf>
+    <wf length="1" offset="490" para="1" sent="3" wid="w90">.</wf>
+    <wf length="13" offset="492" para="1" sent="4" wid="w91">Sottolineando</wf>
+    <wf length="3" offset="506" para="1" sent="4" wid="w92">che</wf>
+    <wf length="1" offset="510" para="1" sent="4" wid="w93">«</wf>
+    <wf length="3" offset="511" para="1" sent="4" wid="w94">non</wf>
+    <wf length="1" offset="515" para="1" sent="4" wid="w95">è</wf>
+    <wf length="3" offset="517" para="1" sent="4" wid="w96">uno</wf>
+    <wf length="9" offset="521" para="1" sent="4" wid="w97">strumento</wf>
+    <wf length="2" offset="531" para="1" sent="4" wid="w98">di</wf>
+    <wf length="12" offset="534" para="1" sent="4" wid="w99">accertamento</wf>
+    <wf length="2" offset="547" para="1" sent="4" wid="w100">di</wf>
+    <wf length="5" offset="550" para="1" sent="4" wid="w101">massa</wf>
+    <wf length="1" offset="555" para="1" sent="4" wid="w102">»</wf>
+  </text>
+</KAF>
