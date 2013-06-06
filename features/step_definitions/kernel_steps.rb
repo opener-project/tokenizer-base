@@ -1,7 +1,3 @@
-Given /^the file name "(.*?)"$/ do |name|
-  @name = name
-end
-
 Given /^the fixture file "(.*?)"$/ do |filename|
   @input = fixture_file(filename)
   @filename = filename
