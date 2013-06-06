@@ -10,7 +10,7 @@ module Opener
       end
 
       def command(opts=[])
-        "java -jar #{kernel} -l #{language} #{opts.join(' ')}"
+        "java -jar #{kernel} #{language} #{opts.join(' ')}"
       end
 
       def run(opts=ARGV)
@@ -29,6 +29,10 @@ module Opener
 
       def lib
         File.join(core_dir,'lib/') # Trailing / is required
+      end
+
+      def language
+        return @language.nil? ? nil : "-l #{@language}"
       end
 
     end

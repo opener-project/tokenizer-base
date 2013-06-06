@@ -13,6 +13,31 @@ using the `-l` option. The following languages are supported:
 
 More languages may be supported in the future.
 
+## Quick Use Overview
+
+Install the Gem using Specific Install
+
+    gem specific_install opener-tokenizer-en \
+        -l https://github.com/opener-project/tokenizer-base.git
+
+If you dont have specific\_install already, install it first:
+
+    gem intall specific_install
+
+You should now be able to call the tokenizer as a regular shell command, by its
+name. Once installed as a gem you can access the gem from anywhere. This aplication
+reads a text from standard input in order to tokenize. 
+
+    echo "This is an English text." | tokenizer-base -l en
+
+or
+
+    echo "This is an English text." | tokenizer-en
+
+For more information about the available CLI options run the following:
+
+    tokenizer-base --help
+
 ## Requirements
 
 * Java 1.7 or newer
@@ -58,20 +83,9 @@ content" checkbox to edit the actual code). Once you finish editing the code
 
 Add the following to your Gemfile (use Git for now):
 
-    gem 'opener-tokenizer-en',
-      :git=>"git@github.com:opener-project/tokenizer-en.git"
+    gem 'opener-tokenizer-base',
+      :git=>"git@github.com:opener-project/tokenizer-base.git"
 
-## Specific Install
-
-    gem specific_install opener-tokenizer-en \
-        -l https://github.com/opener-project/tokenizer-en.git
-
-If you dont have specific\_install already:
-
-    gem intall specific_install
-
-You should now be able to call the tokenizer as a regular shell command, by its
-name.
 
 ## Usage
 
@@ -83,6 +97,10 @@ language nor automatic detection inside). Providing no language parameter will
 raise an error.  To set a language, it has to be preceded by -l
 
     echo "Tokenizer example." | tokenizer-base -l en
+
+or you can use the convenience option
+
+    echo "Tokenizer example." | tokenizer-it
 
 The output should be:
 
@@ -137,42 +155,6 @@ Now that the Java code has been "Mavenized" it is much more easy to edit a fix
 bugs, so if you find something wrong or with any misbehaving, please teel us
 (Vicomtech) :-)
 
-## Command Line Usage
-
-Once installed as a gem you can access the gem from anywhere. This aplication
-reads a text from standard input in order to tokenize. For more information
-about the available CLI options run the following:
-
-    ./bin/tokenizer-base --help
-
-Example usage:
-
-    cat english.txt | tokenizer-en -f english.txt
-
-Will output:
-
-```xml
-<KAF xml:lang="en" version="v1.opener">
-  <kafHeader>
-    <fileDesc filename="english" filetype="TXT" />
-    <linguisticProcessors layer="text">
-      <lp name="openlp-en-sent" version="1" timestamp="2013-02-05T13:35:22Z"/>
-      <lp name="openlp-en-tok" version="1" timestamp="2013-02-05T13:35:22Z"/>
-    </linguisticProcessors>
-  </kafHeader>
-  <text>
-    <wf wid="w1" page="1" sent="1" para="1" offset="1">
-      In
-    </wf>
-    <wf wid="w2" page="1" sent="1" para="1" offset="4">
-      1995
-    </wf>
-      ...
-    <wf wid="w196" page="1" sent="7" para="5" offset="1037">were</wf>
-  </text>
-</KAF>
-
-```
 
 ## Contributing
 
