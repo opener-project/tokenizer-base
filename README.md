@@ -13,6 +13,12 @@ using the `-l` option. The following languages are supported:
 
 More languages may be supported in the future.
 
+## Requirements
+
+* Java 1.7 or newer
+* Ruby 1.9.3 or newer (1.9.2 should work too but 1.9.3. is recommended)
+* Maven (for building the Gem)
+
 ## Installation
 
 To set up the project run the following commands:
