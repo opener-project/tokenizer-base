@@ -153,7 +153,7 @@ tokenizer is the first step of the chain, any error will affect to the analysis
 of the rest of the layers.
 
 Now that the Java code has been "Mavenized" it is much more easy to edit a fix
-bugs, so if you find something wrong or with any misbehaving, please teel us
+bugs, so if you find something wrong or with any misbehaving, please tell us
 (Vicomtech) :-)
 
 
