@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    opener-tokenizer-en (0.0.2)
+    opener-tokenizer-base (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -30,5 +30,5 @@ PLATFORMS
 
 DEPENDENCIES
   cucumber
-  opener-tokenizer-en!
+  opener-tokenizer-base!
   rspec
