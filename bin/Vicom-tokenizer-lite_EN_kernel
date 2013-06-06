@@ -1,10 +1,5 @@
 #!/usr/bin/env ruby
-$:.unshift(File.dirname(__FILE__) + '/../lib') unless $:.include?(File.dirname(__FILE__) + '/../lib')
+require_relative '../lib/opener/tokenizer/en'
 
-require 'Vicom-tokenizer-lite_EN_kernel'
-
-kernel = Opener::Kernel::Vicom::Tokenizer::Lite::EN.new
-#command = "#{kernel.command(ARGV[0], :arguments=>ARGV[1..-1])}"
-command = "#{kernel.command(ARGV)}"
-
-puts `#{command}`
+kernel = Opener::Tokenizer::EN.new
+puts kernel.run

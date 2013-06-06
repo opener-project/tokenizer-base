@@ -1,4 +1,4 @@
-Dir[File.dirname(__FILE__) + '/../../lib/*.rb'].each {|file| require file }
+require_relative '../../lib/opener/tokenizer/en'
 require 'rspec/expectations'
 require 'tempfile'
 require 'pry'
@@ -8,5 +8,5 @@ def kernel_root
 end
 
 def kernel
-  Opener::Kernel::Vicom::Tokenizer::Lite::EN.new
+  Opener::Tokenizer::EN.new
 end
