@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Vicom-tokenizer-lite_EN_kernel (0.0.2)
+    opener-tokenizer-en (0.0.2)
 
 GEM
   remote: https://rubygems.org/
@@ -38,7 +38,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  Vicom-tokenizer-lite_EN_kernel!
   cucumber
+  opener-tokenizer-en!
   pry
   rspec

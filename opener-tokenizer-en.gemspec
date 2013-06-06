@@ -1,4 +1,4 @@
-require_relative 'lib/opener/tokenizer/en/version'
+require File.expand_path('../lib/opener/tokenizer/en/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name        = 'opener-tokenizer-en'
