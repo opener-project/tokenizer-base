@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.has_rdoc              = "yard"
   gem.required_ruby_version = ">= 1.9.2"
 
-  gem.files       = `git ls-files`.split("\n") + GENERATED_FILES
+  gem.files       = `git ls-files`.split("\n").push('core/target/vicom-tokenizer-all-1.0.jar') #+ GENERATED_FILES
   gem.executables = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files  = gem.files.grep(%r{^(test|spec|features)/})
 
