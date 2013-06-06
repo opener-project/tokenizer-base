@@ -1,4 +1,4 @@
-require_relative 'en/version'
+require_relative 'base/version'
 
 module Opener
   module Tokenizer

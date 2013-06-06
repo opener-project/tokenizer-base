@@ -1,10 +1,10 @@
-require File.expand_path('../lib/opener/tokenizer/en/version', __FILE__)
+require File.expand_path('../lib/opener/tokenizer/base/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name                  = 'opener-tokenizer-en'
-  gem.version               = Opener::Tokenizer::EN::VERSION
+  gem.name                  = 'opener-tokenizer-base'
+  gem.version               = Opener::Tokenizer::Base::VERSION
   gem.authors               = ['development@olery.com']
-  gem.summary               = 'Tokenize an English text to KAF'
+  gem.summary               = 'Tokenize English, Dutch, German, Italian and Spanish to KAF'
   gem.description           = gem.summary
   gem.homepage              = 'http://opener-project.github.com/'
   gem.has_rdoc              = "yard"

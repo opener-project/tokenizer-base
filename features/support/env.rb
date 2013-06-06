@@ -1,4 +1,4 @@
-require_relative '../../lib/opener/tokenizer/en'
+require_relative '../../lib/opener/tokenizer/base'
 require 'tempfile'
 
 def kernel_root
