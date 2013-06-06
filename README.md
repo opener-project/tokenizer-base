@@ -17,7 +17,7 @@ More languages may be supported in the future.
 
 Install the Gem using Specific Install
 
-    gem specific_install opener-tokenizer-en \
+    gem specific_install opener-tokenizer-base \
         -l https://github.com/opener-project/tokenizer-base.git
 
 If you dont have specific\_install already, install it first:
@@ -32,7 +32,7 @@ reads a text from standard input in order to tokenize.
 
 or
 
-    echo "This is an English text." | tokenizer-en
+    echo "This is an English text." | tokenizer-base
 
 For more information about the available CLI options run the following:
 
