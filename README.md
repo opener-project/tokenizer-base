@@ -16,7 +16,8 @@ More languages may be supported in the future.
 ## Requirements
 
 * Java 1.7 or newer
-* Ruby 1.9.3 or newer (1.9.2 should work too but 1.9.3. is recommended)
+* Ruby 1.9.3 or newer (1.9.2 should work too but 1.9.3. is recommended). Ruby
+  2 is supported.
 * Maven (for building the Gem)
 
 ## Installation
@@ -131,7 +132,7 @@ The output will be something along the lines of the following:
 The merging of all tokenizers in one has been done quite quickly. It seems to
 work so far, but there can be bugs, or lack of some functionality. As the
 tokenizer is the first step of the chain, any error will affect to the analysis
-of the rest of the layers.  
+of the rest of the layers.
 
 Now that the Java code has been "Mavenized" it is much more easy to edit a fix
 bugs, so if you find something wrong or with any misbehaving, please teel us
