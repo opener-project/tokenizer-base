@@ -4,5 +4,10 @@ tmp/*
 pkg/
 Gemfile.lock
 *.swp
-*.*~
+*~
 .rvmrc
+.setting/
+target/
+.classpath
+.project
+dependency-reduced-pom.xml

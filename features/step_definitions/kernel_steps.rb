@@ -1,3 +1,7 @@
+Given /^input file's language "(.*?)"$/ do |language|
+  @lang = language
+end
+
 Given /^the file name "(.*?)"$/ do |name|
   @name = name
 end
@@ -12,9 +16,9 @@ Given /^I put them through the kernel$/ do
   @output = tmp_file(tmp_filename)
 
   if @name == ''
-    @args = ['-t']
+    @args = ['-t', '-l', @lang]
   else
-    @args = ['-t', '-f', @name]
+    @args = ['-t', '-f', @name, '-l', @lang]
   end
   `cat #{@input} | #{kernel.command(@args)} > #{@output}`
 end

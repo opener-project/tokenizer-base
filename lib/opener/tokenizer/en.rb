@@ -5,7 +5,7 @@ module Opener
     class EN
 
       def command(opts=[])
-        "java -jar #{kernel} -l #{lib} #{opts.join(' ')}"
+        "java -jar #{kernel} #{opts.join(' ')}"
       end
 
       def run(opts=ARGV)
@@ -15,11 +15,11 @@ module Opener
       private
 
       def core_dir
-        File.expand_path("../../../../core", __FILE__)
+        File.expand_path("../../../../core/target", __FILE__)
       end
 
       def kernel
-        File.join(core_dir,'tokenizer_english.jar')
+        File.join(core_dir,'vicom-tokenizer-all-1.0.jar')
       end
 
       def lib
