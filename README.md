@@ -28,7 +28,7 @@ Once installed as a gem you can access the gem from anywhere:
 This aplication reads a text from standard input in order to tokenize.
 Aplication arguments:
 
-```bash
+```txt
 -l, --lib       sentence detection and tokenization model's directory path.
 -f, --filename  (optional) file's name.
 -t,             (optional) o use static timestamp at KAF header.
