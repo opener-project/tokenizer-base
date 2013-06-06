@@ -1,12 +1,10 @@
-Dir[File.dirname(__FILE__) + '/../../lib/*.rb'].each {|file| require file }
-require 'rspec/expectations'
+require_relative '../../lib/opener/tokenizer/en'
 require 'tempfile'
-require 'pry'
 
 def kernel_root
   File.expand_path("../../../", __FILE__)
 end
 
 def kernel
-  Opener::Kernel::Vicom::Tokenizer::Lite::EN.new
+  Opener::Tokenizer::EN.new
 end

@@ -23,4 +23,3 @@ Feature: Using a english file as input and other file as an output
     | de	| german.txt	| german.txt	| german_tokenized.kaf		|
     | it	| 		| italian.txt	| italian_tokenized_noname.kaf	|
     | it	| italian.txt	| italian.txt	| italian_tokenized.kaf		|
-
