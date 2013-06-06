@@ -12,14 +12,14 @@ Feature: Using a english file as input and other file as an output
     And I put them through the kernel
     Then the output should match the fixture "<output_file>"
   Examples:
-    | language	| filename	| input_file	| output_file			|
-    | en	|		| english.txt	| english_tokenized_noname.kaf	|
-    | en	| english.txt	| english.txt	| english_tokenized.kaf		|
-    | es	| 		| spanish.txt	| spanish_tokenized_noname.kaf	|
-    | es	| spanish.txt	| spanish.txt	| spanish_tokenized.kaf		|
-    | nl	| 		| dutch.txt	| dutch_tokenized_noname.kaf	|
-    | nl	| dutch.txt	| dutch.txt	| dutch_tokenized.kaf		|
-    | de	| 		| german.txt	| german_tokenized_noname.kaf	|
-    | de	| german.txt	| german.txt	| german_tokenized.kaf		|
-    | it	| 		| italian.txt	| italian_tokenized_noname.kaf	|
-    | it	| italian.txt	| italian.txt	| italian_tokenized.kaf		|
+    | language | filename    | input_file  | output_file                  |
+    | en       |             | english.txt | english_tokenized_noname.kaf |
+    | en       | english.txt | english.txt | english_tokenized.kaf        |
+    | es       |             | spanish.txt | spanish_tokenized_noname.kaf |
+    | es       | spanish.txt | spanish.txt | spanish_tokenized.kaf        |
+    | nl       |             | dutch.txt   | dutch_tokenized_noname.kaf   |
+    | nl       | dutch.txt   | dutch.txt   | dutch_tokenized.kaf          |
+    | de       |             | german.txt  | german_tokenized_noname.kaf  |
+    | de       | german.txt  | german.txt  | german_tokenized.kaf         |
+    | it       |             | italian.txt | italian_tokenized_noname.kaf |
+    | it       | italian.txt | italian.txt | italian_tokenized.kaf        |
