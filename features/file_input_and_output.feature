@@ -11,7 +11,7 @@ Feature: Using a english file as input and other file as an output
     And I put them through the kernel
     Then the output should match the fixture "<output_file>"
   Examples:
-    | filename		| input_file	| output_file		|
-    | 			| english.txt	| english_tokenized_noname.kaf	|
-    | english.txt	| english.txt	| english_tokenized.kaf	|
+    | filename    | input_file  | output_file                  |
+    |             | english.txt | english_tokenized_noname.kaf |
+    | english.txt | english.txt | english_tokenized.kaf        |
 
