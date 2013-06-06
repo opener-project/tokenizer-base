@@ -29,8 +29,8 @@ This aplication reads a text from standard input in order to tokenize.
 Aplication arguments:
 
 ```bash
--l, --lib       sentence detection and tokenization model\'s directory path.
--f, --filename  (optional) file\'s name.
+-l, --lib       sentence detection and tokenization model's directory path.
+-f, --filename  (optional) file's name.
 -t,             (optional) o use static timestamp at KAF header.
 --help,         outputs aplication help.
 ```
