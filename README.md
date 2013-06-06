@@ -1,120 +1,147 @@
-# Opener::Tokenizer::EN
+# Opener::Tokenizer::Base
 
-Tokenizer for English. Give it any english text, and you'll get a nice KAF
-output.
+Base tokenizer for various languages such as English, German and Italian. Keep
+in mind that this tokenizer supports multiple languages and as such requires
+you to specify said language in a commandline option. The language is specified
+using the `-l` option. The following languages are supported:
 
-The Rakefile file has been edited to issue the Maven packaging automatically when installing the gem.
-So you just need to issue:  (with sudo if you need permissions on the folder the gem is going to be installed)
+* en
+* es
+* it
+* nl
+* de
 
-	$ rake install
-
-And everything should be automatic (i.e. the gem packaged and installed ready to use).
-
-Be aware that as this module is multilanguage, it needs a mandatory parameter, the language (en, es, it, nl, de)
-See usage below.
-
-## Editing the code
-
-Edit de code is as easy as issuing:
-
-    	$ cd core
-    	$ mvn eclipse:eclipse
-
-Then you can import the Java project to Eclipse (don't check the "Copy project content" checkbox to edit the actual code).
-One you finish editing the code (and hopefully after some testing) you can commit your changes to git directly (no more copy-paste)
+More languages may be supported in the future.
 
 ## Installation
 
-    $ gem 'opener-tokenizer-en', :git=>"git@github.com:opener-project/tokenizer-en.git"
+To set up the project run the following commands:
 
+    bundle install
+    rake generate
 
-Go to the repository root folder
+This will install all the dependencies and generate the Java files. To run all
+the tests (including the process of building the files first) you can run the
+following:
 
-	$ cd tokenizer-en
+    rake
 
-Issue the following command:
+or:
 
-	$ rake install
+    rake test
 
-### Use specific install
+Building a new Gem can be done as following:
 
-    $ gem specific_install opener-tokenizer-en -l https://github.com/opener-project/tokenizer-en.git
+    rake build
+
+For more information invoke `rake -T` or take a look at the Rakefile.
+
+## Editing Java Code
+
+Editing the Java code can be done as following:
+
+    $ cd core
+    $ mvn eclipse:eclipse
+
+Then you can import the Java project to Eclipse (don't check the "Copy project
+content" checkbox to edit the actual code). Once you finish editing the code
+(and hopefully after some testing) you can commit your changes to git directly
+(no more copy-paste)
+
+## Gem Installation
+
+Add the following to your Gemfile (use Git for now):
+
+    gem 'opener-tokenizer-en',
+      :git=>"git@github.com:opener-project/tokenizer-en.git"
+
+## Specific Install
+
+    gem specific_install opener-tokenizer-en \
+        -l https://github.com/opener-project/tokenizer-en.git
 
 If you dont have specific\_install already:
 
-    $ gem intall specific_install
+    gem intall specific_install
 
-You should now be able to call the tokenizer as a regular shell command, by its name.
+You should now be able to call the tokenizer as a regular shell command, by its
+name.
 
 ## Usage
 
-Once installed, the tokenizer can be called as a shell command.
-It reads the standard input, and writes to standard output.
+Once installed, the tokenizer can be called as a shell command. It reads the
+standard input, and writes to standard output.
 
-It is mandatory to set the language as a parameter (there is no default language nor automatic detection inside).
-Providing no language parameter will raise an error.
-To set a language, it has to be preceded by -l
+It is mandatory to set the language as a parameter (there is no default
+language nor automatic detection inside). Providing no language parameter will
+raise an error.  To set a language, it has to be preceded by -l
 
-	$ echo "Tokenizer example." | Vicom-tokenizer-lite_EN_kernel -l en
+    echo "Tokenizer example." | tokenizer-base -l en
 
 The output should be:
 
-    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-    <KAF version="v1.opener" xml:lang="en">
-    <kafHeader>
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<KAF version="v1.opener" xml:lang="en">
+  <kafHeader>
     <linguisticProcessors layer="text">
-    <lp name="opennlp-en-tok" timestamp="2013-05-31T11:39:31Z" version="1.0"/>
-    <lp name="opennlp-en-sent" timestamp="2013-05-31T11:39:32Z" version="1.0"/>
+      <lp name="opennlp-en-tok" timestamp="2013-05-31T11:39:31Z" version="1.0"/>
+      <lp name="opennlp-en-sent" timestamp="2013-05-31T11:39:32Z" version="1.0"/>
     </linguisticProcessors>
-    </kafHeader>
-    <text>
+  </kafHeader>
+  <text>
     <wf length="9" offset="0" para="1" sent="1" wid="w1">Tokenizer</wf>
     <wf length="7" offset="10" para="1" sent="1" wid="w2">example</wf>
     <wf length="1" offset="17" para="1" sent="1" wid="w3">.</wf>
-    </text>
-    </KAF>
+  </text>
+</KAF>
+```
 
 If you need a static timestamp you can use the -t param.
 
-    $ echo "Tokenizer example." | Vicom-tokenizer-lite_EN_kernel -l en -t
+    echo "Tokenizer example." | tokenizer-base -l en -t
 
-    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-    <KAF version="v1.opener" xml:lang="en">
-    <kafHeader>
+The output will be something along the lines of the following:
+
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<KAF version="v1.opener" xml:lang="en">
+  <kafHeader>
     <linguisticProcessors layer="text">
-    <lp name="opennlp-en-tok" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
-    <lp name="opennlp-en-sent" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
+      <lp name="opennlp-en-tok" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
+      <lp name="opennlp-en-sent" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
     </linguisticProcessors>
-    </kafHeader>
-    <text>
+  </kafHeader>
+  <text>
     <wf length="9" offset="0" para="1" sent="1" wid="w1">Tokenizer</wf>
     <wf length="7" offset="10" para="1" sent="1" wid="w2">example</wf>
     <wf length="1" offset="17" para="1" sent="1" wid="w3">.</wf>
-    </text>
-    </KAF>
+  </text>
+</KAF>
+```
 
 ## Possible bugs
 
-The merging of all tokenizers in one has been done quite quickly. It seems to work so far, but there can be bugs, or lack of some functionality.
-As the tokenizer is the first step of the chain, any error will affect to the analysis of the rest of the layers.
-Now that the Java code has been "Mavenized" it is much more easy to edit a fix bugs, so if you find something wrong or with any misbehaving, please teel us (Vicomtech) :-)
+The merging of all tokenizers in one has been done quite quickly. It seems to
+work so far, but there can be bugs, or lack of some functionality. As the
+tokenizer is the first step of the chain, any error will affect to the analysis
+of the rest of the layers.  
 
+Now that the Java code has been "Mavenized" it is much more easy to edit a fix
+bugs, so if you find something wrong or with any misbehaving, please teel us
+(Vicomtech) :-)
 
-## Command line usage
+## Command Line Usage
 
-Once installed as a gem you can access the gem from anywhere:
+Once installed as a gem you can access the gem from anywhere. This aplication
+reads a text from standard input in order to tokenize. For more information
+about the available CLI options run the following:
 
-This aplication reads a text from standard input in order to tokenize.
-Aplication arguments:
+    ./bin/tokenizer-base --help
 
-    -l, --lib       sentence detection and tokenization model's directory path.
-    -f, --filename  (optional) file's name.
-    -t,             (optional) o use static timestamp at KAF header.
-    --help,         outputs aplication help.
+Example usage:
 
-For example:
-
-    $ cat english.txt | tokenizer-en -f english.txt
+    cat english.txt | tokenizer-en -f english.txt
 
 Will output:
 
@@ -140,6 +167,7 @@ Will output:
 </KAF>
 
 ```
+
 ## Contributing
 
 1. Pull it
