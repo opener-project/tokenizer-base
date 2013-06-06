@@ -2,17 +2,22 @@ require_relative 'en/version'
 
 module Opener
   module Tokenizer
-    class EN
+    class Base
+      attr_reader :language
+
+      def initialize(opts={})
+        @language = opts[:language]
+      end
 
       def command(opts=[])
-        "java -jar #{kernel} #{opts.join(' ')}"
+        "java -jar #{kernel} -l #{language} #{opts.join(' ')}"
       end
 
       def run(opts=ARGV)
         `#{command(opts)}`
       end
 
-      private
+      protected
 
       def core_dir
         File.expand_path("../../../../core/target", __FILE__)
@@ -27,5 +32,6 @@ module Opener
       end
 
     end
+
   end
 end

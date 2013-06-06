@@ -1,5 +1,5 @@
 Given /^input file's language "(.*?)"$/ do |language|
-  @lang = language
+  @kernel = Opener::Tokenizer::Base.new(:language=>language.downcase)
 end
 
 Given /^the file name "(.*?)"$/ do |name|
@@ -16,11 +16,11 @@ Given /^I put them through the kernel$/ do
   @output = tmp_file(tmp_filename)
 
   if @name == ''
-    @args = ['-t', '-l', @lang]
+    @args = ['-t']
   else
-    @args = ['-t', '-f', @name, '-l', @lang]
+    @args = ['-t', '-f', @name]
   end
-  `cat #{@input} | #{kernel.command(@args)} > #{@output}`
+  `cat #{@input} | #{@kernel.command(@args)} > #{@output}`
 end
 
 Then /^the output should match the fixture "(.*?)"$/ do |filename|
