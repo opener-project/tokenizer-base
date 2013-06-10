@@ -1,5 +1,5 @@
 Given /^input file's language "(.*?)"$/ do |language|
-  @kernel = Opener::Tokenizer::Base.new(:language=>language.downcase)
+  @kernel = Opener::Tokenizers::Base.new(:language=>language.downcase)
 end
 
 Given /^the file name "(.*?)"$/ do |name|

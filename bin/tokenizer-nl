@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-require_relative '../lib/opener/tokenizer/base'
+require_relative '../lib/opener/tokenizers/base'
 
-kernel = Opener::Tokenizer::Base.new(:language=>"nl")
+kernel = Opener::Tokenizers::NL.new(:language=>"nl")
 puts kernel.run

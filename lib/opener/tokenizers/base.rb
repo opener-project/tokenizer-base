@@ -1,7 +1,7 @@
 require_relative 'base/version'
 
 module Opener
-  module Tokenizer
+  module Tokenizers
     class Base
       attr_reader :language
 
@@ -35,6 +35,21 @@ module Opener
         return @language.nil? ? nil : "-l #{@language}"
       end
 
+    end
+    
+    class EN < Base
+    end
+    
+    class DE < Base
+    end
+    
+    class NL < Base
+    end
+    
+    class ES < Base
+    end
+    
+    class IT < Base
     end
 
   end

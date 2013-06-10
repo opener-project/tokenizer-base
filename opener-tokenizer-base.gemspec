@@ -1,4 +1,4 @@
-require File.expand_path('../lib/opener/tokenizer/base/version', __FILE__)
+require File.expand_path('../lib/opener/tokenizers/base/version', __FILE__)
 
 GENERATED_FILES = Dir.glob(
   File.expand_path("../core/target/vicom-tokenizer-all-*.jar", __FILE__)
@@ -6,7 +6,7 @@ GENERATED_FILES = Dir.glob(
 
 Gem::Specification.new do |gem|
   gem.name                  = 'opener-tokenizer-base'
-  gem.version               = Opener::Tokenizer::Base::VERSION
+  gem.version               = Opener::Tokenizers::Base::VERSION
   gem.authors               = ['development@olery.com']
   gem.summary               = 'Tokenize English, Dutch, German, Italian and Spanish to KAF'
   gem.description           = gem.summary
