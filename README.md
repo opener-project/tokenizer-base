@@ -40,7 +40,7 @@ For more information about the available CLI options run the following:
 
 ## Requirements
 
-* Java 1.7 or newer
+* Java 1.7 or newer (There are problems with encoding in older versions.)
 * Ruby 1.9.3 or newer (1.9.2 should work too but 1.9.3. is recommended). Ruby
   2 is supported.
 * Maven (for building the Gem)
