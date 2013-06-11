@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    opener-tokenizer-base (0.1.0)
+    opener-tokenizer-base (0.1.1)
 
 GEM
   remote: https://rubygems.org/
