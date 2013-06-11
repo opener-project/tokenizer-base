@@ -6,7 +6,7 @@ module Opener
       attr_reader :language
 
       def initialize(opts={})
-        @language = opts[:language]
+        @language ||= opts[:language] || lang
       end
 
       def command(opts=[])
@@ -15,6 +15,10 @@ module Opener
 
       def run(opts=ARGV)
         `#{command(opts)}`
+      end
+      
+      def set_language(language)
+        @language = language
       end
 
       protected
@@ -34,22 +38,41 @@ module Opener
       def language
         return @language.nil? ? nil : "-l #{@language}"
       end
+      
+      def lang
+        'en'
+      end
 
     end
     
     class EN < Base
+      def lang
+        'en'
+      end
     end
     
     class DE < Base
+      def lang
+        'de'
+      end
     end
     
     class NL < Base
+      def lang
+        'nl'
+      end
     end
     
     class ES < Base
+      def lang
+        'es'
+      end
     end
     
     class IT < Base
+      def lang
+        'it'
+      end
     end
 
   end
