@@ -7,7 +7,7 @@ Gemfile.lock
 *~
 .rvmrc
 .setting/
-target/
+core/target/
 .classpath
 .project
 dependency-reduced-pom.xml
