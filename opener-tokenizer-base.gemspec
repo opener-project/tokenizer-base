@@ -1,8 +1,6 @@
 require File.expand_path('../lib/opener/tokenizers/base/version', __FILE__)
 
-GENERATED_FILES = Dir.glob(
-  File.expand_path("../core/target/vicom-tokenizer-all-*.jar", __FILE__)
-)
+generated = Dir.glob('core/target/vicon-tokenizer-all-*.jar')
 
 Gem::Specification.new do |gem|
   gem.name                  = 'opener-tokenizer-base'
@@ -14,10 +12,11 @@ Gem::Specification.new do |gem|
   gem.has_rdoc              = "yard"
   gem.required_ruby_version = ">= 1.9.2"
 
-  gem.files       = `git ls-files`.split("\n").push('core/target/vicom-tokenizer-all-1.0.jar') #+ GENERATED_FILES
+  gem.files       = (`git ls-files`.split("\n") + generated).sort
   gem.executables = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files  = gem.files.grep(%r{^(test|spec|features)/})
 
   gem.add_development_dependency 'cucumber'
   gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'rake'
 end
