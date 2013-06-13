@@ -26,7 +26,7 @@ If you dont have specific\_install already, install it first:
 
 You should now be able to call the tokenizer as a regular shell command, by its
 name. Once installed as a gem you can access the gem from anywhere. This aplication
-reads a text from standard input in order to tokenize. 
+reads a text from standard input in order to tokenize.
 
     echo "This is an English text." | tokenizer-base -l en
 
@@ -50,21 +50,21 @@ For more information about the available CLI options run the following:
 To set up the project run the following commands:
 
     bundle install
-    rake generate
+    bundle exec rake compile
 
 This will install all the dependencies and generate the Java files. To run all
 the tests (including the process of building the files first) you can run the
 following:
 
-    rake
+    bundle exec rake
 
 or:
 
-    rake test
+    bundle exec rake test
 
 Building a new Gem can be done as following:
 
-    rake build
+    bundle exec rake build
 
 For more information invoke `rake -T` or take a look at the Rakefile.
 
