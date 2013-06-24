@@ -1,6 +1,6 @@
 require File.expand_path('../lib/opener/tokenizers/base/version', __FILE__)
 
-generated = Dir.glob('core/target/vicon-tokenizer-all-*.jar')
+generated = Dir.glob('core/target/vicom-tokenizer-all-*.jar')
 
 Gem::Specification.new do |gem|
   gem.name                  = 'opener-tokenizer-base'
