@@ -1,208 +1,213 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<KAF version="v1.opener" xml:lang="en">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KAF xml:lang="en" version="v1.opener">
   <kafHeader>
-    <fileDesc filename="english" filetype="TXT"/>
+    <fileDesc filename="english" filetype="TXT" />
     <linguisticProcessors layer="text">
-      <lp name="opennlp-en-tok" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
-      <lp name="opennlp-en-sent" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
+      <lp name="opener-tokenizer-en" version="1.0" timestamp="2013-02-05T13:35:22Z"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
-    <wf length="2" offset="1" para="1" sent="1" wid="w1">In</wf>
-    <wf length="4" offset="4" para="1" sent="1" wid="w2">1995</wf>
-    <wf length="1" offset="8" para="1" sent="1" wid="w3">,</wf>
-    <wf length="1" offset="10" para="1" sent="1" wid="w4">a</wf>
-    <wf length="4" offset="12" para="1" sent="1" wid="w5">book</wf>
-    <wf length="4" offset="17" para="1" sent="1" wid="w6">laid</wf>
-    <wf length="4" offset="22" para="1" sent="1" wid="w7">down</wf>
-    <wf length="3" offset="27" para="1" sent="1" wid="w8">The</wf>
-    <wf length="5" offset="31" para="1" sent="1" wid="w9">Rules</wf>
-    <wf length="2" offset="37" para="1" sent="1" wid="w10">to</wf>
-    <wf length="4" offset="40" para="1" sent="1" wid="w11">find</wf>
-    <wf length="2" offset="45" para="1" sent="1" wid="w12">Mr</wf>
-    <wf length="5" offset="48" para="1" sent="1" wid="w13">Right</wf>
-    <wf length="1" offset="53" para="1" sent="1" wid="w14">.</wf>
-    <wf length="3" offset="55" para="1" sent="2" wid="w15">Now</wf>
-    <wf length="7" offset="59" para="1" sent="2" wid="w16">updated</wf>
-    <wf length="2" offset="67" para="1" sent="2" wid="w17">by</wf>
-    <wf length="3" offset="70" para="1" sent="2" wid="w18">its</wf>
-    <wf length="7" offset="74" para="1" sent="2" wid="w19">authors</wf>
-    <wf length="1" offset="81" para="1" sent="2" wid="w20">,</wf>
-    <wf length="3" offset="83" para="1" sent="2" wid="w21">Tim</wf>
-    <wf length="6" offset="87" para="1" sent="2" wid="w22">Teeman</wf>
-    <wf length="4" offset="94" para="1" sent="2" wid="w23">asks</wf>
-    <wf length="2" offset="99" para="1" sent="2" wid="w24">if</wf>
-    <wf length="4" offset="102" para="1" sent="2" wid="w25">they</wf>
-    <wf length="5" offset="107" para="1" sent="2" wid="w26">still</wf>
-    <wf length="4" offset="113" para="1" sent="2" wid="w27">work</wf>
-    <wf length="2" offset="119" para="2" sent="3" wid="w28">If</wf>
-    <wf length="5" offset="122" para="2" sent="3" wid="w29">every</wf>
-    <wf length="4" offset="128" para="2" sent="3" wid="w30">diet</wf>
-    <wf length="4" offset="133" para="2" sent="3" wid="w31">book</wf>
-    <wf length="5" offset="138" para="2" sent="3" wid="w32">could</wf>
-    <wf length="2" offset="144" para="2" sent="3" wid="w33">be</wf>
-    <wf length="7" offset="147" para="2" sent="3" wid="w34">reduced</wf>
-    <wf length="2" offset="155" para="2" sent="3" wid="w35">to</wf>
-    <wf length="4" offset="158" para="2" sent="3" wid="w36">“eat</wf>
-    <wf length="4" offset="163" para="2" sent="3" wid="w37">less</wf>
-    <wf length="7" offset="168" para="2" sent="3" wid="w38">rubbish</wf>
-    <wf length="3" offset="176" para="2" sent="3" wid="w39">and</wf>
-    <wf length="9" offset="180" para="2" sent="3" wid="w40">exercise”</wf>
-    <wf length="1" offset="189" para="2" sent="3" wid="w41">,</wf>
-    <wf length="4" offset="191" para="2" sent="3" wid="w42">then</wf>
-    <wf length="3" offset="196" para="2" sent="3" wid="w43">the</wf>
-    <wf length="8" offset="200" para="2" sent="3" wid="w44">feverish</wf>
-    <wf length="5" offset="209" para="2" sent="3" wid="w45">pages</wf>
-    <wf length="2" offset="215" para="2" sent="3" wid="w46">of</wf>
-    <wf length="8" offset="218" para="2" sent="3" wid="w47">infamous</wf>
-    <wf length="6" offset="227" para="2" sent="3" wid="w48">dating</wf>
-    <wf length="4" offset="234" para="2" sent="3" wid="w49">book</wf>
-    <wf length="3" offset="239" para="2" sent="3" wid="w50">The</wf>
-    <wf length="5" offset="243" para="2" sent="3" wid="w51">Rules</wf>
-    <wf length="1" offset="248" para="2" sent="3" wid="w52">:</wf>
-    <wf length="11" offset="250" para="2" sent="3" wid="w53">Time-Tested</wf>
-    <wf length="7" offset="262" para="2" sent="3" wid="w54">Secrets</wf>
-    <wf length="2" offset="270" para="2" sent="3" wid="w55">of</wf>
-    <wf length="9" offset="273" para="2" sent="3" wid="w56">Capturing</wf>
-    <wf length="3" offset="283" para="2" sent="3" wid="w57">The</wf>
-    <wf length="5" offset="287" para="2" sent="3" wid="w58">Heart</wf>
-    <wf length="2" offset="293" para="2" sent="3" wid="w59">of</wf>
-    <wf length="2" offset="296" para="2" sent="3" wid="w60">Mr</wf>
-    <wf length="5" offset="299" para="2" sent="3" wid="w61">Right</wf>
-    <wf length="5" offset="305" para="2" sent="3" wid="w62">could</wf>
-    <wf length="2" offset="311" para="2" sent="3" wid="w63">be</wf>
-    <wf length="9" offset="314" para="2" sent="3" wid="w64">condensed</wf>
-    <wf length="2" offset="324" para="2" sent="3" wid="w65">to</wf>
-    <wf length="3" offset="327" para="2" sent="3" wid="w66">its</wf>
-    <wf length="8" offset="331" para="2" sent="3" wid="w67">intended</wf>
-    <wf length="8" offset="340" para="2" sent="3" wid="w68">straight</wf>
-    <wf length="6" offset="349" para="2" sent="3" wid="w69">female</wf>
-    <wf length="8" offset="356" para="2" sent="3" wid="w70">audience</wf>
-    <wf length="4" offset="365" para="2" sent="3" wid="w71">thus</wf>
-    <wf length="1" offset="369" para="2" sent="3" wid="w72">:</wf>
-    <wf length="6" offset="371" para="2" sent="3" wid="w73">“Never</wf>
-    <wf length="6" offset="378" para="2" sent="3" wid="w74">pursue</wf>
-    <wf length="1" offset="384" para="2" sent="3" wid="w75">,</wf>
-    <wf length="2" offset="386" para="2" sent="3" wid="w76">be</wf>
-    <wf length="8" offset="389" para="2" sent="3" wid="w77">pursued”</wf>
-    <wf length="1" offset="397" para="2" sent="3" wid="w78">.</wf>
-    <wf length="3" offset="400" para="3" sent="4" wid="w79">Its</wf>
-    <wf length="15" offset="404" para="3" sent="4" wid="w80">thirtysomething</wf>
-    <wf length="7" offset="420" para="3" sent="4" wid="w81">authors</wf>
-    <wf length="1" offset="427" para="3" sent="4" wid="w82">,</wf>
-    <wf length="7" offset="429" para="3" sent="4" wid="w83">Sherrie</wf>
-    <wf length="9" offset="437" para="3" sent="4" wid="w84">Schneider</wf>
-    <wf length="3" offset="447" para="3" sent="4" wid="w85">and</wf>
-    <wf length="5" offset="451" para="3" sent="4" wid="w86">Ellen</wf>
-    <wf length="4" offset="457" para="3" sent="4" wid="w87">Fein</wf>
-    <wf length="1" offset="461" para="3" sent="4" wid="w88">,</wf>
-    <wf length="6" offset="463" para="3" sent="4" wid="w89">taught</wf>
-    <wf length="1" offset="470" para="3" sent="4" wid="w90">a</wf>
-    <wf length="10" offset="472" para="3" sent="4" wid="w91">generation</wf>
-    <wf length="2" offset="483" para="3" sent="4" wid="w92">of</wf>
-    <wf length="5" offset="486" para="3" sent="4" wid="w93">women</wf>
-    <wf length="2" offset="492" para="3" sent="4" wid="w94">to</wf>
-    <wf length="3" offset="495" para="3" sent="4" wid="w95">lie</wf>
-    <wf length="2" offset="499" para="3" sent="4" wid="w96">in</wf>
-    <wf length="3" offset="502" para="3" sent="4" wid="w97">the</wf>
-    <wf length="4" offset="506" para="3" sent="4" wid="w98">bath</wf>
-    <wf length="6" offset="511" para="3" sent="4" wid="w99">before</wf>
-    <wf length="1" offset="518" para="3" sent="4" wid="w100">a</wf>
-    <wf length="4" offset="520" para="3" sent="4" wid="w101">date</wf>
-    <wf length="8" offset="525" para="3" sent="4" wid="w102">intoning</wf>
-    <wf length="1" offset="534" para="3" sent="4" wid="w103">“</wf>
-    <wf length="1" offset="535" para="3" sent="4" wid="w104">I</wf>
-    <wf length="2" offset="537" para="3" sent="4" wid="w105">am</wf>
-    <wf length="1" offset="540" para="3" sent="4" wid="w106">a</wf>
-    <wf length="9" offset="542" para="3" sent="4" wid="w107">beautiful</wf>
-    <wf length="8" offset="552" para="3" sent="4" wid="w108">creature</wf>
-    <wf length="6" offset="561" para="3" sent="4" wid="w109">unlike</wf>
-    <wf length="3" offset="568" para="3" sent="4" wid="w110">any</wf>
-    <wf length="6" offset="572" para="3" sent="4" wid="w111">other”</wf>
-    <wf length="1" offset="578" para="3" sent="4" wid="w112">,</wf>
-    <wf length="4" offset="580" para="3" sent="4" wid="w113">then</wf>
-    <wf length="3" offset="585" para="3" sent="4" wid="w114">not</wf>
-    <wf length="2" offset="589" para="3" sent="4" wid="w115">to</wf>
-    <wf length="6" offset="592" para="3" sent="4" wid="w116">return</wf>
-    <wf length="3" offset="599" para="3" sent="4" wid="w117">the</wf>
-    <wf length="5" offset="603" para="3" sent="4" wid="w118">man’s</wf>
-    <wf length="5" offset="609" para="3" sent="4" wid="w119">calls</wf>
-    <wf length="1" offset="614" para="3" sent="4" wid="w120">.</wf>
-    <wf length="2" offset="619" para="4" sent="5" wid="w121">As</wf>
-    <wf length="4" offset="622" para="4" sent="5" wid="w122">most</wf>
-    <wf length="2" offset="627" para="4" sent="5" wid="w123">of</wf>
-    <wf length="3" offset="630" para="4" sent="5" wid="w124">the</wf>
-    <wf length="7" offset="634" para="4" sent="5" wid="w125">country</wf>
-    <wf length="5" offset="642" para="4" sent="5" wid="w126">faces</wf>
-    <wf length="2" offset="648" para="4" sent="5" wid="w127">up</wf>
-    <wf length="2" offset="651" para="4" sent="5" wid="w128">to</wf>
-    <wf length="8" offset="654" para="4" sent="5" wid="w129">freezing</wf>
-    <wf length="12" offset="663" para="4" sent="5" wid="w130">temperatures</wf>
-    <wf length="3" offset="676" para="4" sent="5" wid="w131">and</wf>
-    <wf length="1" offset="680" para="4" sent="5" wid="w132">a</wf>
-    <wf length="6" offset="682" para="4" sent="5" wid="w133">deluge</wf>
-    <wf length="2" offset="689" para="4" sent="5" wid="w134">of</wf>
-    <wf length="4" offset="692" para="4" sent="5" wid="w135">snow</wf>
-    <wf length="1" offset="696" para="4" sent="5" wid="w136">,</wf>
-    <wf length="7" offset="698" para="4" sent="5" wid="w137">drivers</wf>
-    <wf length="3" offset="706" para="4" sent="5" wid="w138">and</wf>
-    <wf length="9" offset="710" para="4" sent="5" wid="w139">commuters</wf>
-    <wf length="4" offset="720" para="4" sent="5" wid="w140">have</wf>
-    <wf length="4" offset="725" para="4" sent="5" wid="w141">been</wf>
-    <wf length="6" offset="730" para="4" sent="5" wid="w142">warned</wf>
-    <wf length="2" offset="737" para="4" sent="5" wid="w143">to</wf>
-    <wf length="7" offset="740" para="4" sent="5" wid="w144">prepare</wf>
-    <wf length="3" offset="748" para="4" sent="5" wid="w145">for</wf>
-    <wf length="1" offset="752" para="4" sent="5" wid="w146">a</wf>
-    <wf length="9" offset="754" para="4" sent="5" wid="w147">transport</wf>
-    <wf length="8" offset="764" para="4" sent="5" wid="w148">meltdown</wf>
-    <wf length="1" offset="772" para="4" sent="5" wid="w149">.</wf>
-    <wf length="4" offset="775" para="5" sent="6" wid="w150">Rail</wf>
-    <wf length="9" offset="780" para="5" sent="6" wid="w151">companies</wf>
-    <wf length="4" offset="790" para="5" sent="6" wid="w152">have</wf>
-    <wf length="8" offset="795" para="5" sent="6" wid="w153">switched</wf>
-    <wf length="2" offset="804" para="5" sent="6" wid="w154">to</wf>
-    <wf length="9" offset="807" para="5" sent="6" wid="w155">emergency</wf>
-    <wf length="10" offset="817" para="5" sent="6" wid="w156">timetables</wf>
-    <wf length="1" offset="827" para="5" sent="6" wid="w157">,</wf>
-    <wf length="3" offset="829" para="5" sent="6" wid="w158">the</wf>
-    <wf length="8" offset="833" para="5" sent="6" wid="w159">Highways</wf>
-    <wf length="6" offset="842" para="5" sent="6" wid="w160">Agency</wf>
-    <wf length="3" offset="849" para="5" sent="6" wid="w161">has</wf>
-    <wf length="4" offset="853" para="5" sent="6" wid="w162">told</wf>
-    <wf length="6" offset="858" para="5" sent="6" wid="w163">people</wf>
-    <wf length="2" offset="865" para="5" sent="6" wid="w164">to</wf>
-    <wf length="5" offset="868" para="5" sent="6" wid="w165">avoid</wf>
-    <wf length="3" offset="874" para="5" sent="6" wid="w166">the</wf>
-    <wf length="5" offset="878" para="5" sent="6" wid="w167">roads</wf>
-    <wf length="3" offset="884" para="5" sent="6" wid="w168">and</wf>
-    <wf length="8" offset="888" para="5" sent="6" wid="w169">shoppers</wf>
-    <wf length="4" offset="897" para="5" sent="6" wid="w170">have</wf>
-    <wf length="7" offset="902" para="5" sent="6" wid="w171">cleared</wf>
-    <wf length="3" offset="910" para="5" sent="6" wid="w172">the</wf>
-    <wf length="7" offset="914" para="5" sent="6" wid="w173">shelves</wf>
-    <wf length="2" offset="922" para="5" sent="6" wid="w174">of</wf>
-    <wf length="9" offset="925" para="5" sent="6" wid="w175">essential</wf>
-    <wf length="5" offset="935" para="5" sent="6" wid="w176">goods</wf>
-    <wf length="2" offset="941" para="5" sent="6" wid="w177">in</wf>
-    <wf length="12" offset="944" para="5" sent="6" wid="w178">anticipation</wf>
-    <wf length="2" offset="957" para="5" sent="6" wid="w179">of</wf>
-    <wf length="6" offset="960" para="5" sent="6" wid="w180">severe</wf>
-    <wf length="7" offset="967" para="5" sent="6" wid="w181">weather</wf>
-    <wf length="4" offset="975" para="5" sent="6" wid="w182">over</wf>
-    <wf length="4" offset="980" para="5" sent="6" wid="w183">most</wf>
-    <wf length="2" offset="985" para="5" sent="6" wid="w184">of</wf>
-    <wf length="7" offset="988" para="5" sent="6" wid="w185">England</wf>
-    <wf length="3" offset="996" para="5" sent="6" wid="w186">and</wf>
-    <wf length="5" offset="1000" para="5" sent="6" wid="w187">Wales</wf>
-    <wf length="3" offset="1006" para="5" sent="6" wid="w188">for</wf>
-    <wf length="3" offset="1010" para="5" sent="6" wid="w189">the</wf>
-    <wf length="4" offset="1014" para="5" sent="6" wid="w190">next</wf>
-    <wf length="4" offset="1019" para="5" sent="6" wid="w191">four</wf>
-    <wf length="4" offset="1024" para="5" sent="6" wid="w192">days</wf>
-    <wf length="1" offset="1028" para="5" sent="6" wid="w193">.</wf>
-    <wf length="4" offset="1030" para="5" sent="7" wid="w194">Some</wf>
-    <wf length="9" offset="1035" para="5" sent="7" wid="w195">employers</wf>
-    <wf length="4" offset="1045" para="5" sent="7" wid="w196">were</wf>
+    <wf wid="w1" sent="1" para="1" offset="1"><![CDATA[In]]></wf>
+    <wf wid="w2" sent="1" para="1" offset="4"><![CDATA[1995]]></wf>
+    <wf wid="w3" sent="1" para="1" offset="8"><![CDATA[,]]></wf>
+    <wf wid="w4" sent="1" para="1" offset="10"><![CDATA[a]]></wf>
+    <wf wid="w5" sent="1" para="1" offset="12"><![CDATA[book]]></wf>
+    <wf wid="w6" sent="1" para="1" offset="17"><![CDATA[laid]]></wf>
+    <wf wid="w7" sent="1" para="1" offset="22"><![CDATA[down]]></wf>
+    <wf wid="w8" sent="1" para="1" offset="27"><![CDATA[The]]></wf>
+    <wf wid="w9" sent="1" para="1" offset="31"><![CDATA[Rules]]></wf>
+    <wf wid="w10" sent="1" para="1" offset="37"><![CDATA[to]]></wf>
+    <wf wid="w11" sent="1" para="1" offset="40"><![CDATA[find]]></wf>
+    <wf wid="w12" sent="1" para="1" offset="45"><![CDATA[Mr]]></wf>
+    <wf wid="w13" sent="1" para="1" offset="48"><![CDATA[Right]]></wf>
+    <wf wid="w14" sent="1" para="1" offset="53"><![CDATA[.]]></wf>
+    <wf wid="w15" sent="2" para="1" offset="55"><![CDATA[Now]]></wf>
+    <wf wid="w16" sent="2" para="1" offset="59"><![CDATA[updated]]></wf>
+    <wf wid="w17" sent="2" para="1" offset="67"><![CDATA[by]]></wf>
+    <wf wid="w18" sent="2" para="1" offset="70"><![CDATA[its]]></wf>
+    <wf wid="w19" sent="2" para="1" offset="74"><![CDATA[authors]]></wf>
+    <wf wid="w20" sent="2" para="1" offset="81"><![CDATA[,]]></wf>
+    <wf wid="w21" sent="2" para="1" offset="83"><![CDATA[Tim]]></wf>
+    <wf wid="w22" sent="2" para="1" offset="87"><![CDATA[Teeman]]></wf>
+    <wf wid="w23" sent="2" para="1" offset="94"><![CDATA[asks]]></wf>
+    <wf wid="w24" sent="2" para="1" offset="99"><![CDATA[if]]></wf>
+    <wf wid="w25" sent="2" para="1" offset="102"><![CDATA[they]]></wf>
+    <wf wid="w26" sent="2" para="1" offset="107"><![CDATA[still]]></wf>
+    <wf wid="w27" sent="2" para="1" offset="113"><![CDATA[work]]></wf>
+    <wf wid="w28" sent="2" para="2" offset="119"><![CDATA[If]]></wf>
+    <wf wid="w29" sent="2" para="2" offset="122"><![CDATA[every]]></wf>
+    <wf wid="w30" sent="2" para="2" offset="128"><![CDATA[diet]]></wf>
+    <wf wid="w31" sent="2" para="2" offset="133"><![CDATA[book]]></wf>
+    <wf wid="w32" sent="2" para="2" offset="138"><![CDATA[could]]></wf>
+    <wf wid="w33" sent="2" para="2" offset="144"><![CDATA[be]]></wf>
+    <wf wid="w34" sent="2" para="2" offset="147"><![CDATA[reduced]]></wf>
+    <wf wid="w35" sent="2" para="2" offset="155"><![CDATA[to]]></wf>
+    <wf wid="w36" sent="2" para="2" offset="158"><![CDATA[“]]></wf>
+    <wf wid="w37" sent="2" para="2" offset="159"><![CDATA[eat]]></wf>
+    <wf wid="w38" sent="2" para="2" offset="163"><![CDATA[less]]></wf>
+    <wf wid="w39" sent="2" para="2" offset="168"><![CDATA[rubbish]]></wf>
+    <wf wid="w40" sent="2" para="2" offset="176"><![CDATA[and]]></wf>
+    <wf wid="w41" sent="2" para="2" offset="180"><![CDATA[exercise]]></wf>
+    <wf wid="w42" sent="2" para="2" offset="188"><![CDATA[”]]></wf>
+    <wf wid="w43" sent="2" para="2" offset="189"><![CDATA[,]]></wf>
+    <wf wid="w44" sent="2" para="2" offset="191"><![CDATA[then]]></wf>
+    <wf wid="w45" sent="2" para="2" offset="196"><![CDATA[the]]></wf>
+    <wf wid="w46" sent="2" para="2" offset="200"><![CDATA[feverish]]></wf>
+    <wf wid="w47" sent="2" para="2" offset="209"><![CDATA[pages]]></wf>
+    <wf wid="w48" sent="2" para="2" offset="215"><![CDATA[of]]></wf>
+    <wf wid="w49" sent="2" para="2" offset="218"><![CDATA[infamous]]></wf>
+    <wf wid="w50" sent="2" para="2" offset="227"><![CDATA[dating]]></wf>
+    <wf wid="w51" sent="2" para="2" offset="234"><![CDATA[book]]></wf>
+    <wf wid="w52" sent="2" para="2" offset="239"><![CDATA[The]]></wf>
+    <wf wid="w53" sent="2" para="2" offset="243"><![CDATA[Rules]]></wf>
+    <wf wid="w54" sent="2" para="2" offset="248"><![CDATA[:]]></wf>
+    <wf wid="w55" sent="2" para="2" offset="250"><![CDATA[Time-Tested]]></wf>
+    <wf wid="w56" sent="2" para="2" offset="262"><![CDATA[Secrets]]></wf>
+    <wf wid="w57" sent="2" para="2" offset="270"><![CDATA[of]]></wf>
+    <wf wid="w58" sent="2" para="2" offset="273"><![CDATA[Capturing]]></wf>
+    <wf wid="w59" sent="2" para="2" offset="283"><![CDATA[The]]></wf>
+    <wf wid="w60" sent="2" para="2" offset="287"><![CDATA[Heart]]></wf>
+    <wf wid="w61" sent="2" para="2" offset="293"><![CDATA[of]]></wf>
+    <wf wid="w62" sent="2" para="2" offset="296"><![CDATA[Mr]]></wf>
+    <wf wid="w63" sent="2" para="2" offset="299"><![CDATA[Right]]></wf>
+    <wf wid="w64" sent="2" para="2" offset="305"><![CDATA[could]]></wf>
+    <wf wid="w65" sent="2" para="2" offset="311"><![CDATA[be]]></wf>
+    <wf wid="w66" sent="2" para="2" offset="314"><![CDATA[condensed]]></wf>
+    <wf wid="w67" sent="2" para="2" offset="324"><![CDATA[to]]></wf>
+    <wf wid="w68" sent="2" para="2" offset="327"><![CDATA[its]]></wf>
+    <wf wid="w69" sent="2" para="2" offset="331"><![CDATA[intended]]></wf>
+    <wf wid="w70" sent="2" para="2" offset="340"><![CDATA[straight]]></wf>
+    <wf wid="w71" sent="2" para="2" offset="349"><![CDATA[female]]></wf>
+    <wf wid="w72" sent="2" para="2" offset="356"><![CDATA[audience]]></wf>
+    <wf wid="w73" sent="2" para="2" offset="365"><![CDATA[thus]]></wf>
+    <wf wid="w74" sent="2" para="2" offset="369"><![CDATA[:]]></wf>
+    <wf wid="w75" sent="2" para="2" offset="371"><![CDATA[“]]></wf>
+    <wf wid="w76" sent="2" para="2" offset="372"><![CDATA[Never]]></wf>
+    <wf wid="w77" sent="2" para="2" offset="378"><![CDATA[pursue]]></wf>
+    <wf wid="w78" sent="2" para="2" offset="384"><![CDATA[,]]></wf>
+    <wf wid="w79" sent="2" para="2" offset="386"><![CDATA[be]]></wf>
+    <wf wid="w80" sent="2" para="2" offset="389"><![CDATA[pursued]]></wf>
+    <wf wid="w81" sent="2" para="2" offset="396"><![CDATA[”]]></wf>
+    <wf wid="w82" sent="2" para="2" offset="397"><![CDATA[.]]></wf>
+    <wf wid="w83" sent="3" para="3" offset="400"><![CDATA[Its]]></wf>
+    <wf wid="w84" sent="3" para="3" offset="404"><![CDATA[thirtysomething]]></wf>
+    <wf wid="w85" sent="3" para="3" offset="420"><![CDATA[authors]]></wf>
+    <wf wid="w86" sent="3" para="3" offset="427"><![CDATA[,]]></wf>
+    <wf wid="w87" sent="3" para="3" offset="429"><![CDATA[Sherrie]]></wf>
+    <wf wid="w88" sent="3" para="3" offset="437"><![CDATA[Schneider]]></wf>
+    <wf wid="w89" sent="3" para="3" offset="447"><![CDATA[and]]></wf>
+    <wf wid="w90" sent="3" para="3" offset="451"><![CDATA[Ellen]]></wf>
+    <wf wid="w91" sent="3" para="3" offset="457"><![CDATA[Fein]]></wf>
+    <wf wid="w92" sent="3" para="3" offset="461"><![CDATA[,]]></wf>
+    <wf wid="w93" sent="3" para="3" offset="463"><![CDATA[taught]]></wf>
+    <wf wid="w94" sent="3" para="3" offset="470"><![CDATA[a]]></wf>
+    <wf wid="w95" sent="3" para="3" offset="472"><![CDATA[generation]]></wf>
+    <wf wid="w96" sent="3" para="3" offset="483"><![CDATA[of]]></wf>
+    <wf wid="w97" sent="3" para="3" offset="486"><![CDATA[women]]></wf>
+    <wf wid="w98" sent="3" para="3" offset="492"><![CDATA[to]]></wf>
+    <wf wid="w99" sent="3" para="3" offset="495"><![CDATA[lie]]></wf>
+    <wf wid="w100" sent="3" para="3" offset="499"><![CDATA[in]]></wf>
+    <wf wid="w101" sent="3" para="3" offset="502"><![CDATA[the]]></wf>
+    <wf wid="w102" sent="3" para="3" offset="506"><![CDATA[bath]]></wf>
+    <wf wid="w103" sent="3" para="3" offset="511"><![CDATA[before]]></wf>
+    <wf wid="w104" sent="3" para="3" offset="518"><![CDATA[a]]></wf>
+    <wf wid="w105" sent="3" para="3" offset="520"><![CDATA[date]]></wf>
+    <wf wid="w106" sent="3" para="3" offset="525"><![CDATA[intoning]]></wf>
+    <wf wid="w107" sent="3" para="3" offset="534"><![CDATA[“]]></wf>
+    <wf wid="w108" sent="3" para="3" offset="535"><![CDATA[I]]></wf>
+    <wf wid="w109" sent="3" para="3" offset="537"><![CDATA[am]]></wf>
+    <wf wid="w110" sent="3" para="3" offset="540"><![CDATA[a]]></wf>
+    <wf wid="w111" sent="3" para="3" offset="542"><![CDATA[beautiful]]></wf>
+    <wf wid="w112" sent="3" para="3" offset="552"><![CDATA[creature]]></wf>
+    <wf wid="w113" sent="3" para="3" offset="561"><![CDATA[unlike]]></wf>
+    <wf wid="w114" sent="3" para="3" offset="568"><![CDATA[any]]></wf>
+    <wf wid="w115" sent="3" para="3" offset="572"><![CDATA[other]]></wf>
+    <wf wid="w116" sent="3" para="3" offset="577"><![CDATA[”]]></wf>
+    <wf wid="w117" sent="3" para="3" offset="578"><![CDATA[,]]></wf>
+    <wf wid="w118" sent="3" para="3" offset="580"><![CDATA[then]]></wf>
+    <wf wid="w119" sent="3" para="3" offset="585"><![CDATA[not]]></wf>
+    <wf wid="w120" sent="3" para="3" offset="589"><![CDATA[to]]></wf>
+    <wf wid="w121" sent="3" para="3" offset="592"><![CDATA[return]]></wf>
+    <wf wid="w122" sent="3" para="3" offset="599"><![CDATA[the]]></wf>
+    <wf wid="w123" sent="3" para="3" offset="603"><![CDATA[man]]></wf>
+    <wf wid="w124" sent="3" para="3" offset="606"><![CDATA[’s]]></wf>
+    <wf wid="w125" sent="3" para="3" offset="609"><![CDATA[calls]]></wf>
+    <wf wid="w126" sent="3" para="3" offset="614"><![CDATA[.]]></wf>
+    <wf wid="w127" sent="4" para="4" offset="619"><![CDATA[As]]></wf>
+    <wf wid="w128" sent="4" para="4" offset="622"><![CDATA[most]]></wf>
+    <wf wid="w129" sent="4" para="4" offset="627"><![CDATA[of]]></wf>
+    <wf wid="w130" sent="4" para="4" offset="630"><![CDATA[the]]></wf>
+    <wf wid="w131" sent="4" para="4" offset="634"><![CDATA[country]]></wf>
+    <wf wid="w132" sent="4" para="4" offset="642"><![CDATA[faces]]></wf>
+    <wf wid="w133" sent="4" para="4" offset="648"><![CDATA[up]]></wf>
+    <wf wid="w134" sent="4" para="4" offset="651"><![CDATA[to]]></wf>
+    <wf wid="w135" sent="4" para="4" offset="654"><![CDATA[freezing]]></wf>
+    <wf wid="w136" sent="4" para="4" offset="663"><![CDATA[temperatures]]></wf>
+    <wf wid="w137" sent="4" para="4" offset="676"><![CDATA[and]]></wf>
+    <wf wid="w138" sent="4" para="4" offset="680"><![CDATA[a]]></wf>
+    <wf wid="w139" sent="4" para="4" offset="682"><![CDATA[deluge]]></wf>
+    <wf wid="w140" sent="4" para="4" offset="689"><![CDATA[of]]></wf>
+    <wf wid="w141" sent="4" para="4" offset="692"><![CDATA[snow]]></wf>
+    <wf wid="w142" sent="4" para="4" offset="696"><![CDATA[,]]></wf>
+    <wf wid="w143" sent="4" para="4" offset="698"><![CDATA[drivers]]></wf>
+    <wf wid="w144" sent="4" para="4" offset="706"><![CDATA[and]]></wf>
+    <wf wid="w145" sent="4" para="4" offset="710"><![CDATA[commuters]]></wf>
+    <wf wid="w146" sent="4" para="4" offset="720"><![CDATA[have]]></wf>
+    <wf wid="w147" sent="4" para="4" offset="725"><![CDATA[been]]></wf>
+    <wf wid="w148" sent="4" para="4" offset="730"><![CDATA[warned]]></wf>
+    <wf wid="w149" sent="4" para="4" offset="737"><![CDATA[to]]></wf>
+    <wf wid="w150" sent="4" para="4" offset="740"><![CDATA[prepare]]></wf>
+    <wf wid="w151" sent="4" para="4" offset="748"><![CDATA[for]]></wf>
+    <wf wid="w152" sent="4" para="4" offset="752"><![CDATA[a]]></wf>
+    <wf wid="w153" sent="4" para="4" offset="754"><![CDATA[transport]]></wf>
+    <wf wid="w154" sent="4" para="4" offset="764"><![CDATA[meltdown]]></wf>
+    <wf wid="w155" sent="4" para="4" offset="772"><![CDATA[.]]></wf>
+    <wf wid="w156" sent="5" para="5" offset="775"><![CDATA[Rail]]></wf>
+    <wf wid="w157" sent="5" para="5" offset="780"><![CDATA[companies]]></wf>
+    <wf wid="w158" sent="5" para="5" offset="790"><![CDATA[have]]></wf>
+    <wf wid="w159" sent="5" para="5" offset="795"><![CDATA[switched]]></wf>
+    <wf wid="w160" sent="5" para="5" offset="804"><![CDATA[to]]></wf>
+    <wf wid="w161" sent="5" para="5" offset="807"><![CDATA[emergency]]></wf>
+    <wf wid="w162" sent="5" para="5" offset="817"><![CDATA[timetables]]></wf>
+    <wf wid="w163" sent="5" para="5" offset="827"><![CDATA[,]]></wf>
+    <wf wid="w164" sent="5" para="5" offset="829"><![CDATA[the]]></wf>
+    <wf wid="w165" sent="5" para="5" offset="833"><![CDATA[Highways]]></wf>
+    <wf wid="w166" sent="5" para="5" offset="842"><![CDATA[Agency]]></wf>
+    <wf wid="w167" sent="5" para="5" offset="849"><![CDATA[has]]></wf>
+    <wf wid="w168" sent="5" para="5" offset="853"><![CDATA[told]]></wf>
+    <wf wid="w169" sent="5" para="5" offset="858"><![CDATA[people]]></wf>
+    <wf wid="w170" sent="5" para="5" offset="865"><![CDATA[to]]></wf>
+    <wf wid="w171" sent="5" para="5" offset="868"><![CDATA[avoid]]></wf>
+    <wf wid="w172" sent="5" para="5" offset="874"><![CDATA[the]]></wf>
+    <wf wid="w173" sent="5" para="5" offset="878"><![CDATA[roads]]></wf>
+    <wf wid="w174" sent="5" para="5" offset="884"><![CDATA[and]]></wf>
+    <wf wid="w175" sent="5" para="5" offset="888"><![CDATA[shoppers]]></wf>
+    <wf wid="w176" sent="5" para="5" offset="897"><![CDATA[have]]></wf>
+    <wf wid="w177" sent="5" para="5" offset="902"><![CDATA[cleared]]></wf>
+    <wf wid="w178" sent="5" para="5" offset="910"><![CDATA[the]]></wf>
+    <wf wid="w179" sent="5" para="5" offset="914"><![CDATA[shelves]]></wf>
+    <wf wid="w180" sent="5" para="5" offset="922"><![CDATA[of]]></wf>
+    <wf wid="w181" sent="5" para="5" offset="925"><![CDATA[essential]]></wf>
+    <wf wid="w182" sent="5" para="5" offset="935"><![CDATA[goods]]></wf>
+    <wf wid="w183" sent="5" para="5" offset="941"><![CDATA[in]]></wf>
+    <wf wid="w184" sent="5" para="5" offset="944"><![CDATA[anticipation]]></wf>
+    <wf wid="w185" sent="5" para="5" offset="957"><![CDATA[of]]></wf>
+    <wf wid="w186" sent="5" para="5" offset="960"><![CDATA[severe]]></wf>
+    <wf wid="w187" sent="5" para="5" offset="967"><![CDATA[weather]]></wf>
+    <wf wid="w188" sent="5" para="5" offset="975"><![CDATA[over]]></wf>
+    <wf wid="w189" sent="5" para="5" offset="980"><![CDATA[most]]></wf>
+    <wf wid="w190" sent="5" para="5" offset="985"><![CDATA[of]]></wf>
+    <wf wid="w191" sent="5" para="5" offset="988"><![CDATA[England]]></wf>
+    <wf wid="w192" sent="5" para="5" offset="996"><![CDATA[and]]></wf>
+    <wf wid="w193" sent="5" para="5" offset="1000"><![CDATA[Wales]]></wf>
+    <wf wid="w194" sent="5" para="5" offset="1006"><![CDATA[for]]></wf>
+    <wf wid="w195" sent="5" para="5" offset="1010"><![CDATA[the]]></wf>
+    <wf wid="w196" sent="5" para="5" offset="1014"><![CDATA[next]]></wf>
+    <wf wid="w197" sent="5" para="5" offset="1019"><![CDATA[four]]></wf>
+    <wf wid="w198" sent="5" para="5" offset="1024"><![CDATA[days]]></wf>
+    <wf wid="w199" sent="5" para="5" offset="1028"><![CDATA[.]]></wf>
+    <wf wid="w200" sent="6" para="5" offset="1030"><![CDATA[Some]]></wf>
+    <wf wid="w201" sent="6" para="5" offset="1035"><![CDATA[employers]]></wf>
+    <wf wid="w202" sent="6" para="5" offset="1045"><![CDATA[were]]></wf>
   </text>
 </KAF>

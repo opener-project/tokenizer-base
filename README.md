@@ -1,5 +1,3 @@
-[![Build Status](https://drone.io/github.com/opener-project/tokenizer-base/status.png)](https://drone.io/github.com/opener-project/tokenizer-base/latest)
-
 # Opener::Tokenizer::Base
 
 Base tokenizer for various languages such as English, German and Italian. Keep
@@ -12,6 +10,7 @@ using the `-l` option. The following languages are supported:
 * it
 * nl
 * de
+* fr
 
 More languages may be supported in the future.
 
@@ -31,10 +30,6 @@ name. Once installed as a gem you can access the gem from anywhere. This aplicat
 reads a text from standard input in order to tokenize.
 
     echo "This is an English text." | tokenizer-base -l en
-
-or
-
-    echo "This is an English text." | tokenizer-base
 
 For more information about the available CLI options run the following:
 

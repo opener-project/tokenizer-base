@@ -10,7 +10,7 @@ module Opener
       end
 
       def command(opts=[])
-        "java -jar #{kernel} #{language} #{opts.join(' ')}"
+        "perl -I #{lib} #{kernel} #{language} #{opts.join(' ')}"
       end
 
       def run(opts=ARGV)
@@ -24,11 +24,11 @@ module Opener
       protected
 
       def core_dir
-        File.expand_path("../../../../core/target", __FILE__)
+        File.expand_path("../../../../core", __FILE__)
       end
 
       def kernel
-        File.join(core_dir,'vicom-tokenizer-all-1.0.jar')
+        File.join(core_dir,'tokenizer-modified_OpeNER.pl')
       end
 
       def lib
@@ -75,5 +75,10 @@ module Opener
       end
     end
 
+    class FR < Base
+      def lang
+        'fr'
+      end
+    end
   end
 end

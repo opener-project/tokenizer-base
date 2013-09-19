@@ -1,142 +1,142 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<KAF version="v1.opener" xml:lang="es">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KAF xml:lang="es" version="v1.opener">
   <kafHeader>
+    <fileDesc />
     <linguisticProcessors layer="text">
-      <lp name="opennlp-es-tok" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
-      <lp name="opennlp-es-sent" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
+      <lp name="opener-tokenizer-es" version="1.0" timestamp="2013-02-05T13:35:22Z"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
-    <wf length="3" offset="0" para="1" sent="1" wid="w1">Los</wf>
-    <wf length="6" offset="4" para="1" sent="1" wid="w2">gastos</wf>
-    <wf length="2" offset="11" para="1" sent="1" wid="w3">de</wf>
-    <wf length="12" offset="14" para="1" sent="1" wid="w4">alojamientos</wf>
-    <wf length="3" offset="27" para="1" sent="1" wid="w5">del</wf>
-    <wf length="8" offset="31" para="1" sent="1" wid="w6">Valencia</wf>
-    <wf length="6" offset="40" para="1" sent="1" wid="w7">Summit</wf>
-    <wf length="4" offset="47" para="1" sent="1" wid="w8">2004</wf>
-    <wf length="1" offset="51" para="1" sent="1" wid="w9">,</wf>
-    <wf length="2" offset="53" para="1" sent="1" wid="w10">el</wf>
-    <wf length="6" offset="56" para="1" sent="1" wid="w11">primer</wf>
-    <wf length="4" offset="63" para="1" sent="1" wid="w12">gran</wf>
-    <wf length="8" offset="68" para="1" sent="1" wid="w13">pelotazo</wf>
-    <wf length="3" offset="77" para="1" sent="1" wid="w14">del</wf>
-    <wf length="9" offset="81" para="1" sent="1" wid="w15">Instituto</wf>
-    <wf length="4" offset="91" para="1" sent="1" wid="w16">Nóos</wf>
-    <wf length="1" offset="95" para="1" sent="1" wid="w17">,</wf>
-    <wf length="2" offset="97" para="1" sent="1" wid="w18">no</wf>
-    <wf length="4" offset="100" para="1" sent="1" wid="w19">eran</wf>
-    <wf length="1" offset="104" para="1" sent="1" wid="w20">,</wf>
-    <wf length="5" offset="106" para="1" sent="1" wid="w21">hasta</wf>
-    <wf length="5" offset="112" para="1" sent="1" wid="w22">ahora</wf>
-    <wf length="1" offset="117" para="1" sent="1" wid="w23">,</wf>
-    <wf length="3" offset="119" para="1" sent="1" wid="w24">una</wf>
-    <wf length="9" offset="123" para="1" sent="1" wid="w25">prioridad</wf>
-    <wf length="2" offset="133" para="1" sent="1" wid="w26">en</wf>
-    <wf length="2" offset="136" para="1" sent="1" wid="w27">la</wf>
-    <wf length="13" offset="139" para="1" sent="1" wid="w28">investigación</wf>
-    <wf length="2" offset="153" para="1" sent="1" wid="w29">de</wf>
-    <wf length="2" offset="156" para="1" sent="1" wid="w30">la</wf>
-    <wf length="6" offset="159" para="1" sent="1" wid="w31">Unidad</wf>
-    <wf length="6" offset="166" para="1" sent="1" wid="w32">Contra</wf>
-    <wf length="2" offset="173" para="1" sent="1" wid="w33">la</wf>
-    <wf length="12" offset="176" para="1" sent="1" wid="w34">Delincuencia</wf>
-    <wf length="9" offset="189" para="1" sent="1" wid="w35">Económica</wf>
-    <wf length="1" offset="199" para="1" sent="1" wid="w36">y</wf>
-    <wf length="6" offset="201" para="1" sent="1" wid="w37">Fiscal</wf>
-    <wf length="1" offset="208" para="1" sent="1" wid="w38">(</wf>
-    <wf length="4" offset="209" para="1" sent="1" wid="w39">UDEF</wf>
-    <wf length="1" offset="213" para="1" sent="1" wid="w40">)</wf>
-    <wf length="1" offset="214" para="1" sent="1" wid="w41">.</wf>
-    <wf length="3" offset="217" para="2" sent="2" wid="w42">Sin</wf>
-    <wf length="7" offset="221" para="2" sent="2" wid="w43">embargo</wf>
-    <wf length="1" offset="228" para="2" sent="2" wid="w44">,</wf>
-    <wf length="2" offset="230" para="2" sent="2" wid="w45">la</wf>
-    <wf length="8" offset="233" para="2" sent="2" wid="w46">decisión</wf>
-    <wf length="2" offset="242" para="2" sent="2" wid="w47">de</wf>
-    <wf length="5" offset="245" para="2" sent="2" wid="w48">Diego</wf>
-    <wf length="6" offset="251" para="2" sent="2" wid="w49">Torres</wf>
-    <wf length="2" offset="258" para="2" sent="2" wid="w50">de</wf>
-    <wf length="5" offset="261" para="2" sent="2" wid="w51">hacer</wf>
-    <wf length="8" offset="267" para="2" sent="2" wid="w52">públicos</wf>
-    <wf length="1" offset="275" para="2" sent="2" wid="w53">,</wf>
-    <wf length="1" offset="277" para="2" sent="2" wid="w54">a</wf>
-    <wf length="4" offset="279" para="2" sent="2" wid="w55">modo</wf>
-    <wf length="2" offset="284" para="2" sent="2" wid="w56">de</wf>
-    <wf length="8" offset="287" para="2" sent="2" wid="w57">chantaje</wf>
-    <wf length="6" offset="296" para="2" sent="2" wid="w58">velado</wf>
-    <wf length="1" offset="303" para="2" sent="2" wid="w59">a</wf>
-    <wf length="2" offset="305" para="2" sent="2" wid="w60">la</wf>
-    <wf length="6" offset="308" para="2" sent="2" wid="w61">Corona</wf>
-    <wf length="1" offset="314" para="2" sent="2" wid="w62">,</wf>
-    <wf length="6" offset="316" para="2" sent="2" wid="w63">varios</wf>
-    <wf length="6" offset="323" para="2" sent="2" wid="w64">emails</wf>
-    <wf length="3" offset="330" para="2" sent="2" wid="w65">que</wf>
-    <wf length="9" offset="334" para="2" sent="2" wid="w66">revelaban</wf>
-    <wf length="2" offset="344" para="2" sent="2" wid="w67">la</wf>
-    <wf length="9" offset="347" para="2" sent="2" wid="w68">presencia</wf>
-    <wf length="2" offset="357" para="2" sent="2" wid="w69">en</wf>
-    <wf length="3" offset="360" para="2" sent="2" wid="w70">esa</wf>
-    <wf length="7" offset="364" para="2" sent="2" wid="w71">reunión</wf>
-    <wf length="2" offset="372" para="2" sent="2" wid="w72">de</wf>
-    <wf length="7" offset="375" para="2" sent="2" wid="w73">Corinna</wf>
-    <wf length="2" offset="383" para="2" sent="2" wid="w74">zu</wf>
-    <wf length="17" offset="386" para="2" sent="2" wid="w75">Sayn-Wittgenstein</wf>
-    <wf length="1" offset="403" para="2" sent="2" wid="w76">,</wf>
-    <wf length="3" offset="405" para="2" sent="2" wid="w77">que</wf>
-    <wf length="7" offset="409" para="2" sent="2" wid="w78">ninguna</wf>
-    <wf length="8" offset="417" para="2" sent="2" wid="w79">relación</wf>
-    <wf length="6" offset="426" para="2" sent="2" wid="w80">guarda</wf>
-    <wf length="3" offset="433" para="2" sent="2" wid="w81">con</wf>
-    <wf length="2" offset="437" para="2" sent="2" wid="w82">el</wf>
-    <wf length="7" offset="440" para="2" sent="2" wid="w83">deporte</wf>
-    <wf length="1" offset="447" para="2" sent="2" wid="w84">,</wf>
-    <wf length="3" offset="449" para="2" sent="2" wid="w85">han</wf>
-    <wf length="6" offset="453" para="2" sent="2" wid="w86">puesto</wf>
-    <wf length="1" offset="460" para="2" sent="2" wid="w87">a</wf>
-    <wf length="2" offset="462" para="2" sent="2" wid="w88">la</wf>
-    <wf length="7" offset="465" para="2" sent="2" wid="w89">Policía</wf>
-    <wf length="8" offset="473" para="2" sent="2" wid="w90">Judicial</wf>
-    <wf length="5" offset="482" para="2" sent="2" wid="w91">sobre</wf>
-    <wf length="2" offset="488" para="2" sent="2" wid="w92">la</wf>
-    <wf length="5" offset="491" para="2" sent="2" wid="w93">pista</wf>
-    <wf length="1" offset="496" para="2" sent="2" wid="w94">.</wf>
-    <wf length="5" offset="498" para="2" sent="3" wid="w95">Iñaki</wf>
-    <wf length="10" offset="504" para="2" sent="3" wid="w96">Urdangarin</wf>
-    <wf length="1" offset="515" para="2" sent="3" wid="w97">y</wf>
-    <wf length="5" offset="517" para="2" sent="3" wid="w98">Diego</wf>
-    <wf length="6" offset="523" para="2" sent="3" wid="w99">Torres</wf>
-    <wf length="8" offset="530" para="2" sent="3" wid="w100">pudieron</wf>
-    <wf length="4" offset="539" para="2" sent="3" wid="w101">usar</wf>
-    <wf length="5" offset="544" para="2" sent="3" wid="w102">aquel</wf>
-    <wf length="6" offset="550" para="2" sent="3" wid="w103">evento</wf>
-    <wf length="4" offset="557" para="2" sent="3" wid="w104">para</wf>
-    <wf length="7" offset="562" para="2" sent="3" wid="w105">endosar</wf>
-    <wf length="1" offset="570" para="2" sent="3" wid="w106">a</wf>
-    <wf length="3" offset="572" para="2" sent="3" wid="w107">las</wf>
-    <wf length="13" offset="576" para="2" sent="3" wid="w108">instituciones</wf>
-    <wf length="11" offset="590" para="2" sent="3" wid="w109">valencianas</wf>
-    <wf length="9" offset="602" para="2" sent="3" wid="w110">estancias</wf>
-    <wf length="2" offset="612" para="2" sent="3" wid="w111">de</wf>
-    <wf length="6" offset="615" para="2" sent="3" wid="w112">amigos</wf>
-    <wf length="1" offset="622" para="2" sent="3" wid="w113">y</wf>
-    <wf length="10" offset="624" para="2" sent="3" wid="w114">familiares</wf>
-    <wf length="2" offset="635" para="2" sent="3" wid="w115">en</wf>
-    <wf length="2" offset="638" para="2" sent="3" wid="w116">la</wf>
-    <wf length="7" offset="641" para="2" sent="3" wid="w117">capital</wf>
-    <wf length="3" offset="649" para="2" sent="3" wid="w118">del</wf>
-    <wf length="5" offset="653" para="2" sent="3" wid="w119">Turia</wf>
-    <wf length="1" offset="658" para="2" sent="3" wid="w120">,</wf>
-    <wf length="3" offset="660" para="2" sent="3" wid="w121">que</wf>
-    <wf length="2" offset="664" para="2" sent="3" wid="w122">en</wf>
-    <wf length="8" offset="667" para="2" sent="3" wid="w123">realidad</wf>
-    <wf length="4" offset="676" para="2" sent="3" wid="w124">nada</wf>
-    <wf length="6" offset="681" para="2" sent="3" wid="w125">tenían</wf>
-    <wf length="3" offset="688" para="2" sent="3" wid="w126">que</wf>
-    <wf length="3" offset="692" para="2" sent="3" wid="w127">ver</wf>
-    <wf length="3" offset="696" para="2" sent="3" wid="w128">con</wf>
-    <wf length="2" offset="700" para="2" sent="3" wid="w129">la</wf>
-    <wf length="6" offset="703" para="2" sent="3" wid="w130">cumbre</wf>
-    <wf length="1" offset="709" para="2" sent="3" wid="w131">.</wf>
+    <wf wid="w1" sent="1" para="1" offset="0"><![CDATA[Los]]></wf>
+    <wf wid="w2" sent="1" para="1" offset="4"><![CDATA[gastos]]></wf>
+    <wf wid="w3" sent="1" para="1" offset="11"><![CDATA[de]]></wf>
+    <wf wid="w4" sent="1" para="1" offset="14"><![CDATA[alojamientos]]></wf>
+    <wf wid="w5" sent="1" para="1" offset="27"><![CDATA[del]]></wf>
+    <wf wid="w6" sent="1" para="1" offset="31"><![CDATA[Valencia]]></wf>
+    <wf wid="w7" sent="1" para="1" offset="40"><![CDATA[Summit]]></wf>
+    <wf wid="w8" sent="1" para="1" offset="47"><![CDATA[2004]]></wf>
+    <wf wid="w9" sent="1" para="1" offset="51"><![CDATA[,]]></wf>
+    <wf wid="w10" sent="1" para="1" offset="53"><![CDATA[el]]></wf>
+    <wf wid="w11" sent="1" para="1" offset="56"><![CDATA[primer]]></wf>
+    <wf wid="w12" sent="1" para="1" offset="63"><![CDATA[gran]]></wf>
+    <wf wid="w13" sent="1" para="1" offset="68"><![CDATA[pelotazo]]></wf>
+    <wf wid="w14" sent="1" para="1" offset="77"><![CDATA[del]]></wf>
+    <wf wid="w15" sent="1" para="1" offset="81"><![CDATA[Instituto]]></wf>
+    <wf wid="w16" sent="1" para="1" offset="91"><![CDATA[Nóos]]></wf>
+    <wf wid="w17" sent="1" para="1" offset="95"><![CDATA[,]]></wf>
+    <wf wid="w18" sent="1" para="1" offset="97"><![CDATA[no]]></wf>
+    <wf wid="w19" sent="1" para="1" offset="100"><![CDATA[eran]]></wf>
+    <wf wid="w20" sent="1" para="1" offset="104"><![CDATA[,]]></wf>
+    <wf wid="w21" sent="1" para="1" offset="106"><![CDATA[hasta]]></wf>
+    <wf wid="w22" sent="1" para="1" offset="112"><![CDATA[ahora]]></wf>
+    <wf wid="w23" sent="1" para="1" offset="117"><![CDATA[,]]></wf>
+    <wf wid="w24" sent="1" para="1" offset="119"><![CDATA[una]]></wf>
+    <wf wid="w25" sent="1" para="1" offset="123"><![CDATA[prioridad]]></wf>
+    <wf wid="w26" sent="1" para="1" offset="133"><![CDATA[en]]></wf>
+    <wf wid="w27" sent="1" para="1" offset="136"><![CDATA[la]]></wf>
+    <wf wid="w28" sent="1" para="1" offset="139"><![CDATA[investigación]]></wf>
+    <wf wid="w29" sent="1" para="1" offset="153"><![CDATA[de]]></wf>
+    <wf wid="w30" sent="1" para="1" offset="156"><![CDATA[la]]></wf>
+    <wf wid="w31" sent="1" para="1" offset="159"><![CDATA[Unidad]]></wf>
+    <wf wid="w32" sent="1" para="1" offset="166"><![CDATA[Contra]]></wf>
+    <wf wid="w33" sent="1" para="1" offset="173"><![CDATA[la]]></wf>
+    <wf wid="w34" sent="1" para="1" offset="176"><![CDATA[Delincuencia]]></wf>
+    <wf wid="w35" sent="1" para="1" offset="189"><![CDATA[Económica]]></wf>
+    <wf wid="w36" sent="1" para="1" offset="199"><![CDATA[y]]></wf>
+    <wf wid="w37" sent="1" para="1" offset="201"><![CDATA[Fiscal]]></wf>
+    <wf wid="w38" sent="1" para="1" offset="208"><![CDATA[(]]></wf>
+    <wf wid="w39" sent="1" para="1" offset="209"><![CDATA[UDEF]]></wf>
+    <wf wid="w40" sent="1" para="1" offset="213"><![CDATA[)]]></wf>
+    <wf wid="w41" sent="1" para="1" offset="214"><![CDATA[.]]></wf>
+    <wf wid="w42" sent="2" para="2" offset="217"><![CDATA[Sin]]></wf>
+    <wf wid="w43" sent="2" para="2" offset="221"><![CDATA[embargo]]></wf>
+    <wf wid="w44" sent="2" para="2" offset="228"><![CDATA[,]]></wf>
+    <wf wid="w45" sent="2" para="2" offset="230"><![CDATA[la]]></wf>
+    <wf wid="w46" sent="2" para="2" offset="233"><![CDATA[decisión]]></wf>
+    <wf wid="w47" sent="2" para="2" offset="242"><![CDATA[de]]></wf>
+    <wf wid="w48" sent="2" para="2" offset="245"><![CDATA[Diego]]></wf>
+    <wf wid="w49" sent="2" para="2" offset="251"><![CDATA[Torres]]></wf>
+    <wf wid="w50" sent="2" para="2" offset="258"><![CDATA[de]]></wf>
+    <wf wid="w51" sent="2" para="2" offset="261"><![CDATA[hacer]]></wf>
+    <wf wid="w52" sent="2" para="2" offset="267"><![CDATA[públicos]]></wf>
+    <wf wid="w53" sent="2" para="2" offset="275"><![CDATA[,]]></wf>
+    <wf wid="w54" sent="2" para="2" offset="277"><![CDATA[a]]></wf>
+    <wf wid="w55" sent="2" para="2" offset="279"><![CDATA[modo]]></wf>
+    <wf wid="w56" sent="2" para="2" offset="284"><![CDATA[de]]></wf>
+    <wf wid="w57" sent="2" para="2" offset="287"><![CDATA[chantaje]]></wf>
+    <wf wid="w58" sent="2" para="2" offset="296"><![CDATA[velado]]></wf>
+    <wf wid="w59" sent="2" para="2" offset="303"><![CDATA[a]]></wf>
+    <wf wid="w60" sent="2" para="2" offset="305"><![CDATA[la]]></wf>
+    <wf wid="w61" sent="2" para="2" offset="308"><![CDATA[Corona]]></wf>
+    <wf wid="w62" sent="2" para="2" offset="314"><![CDATA[,]]></wf>
+    <wf wid="w63" sent="2" para="2" offset="316"><![CDATA[varios]]></wf>
+    <wf wid="w64" sent="2" para="2" offset="323"><![CDATA[emails]]></wf>
+    <wf wid="w65" sent="2" para="2" offset="330"><![CDATA[que]]></wf>
+    <wf wid="w66" sent="2" para="2" offset="334"><![CDATA[revelaban]]></wf>
+    <wf wid="w67" sent="2" para="2" offset="344"><![CDATA[la]]></wf>
+    <wf wid="w68" sent="2" para="2" offset="347"><![CDATA[presencia]]></wf>
+    <wf wid="w69" sent="2" para="2" offset="357"><![CDATA[en]]></wf>
+    <wf wid="w70" sent="2" para="2" offset="360"><![CDATA[esa]]></wf>
+    <wf wid="w71" sent="2" para="2" offset="364"><![CDATA[reunión]]></wf>
+    <wf wid="w72" sent="2" para="2" offset="372"><![CDATA[de]]></wf>
+    <wf wid="w73" sent="2" para="2" offset="375"><![CDATA[Corinna]]></wf>
+    <wf wid="w74" sent="2" para="2" offset="383"><![CDATA[zu]]></wf>
+    <wf wid="w75" sent="2" para="2" offset="386"><![CDATA[Sayn-Wittgenstein]]></wf>
+    <wf wid="w76" sent="2" para="2" offset="403"><![CDATA[,]]></wf>
+    <wf wid="w77" sent="2" para="2" offset="405"><![CDATA[que]]></wf>
+    <wf wid="w78" sent="2" para="2" offset="409"><![CDATA[ninguna]]></wf>
+    <wf wid="w79" sent="2" para="2" offset="417"><![CDATA[relación]]></wf>
+    <wf wid="w80" sent="2" para="2" offset="426"><![CDATA[guarda]]></wf>
+    <wf wid="w81" sent="2" para="2" offset="433"><![CDATA[con]]></wf>
+    <wf wid="w82" sent="2" para="2" offset="437"><![CDATA[el]]></wf>
+    <wf wid="w83" sent="2" para="2" offset="440"><![CDATA[deporte]]></wf>
+    <wf wid="w84" sent="2" para="2" offset="447"><![CDATA[,]]></wf>
+    <wf wid="w85" sent="2" para="2" offset="449"><![CDATA[han]]></wf>
+    <wf wid="w86" sent="2" para="2" offset="453"><![CDATA[puesto]]></wf>
+    <wf wid="w87" sent="2" para="2" offset="460"><![CDATA[a]]></wf>
+    <wf wid="w88" sent="2" para="2" offset="462"><![CDATA[la]]></wf>
+    <wf wid="w89" sent="2" para="2" offset="465"><![CDATA[Policía]]></wf>
+    <wf wid="w90" sent="2" para="2" offset="473"><![CDATA[Judicial]]></wf>
+    <wf wid="w91" sent="2" para="2" offset="482"><![CDATA[sobre]]></wf>
+    <wf wid="w92" sent="2" para="2" offset="488"><![CDATA[la]]></wf>
+    <wf wid="w93" sent="2" para="2" offset="491"><![CDATA[pista]]></wf>
+    <wf wid="w94" sent="2" para="2" offset="496"><![CDATA[.]]></wf>
+    <wf wid="w95" sent="3" para="2" offset="498"><![CDATA[Iñaki]]></wf>
+    <wf wid="w96" sent="3" para="2" offset="504"><![CDATA[Urdangarin]]></wf>
+    <wf wid="w97" sent="3" para="2" offset="515"><![CDATA[y]]></wf>
+    <wf wid="w98" sent="3" para="2" offset="517"><![CDATA[Diego]]></wf>
+    <wf wid="w99" sent="3" para="2" offset="523"><![CDATA[Torres]]></wf>
+    <wf wid="w100" sent="3" para="2" offset="530"><![CDATA[pudieron]]></wf>
+    <wf wid="w101" sent="3" para="2" offset="539"><![CDATA[usar]]></wf>
+    <wf wid="w102" sent="3" para="2" offset="544"><![CDATA[aquel]]></wf>
+    <wf wid="w103" sent="3" para="2" offset="550"><![CDATA[evento]]></wf>
+    <wf wid="w104" sent="3" para="2" offset="557"><![CDATA[para]]></wf>
+    <wf wid="w105" sent="3" para="2" offset="562"><![CDATA[endosar]]></wf>
+    <wf wid="w106" sent="3" para="2" offset="570"><![CDATA[a]]></wf>
+    <wf wid="w107" sent="3" para="2" offset="572"><![CDATA[las]]></wf>
+    <wf wid="w108" sent="3" para="2" offset="576"><![CDATA[instituciones]]></wf>
+    <wf wid="w109" sent="3" para="2" offset="590"><![CDATA[valencianas]]></wf>
+    <wf wid="w110" sent="3" para="2" offset="602"><![CDATA[estancias]]></wf>
+    <wf wid="w111" sent="3" para="2" offset="612"><![CDATA[de]]></wf>
+    <wf wid="w112" sent="3" para="2" offset="615"><![CDATA[amigos]]></wf>
+    <wf wid="w113" sent="3" para="2" offset="622"><![CDATA[y]]></wf>
+    <wf wid="w114" sent="3" para="2" offset="624"><![CDATA[familiares]]></wf>
+    <wf wid="w115" sent="3" para="2" offset="635"><![CDATA[en]]></wf>
+    <wf wid="w116" sent="3" para="2" offset="638"><![CDATA[la]]></wf>
+    <wf wid="w117" sent="3" para="2" offset="641"><![CDATA[capital]]></wf>
+    <wf wid="w118" sent="3" para="2" offset="649"><![CDATA[del]]></wf>
+    <wf wid="w119" sent="3" para="2" offset="653"><![CDATA[Turia]]></wf>
+    <wf wid="w120" sent="3" para="2" offset="658"><![CDATA[,]]></wf>
+    <wf wid="w121" sent="3" para="2" offset="660"><![CDATA[que]]></wf>
+    <wf wid="w122" sent="3" para="2" offset="664"><![CDATA[en]]></wf>
+    <wf wid="w123" sent="3" para="2" offset="667"><![CDATA[realidad]]></wf>
+    <wf wid="w124" sent="3" para="2" offset="676"><![CDATA[nada]]></wf>
+    <wf wid="w125" sent="3" para="2" offset="681"><![CDATA[tenían]]></wf>
+    <wf wid="w126" sent="3" para="2" offset="688"><![CDATA[que]]></wf>
+    <wf wid="w127" sent="3" para="2" offset="692"><![CDATA[ver]]></wf>
+    <wf wid="w128" sent="3" para="2" offset="696"><![CDATA[con]]></wf>
+    <wf wid="w129" sent="3" para="2" offset="700"><![CDATA[la]]></wf>
+    <wf wid="w130" sent="3" para="2" offset="703"><![CDATA[cumbre]]></wf>
+    <wf wid="w131" sent="3" para="2" offset="709"><![CDATA[.]]></wf>
   </text>
 </KAF>

@@ -1,257 +1,257 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<KAF version="v1.opener" xml:lang="nl">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KAF xml:lang="nl" version="v1.opener">
   <kafHeader>
-    <fileDesc filename="dutch" filetype="TXT"/>
+    <fileDesc filename="dutch" filetype="TXT" />
     <linguisticProcessors layer="text">
-      <lp name="opennlp-nl-tok" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
-      <lp name="opennlp-nl-sent" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
+      <lp name="opener-tokenizer-nl" version="1.0" timestamp="2013-02-05T13:35:22Z"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
-    <wf length="3" offset="0" para="1" sent="1" wid="w1">Die</wf>
-    <wf length="11" offset="4" para="1" sent="1" wid="w2">verwachting</wf>
-    <wf length="7" offset="16" para="1" sent="1" wid="w3">spreken</wf>
-    <wf length="6" offset="24" para="1" sent="1" wid="w4">Haagse</wf>
-    <wf length="7" offset="31" para="1" sent="1" wid="w5">bronnen</wf>
-    <wf length="3" offset="39" para="1" sent="1" wid="w6">uit</wf>
-    <wf length="1" offset="42" para="1" sent="1" wid="w7">.</wf>
-    <wf length="9" offset="44" para="1" sent="2" wid="w8">Frankrijk</wf>
-    <wf length="3" offset="54" para="1" sent="2" wid="w9">zit</wf>
-    <wf length="8" offset="58" para="1" sent="2" wid="w10">verlegen</wf>
-    <wf length="2" offset="67" para="1" sent="2" wid="w11">om</wf>
-    <wf length="19" offset="70" para="1" sent="2" wid="w12">transportcapaciteit</wf>
-    <wf length="1" offset="89" para="1" sent="2" wid="w13">.</wf>
-    <wf length="9" offset="91" para="1" sent="3" wid="w14">Nederland</wf>
-    <wf length="8" offset="101" para="1" sent="3" wid="w15">beschikt</wf>
-    <wf length="4" offset="110" para="1" sent="3" wid="w16">over</wf>
-    <wf length="9" offset="115" para="1" sent="3" wid="w17">Hercules-</wf>
-    <wf length="2" offset="125" para="1" sent="3" wid="w18">en</wf>
-    <wf length="26" offset="128" para="1" sent="3" wid="w19">KDC10-transportvliegtuigen</wf>
-    <wf length="3" offset="155" para="1" sent="3" wid="w20">die</wf>
-    <wf length="4" offset="159" para="1" sent="3" wid="w21">voor</wf>
-    <wf length="3" offset="164" para="1" sent="3" wid="w22">het</wf>
-    <wf length="11" offset="168" para="1" sent="3" wid="w23">overbrengen</wf>
-    <wf length="3" offset="180" para="1" sent="3" wid="w24">van</wf>
-    <wf length="8" offset="184" para="1" sent="3" wid="w25">militair</wf>
-    <wf length="9" offset="193" para="1" sent="3" wid="w26">materieel</wf>
-    <wf length="2" offset="203" para="1" sent="3" wid="w27">en</wf>
-    <wf length="9" offset="206" para="1" sent="3" wid="w28">personeel</wf>
-    <wf length="8" offset="216" para="1" sent="3" wid="w29">gebruikt</wf>
-    <wf length="6" offset="225" para="1" sent="3" wid="w30">kunnen</wf>
-    <wf length="6" offset="232" para="1" sent="3" wid="w31">worden</wf>
-    <wf length="1" offset="238" para="1" sent="3" wid="w32">.</wf>
-    <wf length="2" offset="240" para="1" sent="4" wid="w33">In</wf>
-    <wf length="3" offset="243" para="1" sent="4" wid="w34">Den</wf>
-    <wf length="4" offset="247" para="1" sent="4" wid="w35">Haag</wf>
-    <wf length="2" offset="252" para="1" sent="4" wid="w36">is</wf>
-    <wf length="4" offset="255" para="1" sent="4" wid="w37">deze</wf>
-    <wf length="4" offset="260" para="1" sent="4" wid="w38">week</wf>
-    <wf length="9" offset="265" para="1" sent="4" wid="w39">intensief</wf>
-    <wf length="8" offset="275" para="1" sent="4" wid="w40">overlegd</wf>
-    <wf length="4" offset="284" para="1" sent="4" wid="w41">over</wf>
-    <wf length="4" offset="289" para="1" sent="4" wid="w42">Mali</wf>
-    <wf length="1" offset="293" para="1" sent="4" wid="w43">.</wf>
-    <wf length="2" offset="295" para="1" sent="5" wid="w44">Zo</wf>
-    <wf length="4" offset="298" para="1" sent="5" wid="w45">zijn</wf>
-    <wf length="2" offset="303" para="1" sent="5" wid="w46">de</wf>
-    <wf length="18" offset="306" para="1" sent="5" wid="w47">fractievoorzitters</wf>
-    <wf length="6" offset="325" para="1" sent="5" wid="w48">achter</wf>
-    <wf length="8" offset="332" para="1" sent="5" wid="w49">gesloten</wf>
-    <wf length="6" offset="341" para="1" sent="5" wid="w50">deuren</wf>
-    <wf length="10" offset="348" para="1" sent="5" wid="w51">bijgepraat</wf>
-    <wf length="4" offset="359" para="1" sent="5" wid="w52">over</wf>
-    <wf length="2" offset="364" para="1" sent="5" wid="w53">de</wf>
-    <wf length="18" offset="367" para="1" sent="5" wid="w54">veiligheidsituatie</wf>
-    <wf length="2" offset="386" para="1" sent="5" wid="w55">in</wf>
-    <wf length="3" offset="389" para="1" sent="5" wid="w56">het</wf>
-    <wf length="4" offset="393" para="1" sent="5" wid="w57">land</wf>
-    <wf length="1" offset="397" para="1" sent="5" wid="w58">.</wf>
-    <wf length="8" offset="399" para="1" sent="6" wid="w59">Minister</wf>
-    <wf length="10" offset="408" para="1" sent="6" wid="w60">Timmermans</wf>
-    <wf length="1" offset="419" para="1" sent="6" wid="w61">(</wf>
-    <wf length="12" offset="420" para="1" sent="6" wid="w62">Buitenlandse</wf>
-    <wf length="5" offset="433" para="1" sent="6" wid="w63">Zaken</wf>
-    <wf length="1" offset="438" para="1" sent="6" wid="w64">)</wf>
-    <wf length="7" offset="440" para="1" sent="6" wid="w65">spreekt</wf>
-    <wf length="6" offset="448" para="1" sent="6" wid="w66">morgen</wf>
-    <wf length="3" offset="455" para="1" sent="6" wid="w67">met</wf>
-    <wf length="4" offset="459" para="1" sent="6" wid="w68">zijn</wf>
-    <wf length="8" offset="464" para="1" sent="6" wid="w69">Europese</wf>
-    <wf length="9" offset="473" para="1" sent="6" wid="w70">collega’s</wf>
-    <wf length="4" offset="483" para="1" sent="6" wid="w71">over</wf>
-    <wf length="3" offset="488" para="1" sent="6" wid="w72">het</wf>
-    <wf length="15" offset="492" para="1" sent="6" wid="w73">West-Afrikaanse</wf>
-    <wf length="4" offset="508" para="1" sent="6" wid="w74">land</wf>
-    <wf length="1" offset="512" para="1" sent="6" wid="w75">.</wf>
-    <wf length="2" offset="514" para="1" sent="7" wid="w76">De</wf>
-    <wf length="11" offset="517" para="1" sent="7" wid="w77">verwachting</wf>
-    <wf length="2" offset="529" para="1" sent="7" wid="w78">is</wf>
-    <wf length="3" offset="532" para="1" sent="7" wid="w79">dat</wf>
-    <wf length="3" offset="536" para="1" sent="7" wid="w80">een</wf>
-    <wf length="7" offset="540" para="1" sent="7" wid="w81">verzoek</wf>
-    <wf length="2" offset="548" para="1" sent="7" wid="w82">om</wf>
-    <wf length="5" offset="551" para="1" sent="7" wid="w83">steun</wf>
-    <wf length="3" offset="557" para="1" sent="7" wid="w84">dan</wf>
-    <wf length="2" offset="561" para="1" sent="7" wid="w85">op</wf>
-    <wf length="5" offset="564" para="1" sent="7" wid="w86">tafel</wf>
-    <wf length="4" offset="570" para="1" sent="7" wid="w87">ligt</wf>
-    <wf length="1" offset="574" para="1" sent="7" wid="w88">.</wf>
-    <wf length="2" offset="576" para="1" sent="8" wid="w89">De</wf>
-    <wf length="9" offset="579" para="1" sent="8" wid="w90">afgelopen</wf>
-    <wf length="5" offset="589" para="1" sent="8" wid="w91">dagen</wf>
-    <wf length="2" offset="595" para="1" sent="8" wid="w92">is</wf>
-    <wf length="3" offset="598" para="1" sent="8" wid="w93">hij</wf>
-    <wf length="10" offset="602" para="1" sent="8" wid="w94">nauwelijks</wf>
-    <wf length="3" offset="613" para="1" sent="8" wid="w95">van</wf>
-    <wf length="2" offset="617" para="1" sent="8" wid="w96">de</wf>
-    <wf length="5" offset="620" para="1" sent="8" wid="w97">zijde</wf>
-    <wf length="3" offset="626" para="1" sent="8" wid="w98">van</wf>
-    <wf length="4" offset="630" para="1" sent="8" wid="w99">zijn</wf>
-    <wf length="10" offset="635" para="1" sent="8" wid="w100">echtgenote</wf>
-    <wf length="6" offset="646" para="1" sent="8" wid="w101">Sophie</wf>
-    <wf length="7" offset="653" para="1" sent="8" wid="w102">geweken</wf>
-    <wf length="1" offset="660" para="1" sent="8" wid="w103">.</wf>
-    <wf length="3" offset="662" para="1" sent="9" wid="w104">Bij</wf>
-    <wf length="4" offset="666" para="1" sent="9" wid="w105">haar</wf>
-    <wf length="2" offset="671" para="1" sent="9" wid="w106">is</wf>
-    <wf length="6" offset="674" para="1" sent="9" wid="w107">vorige</wf>
-    <wf length="4" offset="681" para="1" sent="9" wid="w108">week</wf>
-    <wf length="3" offset="686" para="1" sent="9" wid="w109">een</wf>
-    <wf length="9" offset="690" para="1" sent="9" wid="w110">buiktumor</wf>
-    <wf length="13" offset="700" para="1" sent="9" wid="w111">geconstateerd</wf>
-    <wf length="1" offset="713" para="1" sent="9" wid="w112">.</wf>
-    <wf length="3" offset="715" para="1" sent="10" wid="w113">Het</wf>
-    <wf length="11" offset="719" para="1" sent="10" wid="w114">Amsterdamse</wf>
-    <wf length="7" offset="731" para="1" sent="10" wid="w115">Antonie</wf>
-    <wf length="3" offset="739" para="1" sent="10" wid="w116">van</wf>
-    <wf length="21" offset="743" para="1" sent="10" wid="w117">Leeuwenhoekziekenhuis</wf>
-    <wf length="5" offset="765" para="1" sent="10" wid="w118">geeft</wf>
-    <wf length="10" offset="771" para="1" sent="10" wid="w119">binnenkort</wf>
-    <wf length="11" offset="782" para="1" sent="10" wid="w120">uitsluitsel</wf>
-    <wf length="2" offset="794" para="1" sent="10" wid="w121">of</wf>
-    <wf length="2" offset="797" para="1" sent="10" wid="w122">de</wf>
-    <wf length="9" offset="800" para="1" sent="10" wid="w123">buiktumor</wf>
-    <wf length="3" offset="810" para="1" sent="10" wid="w124">van</wf>
-    <wf length="6" offset="814" para="1" sent="10" wid="w125">Sophie</wf>
-    <wf length="5" offset="821" para="1" sent="10" wid="w126">goed-</wf>
-    <wf length="3" offset="827" para="1" sent="10" wid="w127">dan</wf>
-    <wf length="3" offset="831" para="1" sent="10" wid="w128">wel</wf>
-    <wf length="11" offset="835" para="1" sent="10" wid="w129">kwaadaardig</wf>
-    <wf length="2" offset="847" para="1" sent="10" wid="w130">is</wf>
-    <wf length="1" offset="849" para="1" sent="10" wid="w131">.</wf>
-    <wf length="2" offset="853" para="2" sent="11" wid="w132">De</wf>
-    <wf length="5" offset="856" para="2" sent="11" wid="w133">dagen</wf>
-    <wf length="2" offset="862" para="2" sent="11" wid="w134">in</wf>
-    <wf length="11" offset="865" para="2" sent="11" wid="w135">onzekerheid</wf>
-    <wf length="7" offset="877" para="2" sent="11" wid="w136">brengen</wf>
-    <wf length="3" offset="885" para="2" sent="11" wid="w137">het</wf>
-    <wf length="6" offset="889" para="2" sent="11" wid="w138">koppel</wf>
-    <wf length="3" offset="896" para="2" sent="11" wid="w139">nog</wf>
-    <wf length="7" offset="900" para="2" sent="11" wid="w140">dichter</wf>
-    <wf length="3" offset="908" para="2" sent="11" wid="w141">bij</wf>
-    <wf length="6" offset="912" para="2" sent="11" wid="w142">elkaar</wf>
-    <wf length="1" offset="918" para="2" sent="11" wid="w143">.</wf>
-    <wf length="5" offset="920" para="2" sent="12" wid="w144">Lizzy</wf>
-    <wf length="1" offset="925" para="2" sent="12" wid="w145">,</wf>
-    <wf length="3" offset="927" para="2" sent="12" wid="w146">die</wf>
-    <wf length="2" offset="931" para="2" sent="12" wid="w147">op</wf>
-    <wf length="7" offset="934" para="2" sent="12" wid="w148">Xanders</wf>
-    <wf length="7" offset="942" para="2" sent="12" wid="w149">kantoor</wf>
-    <wf length="5" offset="950" para="2" sent="12" wid="w150">Bison</wf>
-    <wf length="2" offset="956" para="2" sent="12" wid="w151">On</wf>
-    <wf length="5" offset="959" para="2" sent="12" wid="w152">Stage</wf>
-    <wf length="2" offset="965" para="2" sent="12" wid="w153">de</wf>
-    <wf length="5" offset="968" para="2" sent="12" wid="w154">zaken</wf>
-    <wf length="9" offset="974" para="2" sent="12" wid="w155">waarneemt</wf>
-    <wf length="1" offset="983" para="2" sent="12" wid="w156">:</wf>
-    <wf length="1" offset="985" para="2" sent="12" wid="w157">"</wf>
-    <wf length="2" offset="986" para="2" sent="12" wid="w158">We</wf>
-    <wf length="5" offset="989" para="2" sent="12" wid="w159">weten</wf>
-    <wf length="3" offset="995" para="2" sent="12" wid="w160">nog</wf>
-    <wf length="4" offset="999" para="2" sent="12" wid="w161">niks</wf>
-    <wf length="4" offset="1004" para="2" sent="12" wid="w162">meer</wf>
-    <wf length="1" offset="1008" para="2" sent="12" wid="w163">.</wf>
-    <wf length="2" offset="1010" para="2" sent="13" wid="w164">Er</wf>
-    <wf length="5" offset="1013" para="2" sent="13" wid="w165">lopen</wf>
-    <wf length="8" offset="1019" para="2" sent="13" wid="w166">allerlei</wf>
-    <wf length="11" offset="1028" para="2" sent="13" wid="w167">onderzoeken</wf>
-    <wf length="1" offset="1039" para="2" sent="13" wid="w168">.</wf>
-    <wf length="4" offset="1041" para="2" sent="14" wid="w169">Maar</wf>
-    <wf length="6" offset="1046" para="2" sent="14" wid="w170">Xander</wf>
-    <wf length="5" offset="1053" para="2" sent="14" wid="w171">heeft</wf>
-    <wf length="13" offset="1059" para="2" sent="14" wid="w172">bekendgemaakt</wf>
-    <wf length="3" offset="1073" para="2" sent="14" wid="w173">wat</wf>
-    <wf length="2" offset="1077" para="2" sent="14" wid="w174">er</wf>
-    <wf length="5" offset="1080" para="2" sent="14" wid="w175">wordt</wf>
-    <wf length="7" offset="1086" para="2" sent="14" wid="w176">vermoed</wf>
-    <wf length="1" offset="1093" para="2" sent="14" wid="w177">,</wf>
-    <wf length="5" offset="1095" para="2" sent="14" wid="w178">omdat</wf>
-    <wf length="3" offset="1101" para="2" sent="14" wid="w179">het</wf>
-    <wf length="6" offset="1105" para="2" sent="14" wid="w180">anders</wf>
-    <wf length="3" offset="1112" para="2" sent="14" wid="w181">gek</wf>
-    <wf length="5" offset="1116" para="2" sent="14" wid="w182">wordt</wf>
-    <wf length="8" offset="1122" para="2" sent="14" wid="w183">gevonden</wf>
-    <wf length="3" offset="1131" para="2" sent="14" wid="w184">dat</wf>
-    <wf length="3" offset="1135" para="2" sent="14" wid="w185">hij</wf>
-    <wf length="6" offset="1139" para="2" sent="14" wid="w186">steeds</wf>
-    <wf length="12" offset="1146" para="2" sent="14" wid="w187">onmiddellijk</wf>
-    <wf length="2" offset="1159" para="2" sent="14" wid="w188">na</wf>
-    <wf length="6" offset="1162" para="2" sent="14" wid="w189">afloop</wf>
-    <wf length="7" offset="1169" para="2" sent="14" wid="w190">wegrent</wf>
-    <wf length="3" offset="1177" para="2" sent="14" wid="w191">uit</wf>
-    <wf length="5" offset="1181" para="2" sent="14" wid="w192">Ahoy”</wf>
-    <wf length="1" offset="1186" para="2" sent="14" wid="w193">,</wf>
-    <wf length="8" offset="1188" para="2" sent="14" wid="w194">vervolgt</wf>
-    <wf length="5" offset="1197" para="2" sent="14" wid="w195">Lizzy</wf>
-    <wf length="1" offset="1202" para="2" sent="14" wid="w196">.</wf>
-    <wf length="1" offset="1205" para="3" sent="15" wid="w197">"</wf>
-    <wf length="9" offset="1206" para="3" sent="15" wid="w198">Bovendien</wf>
-    <wf length="5" offset="1216" para="3" sent="15" wid="w199">lopen</wf>
-    <wf length="6" offset="1222" para="3" sent="15" wid="w200">Xander</wf>
-    <wf length="2" offset="1229" para="3" sent="15" wid="w201">en</wf>
-    <wf length="6" offset="1232" para="3" sent="15" wid="w202">Sophie</wf>
-    <wf length="2" offset="1239" para="3" sent="15" wid="w203">nu</wf>
-    <wf length="10" offset="1242" para="3" sent="15" wid="w204">regelmatig</wf>
-    <wf length="2" offset="1253" para="3" sent="15" wid="w205">in</wf>
-    <wf length="3" offset="1256" para="3" sent="15" wid="w206">het</wf>
-    <wf length="10" offset="1260" para="3" sent="15" wid="w207">ziekenhuis</wf>
-    <wf length="1" offset="1270" para="3" sent="15" wid="w208">.</wf>
-    <wf length="3" offset="1272" para="3" sent="16" wid="w209">Dan</wf>
-    <wf length="3" offset="1276" para="3" sent="16" wid="w210">wil</wf>
-    <wf length="2" offset="1280" para="3" sent="16" wid="w211">je</wf>
-    <wf length="3" offset="1283" para="3" sent="16" wid="w212">ook</wf>
-    <wf length="4" offset="1287" para="3" sent="16" wid="w213">niet</wf>
-    <wf length="3" offset="1292" para="3" sent="16" wid="w214">dat</wf>
-    <wf length="6" offset="1296" para="3" sent="16" wid="w215">mensen</wf>
-    <wf length="4" offset="1303" para="3" sent="16" wid="w216">gaan</wf>
-    <wf length="10" offset="1308" para="3" sent="16" wid="w217">speculeren</wf>
-    <wf length="1" offset="1318" para="3" sent="16" wid="w218">.</wf>
-    <wf length="2" offset="1320" para="3" sent="17" wid="w219">We</wf>
-    <wf length="5" offset="1323" para="3" sent="17" wid="w220">laten</wf>
-    <wf length="3" offset="1329" para="3" sent="17" wid="w221">het</wf>
-    <wf length="5" offset="1333" para="3" sent="17" wid="w222">weten</wf>
-    <wf length="3" offset="1339" para="3" sent="17" wid="w223">als</wf>
-    <wf length="2" offset="1343" para="3" sent="17" wid="w224">er</wf>
-    <wf length="4" offset="1346" para="3" sent="17" wid="w225">iets</wf>
-    <wf length="4" offset="1351" para="3" sent="17" wid="w226">meer</wf>
-    <wf length="6" offset="1356" para="3" sent="17" wid="w227">bekend</wf>
-    <wf length="2" offset="1363" para="3" sent="17" wid="w228">is</wf>
-    <wf length="1" offset="1365" para="3" sent="17" wid="w229">.</wf>
-    <wf length="4" offset="1367" para="3" sent="18" wid="w230">Maar</wf>
-    <wf length="10" offset="1372" para="3" sent="18" wid="w231">vooralsnog</wf>
-    <wf length="2" offset="1383" para="3" sent="18" wid="w232">is</wf>
-    <wf length="8" offset="1386" para="3" sent="18" wid="w233">besloten</wf>
-    <wf length="3" offset="1395" para="3" sent="18" wid="w234">dat</wf>
-    <wf length="6" offset="1399" para="3" sent="18" wid="w235">Xander</wf>
-    <wf length="3" offset="1406" para="3" sent="18" wid="w236">aan</wf>
-    <wf length="3" offset="1410" para="3" sent="18" wid="w237">het</wf>
-    <wf length="4" offset="1414" para="3" sent="18" wid="w238">werk</wf>
-    <wf length="4" offset="1419" para="3" sent="18" wid="w239">gaat</wf>
-    <wf length="1" offset="1423" para="3" sent="18" wid="w240">.</wf>
-    <wf length="3" offset="1425" para="3" sent="19" wid="w241">Dat</wf>
-    <wf length="3" offset="1429" para="3" sent="19" wid="w242">wil</wf>
-    <wf length="6" offset="1433" para="3" sent="19" wid="w243">Sophie</wf>
-    <wf length="3" offset="1440" para="3" sent="19" wid="w244">ook</wf>
-    <wf length="1" offset="1443" para="3" sent="19" wid="w245">.</wf>
+    <wf wid="w1" sent="1" para="1" offset="0"><![CDATA[Die]]></wf>
+    <wf wid="w2" sent="1" para="1" offset="4"><![CDATA[verwachting]]></wf>
+    <wf wid="w3" sent="1" para="1" offset="16"><![CDATA[spreken]]></wf>
+    <wf wid="w4" sent="1" para="1" offset="24"><![CDATA[Haagse]]></wf>
+    <wf wid="w5" sent="1" para="1" offset="31"><![CDATA[bronnen]]></wf>
+    <wf wid="w6" sent="1" para="1" offset="39"><![CDATA[uit]]></wf>
+    <wf wid="w7" sent="1" para="1" offset="42"><![CDATA[.]]></wf>
+    <wf wid="w8" sent="2" para="1" offset="44"><![CDATA[Frankrijk]]></wf>
+    <wf wid="w9" sent="2" para="1" offset="54"><![CDATA[zit]]></wf>
+    <wf wid="w10" sent="2" para="1" offset="58"><![CDATA[verlegen]]></wf>
+    <wf wid="w11" sent="2" para="1" offset="67"><![CDATA[om]]></wf>
+    <wf wid="w12" sent="2" para="1" offset="70"><![CDATA[transportcapaciteit]]></wf>
+    <wf wid="w13" sent="2" para="1" offset="89"><![CDATA[.]]></wf>
+    <wf wid="w14" sent="3" para="1" offset="91"><![CDATA[Nederland]]></wf>
+    <wf wid="w15" sent="3" para="1" offset="101"><![CDATA[beschikt]]></wf>
+    <wf wid="w16" sent="3" para="1" offset="110"><![CDATA[over]]></wf>
+    <wf wid="w17" sent="3" para="1" offset="115"><![CDATA[Hercules-]]></wf>
+    <wf wid="w18" sent="3" para="1" offset="125"><![CDATA[en]]></wf>
+    <wf wid="w19" sent="3" para="1" offset="128"><![CDATA[KDC10-transportvliegtuigen]]></wf>
+    <wf wid="w20" sent="3" para="1" offset="155"><![CDATA[die]]></wf>
+    <wf wid="w21" sent="3" para="1" offset="159"><![CDATA[voor]]></wf>
+    <wf wid="w22" sent="3" para="1" offset="164"><![CDATA[het]]></wf>
+    <wf wid="w23" sent="3" para="1" offset="168"><![CDATA[overbrengen]]></wf>
+    <wf wid="w24" sent="3" para="1" offset="180"><![CDATA[van]]></wf>
+    <wf wid="w25" sent="3" para="1" offset="184"><![CDATA[militair]]></wf>
+    <wf wid="w26" sent="3" para="1" offset="193"><![CDATA[materieel]]></wf>
+    <wf wid="w27" sent="3" para="1" offset="203"><![CDATA[en]]></wf>
+    <wf wid="w28" sent="3" para="1" offset="206"><![CDATA[personeel]]></wf>
+    <wf wid="w29" sent="3" para="1" offset="216"><![CDATA[gebruikt]]></wf>
+    <wf wid="w30" sent="3" para="1" offset="225"><![CDATA[kunnen]]></wf>
+    <wf wid="w31" sent="3" para="1" offset="232"><![CDATA[worden]]></wf>
+    <wf wid="w32" sent="3" para="1" offset="238"><![CDATA[.]]></wf>
+    <wf wid="w33" sent="4" para="2" offset="240"><![CDATA[In]]></wf>
+    <wf wid="w34" sent="4" para="2" offset="243"><![CDATA[Den]]></wf>
+    <wf wid="w35" sent="4" para="2" offset="247"><![CDATA[Haag]]></wf>
+    <wf wid="w36" sent="4" para="2" offset="252"><![CDATA[is]]></wf>
+    <wf wid="w37" sent="4" para="2" offset="255"><![CDATA[deze]]></wf>
+    <wf wid="w38" sent="4" para="2" offset="260"><![CDATA[week]]></wf>
+    <wf wid="w39" sent="4" para="2" offset="265"><![CDATA[intensief]]></wf>
+    <wf wid="w40" sent="4" para="2" offset="275"><![CDATA[overlegd]]></wf>
+    <wf wid="w41" sent="4" para="2" offset="284"><![CDATA[over]]></wf>
+    <wf wid="w42" sent="4" para="2" offset="289"><![CDATA[Mali]]></wf>
+    <wf wid="w43" sent="4" para="2" offset="293"><![CDATA[.]]></wf>
+    <wf wid="w44" sent="5" para="2" offset="295"><![CDATA[Zo]]></wf>
+    <wf wid="w45" sent="5" para="2" offset="298"><![CDATA[zijn]]></wf>
+    <wf wid="w46" sent="5" para="2" offset="303"><![CDATA[de]]></wf>
+    <wf wid="w47" sent="5" para="2" offset="306"><![CDATA[fractievoorzitters]]></wf>
+    <wf wid="w48" sent="5" para="2" offset="325"><![CDATA[achter]]></wf>
+    <wf wid="w49" sent="5" para="2" offset="332"><![CDATA[gesloten]]></wf>
+    <wf wid="w50" sent="5" para="2" offset="341"><![CDATA[deuren]]></wf>
+    <wf wid="w51" sent="5" para="2" offset="348"><![CDATA[bijgepraat]]></wf>
+    <wf wid="w52" sent="5" para="2" offset="359"><![CDATA[over]]></wf>
+    <wf wid="w53" sent="5" para="2" offset="364"><![CDATA[de]]></wf>
+    <wf wid="w54" sent="5" para="2" offset="367"><![CDATA[veiligheidsituatie]]></wf>
+    <wf wid="w55" sent="5" para="2" offset="386"><![CDATA[in]]></wf>
+    <wf wid="w56" sent="5" para="2" offset="389"><![CDATA[het]]></wf>
+    <wf wid="w57" sent="5" para="2" offset="393"><![CDATA[land]]></wf>
+    <wf wid="w58" sent="5" para="2" offset="397"><![CDATA[.]]></wf>
+    <wf wid="w59" sent="6" para="2" offset="399"><![CDATA[Minister]]></wf>
+    <wf wid="w60" sent="6" para="2" offset="408"><![CDATA[Timmermans]]></wf>
+    <wf wid="w61" sent="6" para="2" offset="419"><![CDATA[(]]></wf>
+    <wf wid="w62" sent="6" para="2" offset="420"><![CDATA[Buitenlandse]]></wf>
+    <wf wid="w63" sent="6" para="2" offset="433"><![CDATA[Zaken]]></wf>
+    <wf wid="w64" sent="6" para="2" offset="438"><![CDATA[)]]></wf>
+    <wf wid="w65" sent="6" para="2" offset="440"><![CDATA[spreekt]]></wf>
+    <wf wid="w66" sent="6" para="2" offset="448"><![CDATA[morgen]]></wf>
+    <wf wid="w67" sent="6" para="2" offset="455"><![CDATA[met]]></wf>
+    <wf wid="w68" sent="6" para="2" offset="459"><![CDATA[zijn]]></wf>
+    <wf wid="w69" sent="6" para="2" offset="464"><![CDATA[Europese]]></wf>
+    <wf wid="w70" sent="6" para="2" offset="473"><![CDATA[collega’s]]></wf>
+    <wf wid="w71" sent="6" para="2" offset="483"><![CDATA[over]]></wf>
+    <wf wid="w72" sent="6" para="2" offset="488"><![CDATA[het]]></wf>
+    <wf wid="w73" sent="6" para="2" offset="492"><![CDATA[West-Afrikaanse]]></wf>
+    <wf wid="w74" sent="6" para="2" offset="508"><![CDATA[land]]></wf>
+    <wf wid="w75" sent="6" para="2" offset="512"><![CDATA[.]]></wf>
+    <wf wid="w76" sent="7" para="2" offset="514"><![CDATA[De]]></wf>
+    <wf wid="w77" sent="7" para="2" offset="517"><![CDATA[verwachting]]></wf>
+    <wf wid="w78" sent="7" para="2" offset="529"><![CDATA[is]]></wf>
+    <wf wid="w79" sent="7" para="2" offset="532"><![CDATA[dat]]></wf>
+    <wf wid="w80" sent="7" para="2" offset="536"><![CDATA[een]]></wf>
+    <wf wid="w81" sent="7" para="2" offset="540"><![CDATA[verzoek]]></wf>
+    <wf wid="w82" sent="7" para="2" offset="548"><![CDATA[om]]></wf>
+    <wf wid="w83" sent="7" para="2" offset="551"><![CDATA[steun]]></wf>
+    <wf wid="w84" sent="7" para="2" offset="557"><![CDATA[dan]]></wf>
+    <wf wid="w85" sent="7" para="2" offset="561"><![CDATA[op]]></wf>
+    <wf wid="w86" sent="7" para="2" offset="564"><![CDATA[tafel]]></wf>
+    <wf wid="w87" sent="7" para="2" offset="570"><![CDATA[ligt]]></wf>
+    <wf wid="w88" sent="7" para="2" offset="574"><![CDATA[.]]></wf>
+    <wf wid="w89" sent="8" para="3" offset="576"><![CDATA[De]]></wf>
+    <wf wid="w90" sent="8" para="3" offset="579"><![CDATA[afgelopen]]></wf>
+    <wf wid="w91" sent="8" para="3" offset="589"><![CDATA[dagen]]></wf>
+    <wf wid="w92" sent="8" para="3" offset="595"><![CDATA[is]]></wf>
+    <wf wid="w93" sent="8" para="3" offset="598"><![CDATA[hij]]></wf>
+    <wf wid="w94" sent="8" para="3" offset="602"><![CDATA[nauwelijks]]></wf>
+    <wf wid="w95" sent="8" para="3" offset="613"><![CDATA[van]]></wf>
+    <wf wid="w96" sent="8" para="3" offset="617"><![CDATA[de]]></wf>
+    <wf wid="w97" sent="8" para="3" offset="620"><![CDATA[zijde]]></wf>
+    <wf wid="w98" sent="8" para="3" offset="626"><![CDATA[van]]></wf>
+    <wf wid="w99" sent="8" para="3" offset="630"><![CDATA[zijn]]></wf>
+    <wf wid="w100" sent="8" para="3" offset="635"><![CDATA[echtgenote]]></wf>
+    <wf wid="w101" sent="8" para="3" offset="646"><![CDATA[Sophie]]></wf>
+    <wf wid="w102" sent="8" para="3" offset="653"><![CDATA[geweken]]></wf>
+    <wf wid="w103" sent="8" para="3" offset="660"><![CDATA[.]]></wf>
+    <wf wid="w104" sent="9" para="3" offset="662"><![CDATA[Bij]]></wf>
+    <wf wid="w105" sent="9" para="3" offset="666"><![CDATA[haar]]></wf>
+    <wf wid="w106" sent="9" para="3" offset="671"><![CDATA[is]]></wf>
+    <wf wid="w107" sent="9" para="3" offset="674"><![CDATA[vorige]]></wf>
+    <wf wid="w108" sent="9" para="3" offset="681"><![CDATA[week]]></wf>
+    <wf wid="w109" sent="9" para="3" offset="686"><![CDATA[een]]></wf>
+    <wf wid="w110" sent="9" para="3" offset="690"><![CDATA[buiktumor]]></wf>
+    <wf wid="w111" sent="9" para="3" offset="700"><![CDATA[geconstateerd]]></wf>
+    <wf wid="w112" sent="9" para="3" offset="713"><![CDATA[.]]></wf>
+    <wf wid="w113" sent="10" para="3" offset="715"><![CDATA[Het]]></wf>
+    <wf wid="w114" sent="10" para="3" offset="719"><![CDATA[Amsterdamse]]></wf>
+    <wf wid="w115" sent="10" para="3" offset="731"><![CDATA[Antonie]]></wf>
+    <wf wid="w116" sent="10" para="3" offset="739"><![CDATA[van]]></wf>
+    <wf wid="w117" sent="10" para="3" offset="743"><![CDATA[Leeuwenhoekziekenhuis]]></wf>
+    <wf wid="w118" sent="10" para="3" offset="765"><![CDATA[geeft]]></wf>
+    <wf wid="w119" sent="10" para="3" offset="771"><![CDATA[binnenkort]]></wf>
+    <wf wid="w120" sent="10" para="3" offset="782"><![CDATA[uitsluitsel]]></wf>
+    <wf wid="w121" sent="10" para="3" offset="794"><![CDATA[of]]></wf>
+    <wf wid="w122" sent="10" para="3" offset="797"><![CDATA[de]]></wf>
+    <wf wid="w123" sent="10" para="3" offset="800"><![CDATA[buiktumor]]></wf>
+    <wf wid="w124" sent="10" para="3" offset="810"><![CDATA[van]]></wf>
+    <wf wid="w125" sent="10" para="3" offset="814"><![CDATA[Sophie]]></wf>
+    <wf wid="w126" sent="10" para="3" offset="821"><![CDATA[goed-]]></wf>
+    <wf wid="w127" sent="10" para="3" offset="827"><![CDATA[dan]]></wf>
+    <wf wid="w128" sent="10" para="3" offset="831"><![CDATA[wel]]></wf>
+    <wf wid="w129" sent="10" para="3" offset="835"><![CDATA[kwaadaardig]]></wf>
+    <wf wid="w130" sent="10" para="3" offset="847"><![CDATA[is]]></wf>
+    <wf wid="w131" sent="10" para="3" offset="849"><![CDATA[.]]></wf>
+    <wf wid="w132" sent="11" para="4" offset="853"><![CDATA[De]]></wf>
+    <wf wid="w133" sent="11" para="4" offset="856"><![CDATA[dagen]]></wf>
+    <wf wid="w134" sent="11" para="4" offset="862"><![CDATA[in]]></wf>
+    <wf wid="w135" sent="11" para="4" offset="865"><![CDATA[onzekerheid]]></wf>
+    <wf wid="w136" sent="11" para="4" offset="877"><![CDATA[brengen]]></wf>
+    <wf wid="w137" sent="11" para="4" offset="885"><![CDATA[het]]></wf>
+    <wf wid="w138" sent="11" para="4" offset="889"><![CDATA[koppel]]></wf>
+    <wf wid="w139" sent="11" para="4" offset="896"><![CDATA[nog]]></wf>
+    <wf wid="w140" sent="11" para="4" offset="900"><![CDATA[dichter]]></wf>
+    <wf wid="w141" sent="11" para="4" offset="908"><![CDATA[bij]]></wf>
+    <wf wid="w142" sent="11" para="4" offset="912"><![CDATA[elkaar]]></wf>
+    <wf wid="w143" sent="11" para="4" offset="918"><![CDATA[.]]></wf>
+    <wf wid="w144" sent="12" para="4" offset="920"><![CDATA[Lizzy]]></wf>
+    <wf wid="w145" sent="12" para="4" offset="925"><![CDATA[,]]></wf>
+    <wf wid="w146" sent="12" para="4" offset="927"><![CDATA[die]]></wf>
+    <wf wid="w147" sent="12" para="4" offset="931"><![CDATA[op]]></wf>
+    <wf wid="w148" sent="12" para="4" offset="934"><![CDATA[Xanders]]></wf>
+    <wf wid="w149" sent="12" para="4" offset="942"><![CDATA[kantoor]]></wf>
+    <wf wid="w150" sent="12" para="4" offset="950"><![CDATA[Bison]]></wf>
+    <wf wid="w151" sent="12" para="4" offset="956"><![CDATA[On]]></wf>
+    <wf wid="w152" sent="12" para="4" offset="959"><![CDATA[Stage]]></wf>
+    <wf wid="w153" sent="12" para="4" offset="965"><![CDATA[de]]></wf>
+    <wf wid="w154" sent="12" para="4" offset="968"><![CDATA[zaken]]></wf>
+    <wf wid="w155" sent="12" para="4" offset="974"><![CDATA[waarneemt]]></wf>
+    <wf wid="w156" sent="12" para="4" offset="983"><![CDATA[:]]></wf>
+    <wf wid="w157" sent="12" para="4" offset="985"><![CDATA["]]></wf>
+    <wf wid="w158" sent="12" para="4" offset="986"><![CDATA[We]]></wf>
+    <wf wid="w159" sent="12" para="4" offset="989"><![CDATA[weten]]></wf>
+    <wf wid="w160" sent="12" para="4" offset="995"><![CDATA[nog]]></wf>
+    <wf wid="w161" sent="12" para="4" offset="999"><![CDATA[niks]]></wf>
+    <wf wid="w162" sent="12" para="4" offset="1004"><![CDATA[meer]]></wf>
+    <wf wid="w163" sent="12" para="4" offset="1008"><![CDATA[.]]></wf>
+    <wf wid="w164" sent="13" para="4" offset="1010"><![CDATA[Er]]></wf>
+    <wf wid="w165" sent="13" para="4" offset="1013"><![CDATA[lopen]]></wf>
+    <wf wid="w166" sent="13" para="4" offset="1019"><![CDATA[allerlei]]></wf>
+    <wf wid="w167" sent="13" para="4" offset="1028"><![CDATA[onderzoeken]]></wf>
+    <wf wid="w168" sent="13" para="4" offset="1039"><![CDATA[.]]></wf>
+    <wf wid="w169" sent="14" para="4" offset="1041"><![CDATA[Maar]]></wf>
+    <wf wid="w170" sent="14" para="4" offset="1046"><![CDATA[Xander]]></wf>
+    <wf wid="w171" sent="14" para="4" offset="1053"><![CDATA[heeft]]></wf>
+    <wf wid="w172" sent="14" para="4" offset="1059"><![CDATA[bekendgemaakt]]></wf>
+    <wf wid="w173" sent="14" para="4" offset="1073"><![CDATA[wat]]></wf>
+    <wf wid="w174" sent="14" para="4" offset="1077"><![CDATA[er]]></wf>
+    <wf wid="w175" sent="14" para="4" offset="1080"><![CDATA[wordt]]></wf>
+    <wf wid="w176" sent="14" para="4" offset="1086"><![CDATA[vermoed]]></wf>
+    <wf wid="w177" sent="14" para="4" offset="1093"><![CDATA[,]]></wf>
+    <wf wid="w178" sent="14" para="4" offset="1095"><![CDATA[omdat]]></wf>
+    <wf wid="w179" sent="14" para="4" offset="1101"><![CDATA[het]]></wf>
+    <wf wid="w180" sent="14" para="4" offset="1105"><![CDATA[anders]]></wf>
+    <wf wid="w181" sent="14" para="4" offset="1112"><![CDATA[gek]]></wf>
+    <wf wid="w182" sent="14" para="4" offset="1116"><![CDATA[wordt]]></wf>
+    <wf wid="w183" sent="14" para="4" offset="1122"><![CDATA[gevonden]]></wf>
+    <wf wid="w184" sent="14" para="4" offset="1131"><![CDATA[dat]]></wf>
+    <wf wid="w185" sent="14" para="4" offset="1135"><![CDATA[hij]]></wf>
+    <wf wid="w186" sent="14" para="4" offset="1139"><![CDATA[steeds]]></wf>
+    <wf wid="w187" sent="14" para="4" offset="1146"><![CDATA[onmiddellijk]]></wf>
+    <wf wid="w188" sent="14" para="4" offset="1159"><![CDATA[na]]></wf>
+    <wf wid="w189" sent="14" para="4" offset="1162"><![CDATA[afloop]]></wf>
+    <wf wid="w190" sent="14" para="4" offset="1169"><![CDATA[wegrent]]></wf>
+    <wf wid="w191" sent="14" para="4" offset="1177"><![CDATA[uit]]></wf>
+    <wf wid="w192" sent="14" para="4" offset="1181"><![CDATA[Ahoy]]></wf>
+    <wf wid="w193" sent="14" para="4" offset="1185"><![CDATA[”]]></wf>
+    <wf wid="w194" sent="14" para="4" offset="1186"><![CDATA[,]]></wf>
+    <wf wid="w195" sent="14" para="4" offset="1188"><![CDATA[vervolgt]]></wf>
+    <wf wid="w196" sent="14" para="4" offset="1197"><![CDATA[Lizzy]]></wf>
+    <wf wid="w197" sent="14" para="4" offset="1202"><![CDATA[.]]></wf>
+    <wf wid="w198" sent="15" para="5" offset="1205"><![CDATA["]]></wf>
+    <wf wid="w199" sent="15" para="5" offset="1206"><![CDATA[Bovendien]]></wf>
+    <wf wid="w200" sent="15" para="5" offset="1216"><![CDATA[lopen]]></wf>
+    <wf wid="w201" sent="15" para="5" offset="1222"><![CDATA[Xander]]></wf>
+    <wf wid="w202" sent="15" para="5" offset="1229"><![CDATA[en]]></wf>
+    <wf wid="w203" sent="15" para="5" offset="1232"><![CDATA[Sophie]]></wf>
+    <wf wid="w204" sent="15" para="5" offset="1239"><![CDATA[nu]]></wf>
+    <wf wid="w205" sent="15" para="5" offset="1242"><![CDATA[regelmatig]]></wf>
+    <wf wid="w206" sent="15" para="5" offset="1253"><![CDATA[in]]></wf>
+    <wf wid="w207" sent="15" para="5" offset="1256"><![CDATA[het]]></wf>
+    <wf wid="w208" sent="15" para="5" offset="1260"><![CDATA[ziekenhuis]]></wf>
+    <wf wid="w209" sent="15" para="5" offset="1270"><![CDATA[.]]></wf>
+    <wf wid="w210" sent="16" para="5" offset="1272"><![CDATA[Dan]]></wf>
+    <wf wid="w211" sent="16" para="5" offset="1276"><![CDATA[wil]]></wf>
+    <wf wid="w212" sent="16" para="5" offset="1280"><![CDATA[je]]></wf>
+    <wf wid="w213" sent="16" para="5" offset="1283"><![CDATA[ook]]></wf>
+    <wf wid="w214" sent="16" para="5" offset="1287"><![CDATA[niet]]></wf>
+    <wf wid="w215" sent="16" para="5" offset="1292"><![CDATA[dat]]></wf>
+    <wf wid="w216" sent="16" para="5" offset="1296"><![CDATA[mensen]]></wf>
+    <wf wid="w217" sent="16" para="5" offset="1303"><![CDATA[gaan]]></wf>
+    <wf wid="w218" sent="16" para="5" offset="1308"><![CDATA[speculeren]]></wf>
+    <wf wid="w219" sent="16" para="5" offset="1318"><![CDATA[.]]></wf>
+    <wf wid="w220" sent="17" para="5" offset="1320"><![CDATA[We]]></wf>
+    <wf wid="w221" sent="17" para="5" offset="1323"><![CDATA[laten]]></wf>
+    <wf wid="w222" sent="17" para="5" offset="1329"><![CDATA[het]]></wf>
+    <wf wid="w223" sent="17" para="5" offset="1333"><![CDATA[weten]]></wf>
+    <wf wid="w224" sent="17" para="5" offset="1339"><![CDATA[als]]></wf>
+    <wf wid="w225" sent="17" para="5" offset="1343"><![CDATA[er]]></wf>
+    <wf wid="w226" sent="17" para="5" offset="1346"><![CDATA[iets]]></wf>
+    <wf wid="w227" sent="17" para="5" offset="1351"><![CDATA[meer]]></wf>
+    <wf wid="w228" sent="17" para="5" offset="1356"><![CDATA[bekend]]></wf>
+    <wf wid="w229" sent="17" para="5" offset="1363"><![CDATA[is]]></wf>
+    <wf wid="w230" sent="17" para="5" offset="1365"><![CDATA[.]]></wf>
+    <wf wid="w231" sent="18" para="5" offset="1367"><![CDATA[Maar]]></wf>
+    <wf wid="w232" sent="18" para="5" offset="1372"><![CDATA[vooralsnog]]></wf>
+    <wf wid="w233" sent="18" para="5" offset="1383"><![CDATA[is]]></wf>
+    <wf wid="w234" sent="18" para="5" offset="1386"><![CDATA[besloten]]></wf>
+    <wf wid="w235" sent="18" para="5" offset="1395"><![CDATA[dat]]></wf>
+    <wf wid="w236" sent="18" para="5" offset="1399"><![CDATA[Xander]]></wf>
+    <wf wid="w237" sent="18" para="5" offset="1406"><![CDATA[aan]]></wf>
+    <wf wid="w238" sent="18" para="5" offset="1410"><![CDATA[het]]></wf>
+    <wf wid="w239" sent="18" para="5" offset="1414"><![CDATA[werk]]></wf>
+    <wf wid="w240" sent="18" para="5" offset="1419"><![CDATA[gaat]]></wf>
+    <wf wid="w241" sent="18" para="5" offset="1423"><![CDATA[.]]></wf>
+    <wf wid="w242" sent="19" para="5" offset="1425"><![CDATA[Dat]]></wf>
+    <wf wid="w243" sent="19" para="5" offset="1429"><![CDATA[wil]]></wf>
+    <wf wid="w244" sent="19" para="5" offset="1433"><![CDATA[Sophie]]></wf>
+    <wf wid="w245" sent="19" para="5" offset="1440"><![CDATA[ook]]></wf>
+    <wf wid="w246" sent="19" para="5" offset="1443"><![CDATA[.]]></wf>
   </text>
 </KAF>
