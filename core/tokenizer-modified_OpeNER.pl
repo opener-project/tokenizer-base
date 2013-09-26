@@ -10,7 +10,6 @@ use lib "$FindBin::Bin/lib";
 
 use Encode::Guess;
 use Time::Stamp;
-use Switch;
 
 require "$FindBin::Bin"."/tokenizer.pl";
 
