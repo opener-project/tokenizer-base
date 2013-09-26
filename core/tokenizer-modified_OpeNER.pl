@@ -5,13 +5,15 @@
 # changed by Haritz Arzelus (#2012/11/19)
 
 use FindBin;
-use lib "../lib";
-use lib "./lib";
-use lib "./core/lib";
+
+use lib "$FindBin::Bin/lib";
+
 use Encode::Guess;
 use Time::Stamp;
 use Switch;
+
 require "$FindBin::Bin"."/tokenizer.pl";
+
 no warnings;
 use encoding 'utf8';
 
@@ -61,13 +63,13 @@ if (checkArguments(\@ARGV) == 1) {
     #if (scalar(%NONBREAKING_PREFIX) eq 0){
     #  print STDERR "Warning: No known abbreviations for language '$language'\n";
     #}
-    
+
     my $timestamp = "2013-02-05T13:35:22Z";
     if ($NOTIMESTAMP == 0) {
       $timestamp = timestamp();
     }
     if ($FILE ne "") {
-      
+
       my $i = rindex($FILE, ".");
       my $filename = substr($FILE, 0, $i);
       my $filetype = uc(substr($FILE, $i+1, length($FILE)-length($filename)-1));
