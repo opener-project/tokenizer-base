@@ -230,15 +230,13 @@ sub checkArguments {
 
 sub checkLanguage {
   my $language = shift(@_);
-  switch($language) {
-    case "en" { return 1 }
-    case "es" { return 1 }
-    case "fr" { return 1 }
-    case "it" { return 1 }
-    case "de" { return 1 }
-    case "nl" { return 1 }
-    else { return -1 }
-  }
+  if ($language eq "en") { return 1; }
+  elsif ($language eq "es") { return 1; }
+  elsif ($language eq "fr") { return 1; }
+  elsif ($language eq "it") { return 1; }
+  elsif ($language eq "de") { return 1; }
+  elsif ($language eq "nl") { return 1; }
+  else { return -1 }
 }
 
 sub displayHelp {
