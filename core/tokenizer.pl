@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 
 use FindBin;
-use encoding 'utf8';
+use utf8;
 
 my $mydir = "$FindBin::Bin"."/nonbreaking_prefixes";
 my %NONBREAKING_PREFIX = ();
@@ -22,7 +22,7 @@ sub tokenize {
 
 	# seperate out all "other" special characters
 	$text =~ s/([^\p{IsAlnum}\s\.\'\`\,\-\’])/ $1 /g;
-        #$text =~ s/([^\p{IsAlnum}\s\.\'\`\,\-])/ $1 /g; 
+        #$text =~ s/([^\p{IsAlnum}\s\.\'\`\,\-])/ $1 /g;
 	#multi-dots stay together
 	$text =~ s/\.([\.]+)/ DOTMULTI$1/g;
 	while($text =~ /DOTMULTI\./) {
@@ -34,10 +34,10 @@ sub tokenize {
 	# separate , pre and post number
 	$text =~ s/([\p{IsN}])[,]([^\p{IsN}])/$1 , $2/g;
 	$text =~ s/([^\p{IsN}])[,]([\p{IsN}])/$1 , $2/g;
-	      
+
 	# turn `into '
 	$text =~ s/\`/\'/g;
-	
+
 	#turn '' into "
 	$text =~ s/\'\'/ \" /g;
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -55,7 +55,7 @@ sub tokenize {
 		#special case for "1990's"
 		$text =~ s/([\p{IsN}])(['|’])([s])/$1 $2$3/g;
 	} elsif (($language eq "fr") or ($language eq "it")) {
-		#split contractions left	
+		#split contractions left
 		$text =~ s/([^\p{IsAlpha}])(['|’])([^\p{IsAlpha}])/$1 $2 $3/g;
 		$text =~ s/([^\p{IsAlpha}])(['|’])([\p{IsAlpha}])/$1 $2 $3/g;
 		$text =~ s/([\p{IsAlpha}])(['|’])([^\p{IsAlpha}])/$1 $2 $3/g;
@@ -67,7 +67,7 @@ sub tokenize {
 	#replace the ### with ' to tokenize words like '90
 	$text =~ s/ ###([0-9][0-9])/ '$1/g;
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-	
+
 	#word token method
 	my @words = split(/\s/,$text);
 	$text = "";
@@ -84,7 +84,7 @@ sub tokenize {
 			}
 		}
 		$text .= $word." ";
-	}		
+	}
 
 	# clean up extraneous spaces
 	$text =~ s/ +/ /g;
@@ -96,24 +96,24 @@ sub tokenize {
 		$text =~ s/DOTDOTMULTI/DOTMULTI./g;
 	}
 	$text =~ s/DOTMULTI/./g;
-	
+
 	#ensure final line break
 	$text .= "\n" unless $text =~ /\n$/;
 	return $text;
 }
 
 sub load_prefixes {
-	$language = shift(@_); 
+	$language = shift(@_);
 
 	my $prefixfile = "$mydir/nonbreaking_prefix.$language";
-	
+
 	#default back to English if we don't have a language-specific prefix file
 	if (!(-e $prefixfile)) {
 		$prefixfile = "$mydir/nonbreaking_prefix.en";
 		print STDERR "WARNING: No known abbreviations for language '$language', attempting fall-back to English version...\n";
 		die ("ERROR: No abbreviations files found in $mydir\n") unless (-e $prefixfile);
 	}
-	
+
 	if (-e "$prefixfile") {
 		open(PREFIX, "<:utf8", "$prefixfile");
 		while (<PREFIX>) {
