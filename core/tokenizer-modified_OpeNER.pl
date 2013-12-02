@@ -124,8 +124,14 @@ if (checkArguments(\@ARGV) == 1) {
         foreach my $token (@tokens) {
           $index = index($_, $token, $last_index);
           my $offset = $charcount + $index;
+	
+	#These symbols should start a new sentence (maybe not always, this is just a quick workaround)
+	if ($token eq "¿" || $token eq "¡"){ # || $token eq "(") {
+            $sent++;
+          }
           print "    <wf wid=\"w" . ++$counter . "\" sent=\"" . $sent . "\" para=\"" . $para . "\" offset=\"" . $offset . "\"><![CDATA[" . $token . "]]></wf>\n";
-          if ($token eq ".") {
+	#These symbols should end the current sentence (maybe not always, this is just a quick workarounf
+          if ($token eq "." || $token eq "?" || $token eq "!"){ # || $token eq ")") {
             $sent++;
           }
           $last_index = $index + length($token);
@@ -133,6 +139,7 @@ if (checkArguments(\@ARGV) == 1) {
 #>>>>>>>>>>>>>>>
         #print $tok;
         $para++;
+	$sent++;
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
       }
       if (length($_) == 0) {
