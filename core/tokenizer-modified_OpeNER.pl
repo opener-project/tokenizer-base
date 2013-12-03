@@ -113,8 +113,9 @@ if (checkArguments(\@ARGV) == 1) {
         $tok =~ s/\-\-/ \-\-/g;
         #correct ºC tokenization
         $tok =~ s/([0-9])( )?º( )?C/$1 ºC/g;
+	#detokenize groups of question marks, exclamation marks, etc.
+	$tok =~ s/([\?\!\¡\¿\.](?:\s[\?\!\¡\¿\.])+)/removeInnerWhitespaces($1)/eg;
 #<<<<<<<<<<<<<<<
-        #changed by me (aitor) to format the output as a kind of dummy KAF format
         chomp($tok);
 
         @tokens = split(/ /, $tok);
@@ -276,5 +277,12 @@ sub detect_encoding {
   else {
     return "utf8";
   }
+
+sub removeInnerWhitespaces{
+	$string = $_[0];
+	$string=~s/ //g;
+	return $string;
+}
+
 }
 
