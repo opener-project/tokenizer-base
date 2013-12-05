@@ -83,6 +83,7 @@ if (checkArguments(\@ARGV) == 1) {
     my $para = 1;
     my $counter = 0;
     my $charcount = 0;
+    my $sentence_already_incremented=0;
     while(<STDIN>) {
 
       if (/^<.+>$/ || /^\s*$/) {
@@ -126,21 +127,30 @@ if (checkArguments(\@ARGV) == 1) {
           $index = index($_, $token, $last_index);
           my $offset = $charcount + $index;
 	
+	$sentence_already_incremented=0;
 	#These symbols should start a new sentence (maybe not always, this is just a quick workaround)
 	if ($token eq "¿" || $token eq "¡"){ # || $token eq "(") {
             $sent++;
+	    $sentence_already_incremented=1;
+#print "INCREMENTING SENTENCE (before) ". $sent . "\n";
           }
-          print "    <wf wid=\"w" . ++$counter . "\" sent=\"" . $sent . "\" para=\"" . $para . "\" offset=\"" . $offset . "\"><![CDATA[" . $token . "]]></wf>\n";
+          print "    <wf wid=\"w" . ++$counter . "\" sent=\"" . $sent . "\" para=\"" . $para . "\" offset=\"" . $offset . "\" length=\"" . length($token) . "\"><![CDATA[" . $token . "]]></wf>\n";
 	#These symbols should end the current sentence (maybe not always, this is just a quick workarounf
-          if ($token eq "." || $token eq "?" || $token eq "!"){ # || $token eq ")") {
+          if ($token eq "." ||  $token =~ /[\?\!]+/){ # || $token eq "?" || $token eq "!"){ # || $token eq ")") {
             $sent++;
+	    $sentence_already_incremented=1;
+#print "INCREMENTING SENTENCE (after) ". $sent . " already_incremented=". $sentence_already_incremented . "\n";
           }
           $last_index = $index + length($token);
         }
 #>>>>>>>>>>>>>>>
         #print $tok;
         $para++;
-	$sent++;
+#Only increase sentence in it has not been already increased by the "sentence break" symbols (to prevent a double increasing when such symbols are at the end of the line)
+	if($sentence_already_incremented == 0){
+		$sent++;
+#print "INCREMENTING SENTENCE (line_break) ". $sent . " already_incremented_equal_0=" . ($sentence_already_incremented == 0) . "\n";
+	}
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
       }
       if (length($_) == 0) {
