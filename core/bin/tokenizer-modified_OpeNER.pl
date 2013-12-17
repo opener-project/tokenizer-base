@@ -109,58 +109,74 @@ while(<STDIN>) {
     #split sentences
     
     my @sentences = &split_sentences($_);
-    foreach my $sentence (@sentences) {
-      
+    print @sentences;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-      #print &tokenize($_);
-      $tok = tokenize($sentence);
-      #tokenize some especial characters
-      $tok =~ s/([|||||«|»])([^ ])/$1 $2/g;
-      $tok =~ s/([^ ])([|||||«|»])/$1 $2/g;
-      #detokenize tokens with @
-      $tok =~ s/ @ /@/g;
-      #detokenize some tokens with '
-      $tok =~ s/([DLNO]) '/$1'/g;
-      #$tok =~ s/([DLNO])' /$1'/g;      cambiado por Andoni Azpeitia Vicomtech    L' armée => L'armée
-      $tok =~ s/o( )?'( )?clock/o'clock/g;
-      $tok =~ s/ ' ([0-9][0-9]s)/ '$1/g;
-      #detokenize some time formats
-      $tok =~ s/([0-9][0-9]*) ' ([0-9][0-9]*) "/$1'$2"/g;
-      $tok =~ s/([0-9][0-9]*) : ([0-9][0-9])/$1:$2/g;
-      #detokenize some height formats
-      $tok =~ s/([0-9][0-9]*) ' ([0-9][0-9])/$1'$2/g;
-      #tokenize two dashes
-      $tok =~ s/\-\-/ \-\-/g;
-      #correct ºC tokenization
-      $tok =~ s/([0-9])( )?º( )?C/$1 ºC/g;
+    #print &tokenize($_);
+    $tok = tokenize($_);
+    #tokenize some especial characters
+    $tok =~ s/([|||||«|»])([^ ])/$1 $2/g;
+    $tok =~ s/([^ ])([|||||«|»])/$1 $2/g;
+    #detokenize tokens with @
+    $tok =~ s/ @ /@/g;
+    #detokenize some tokens with '
+    $tok =~ s/([DLNO]) '/$1'/g;
+    #$tok =~ s/([DLNO])' /$1'/g;      cambiado por Andoni Azpeitia Vicomtech    L' armée => L'armée
+    $tok =~ s/o( )?'( )?clock/o'clock/g;
+    $tok =~ s/ ' ([0-9][0-9]s)/ '$1/g;
+    #detokenize some time formats
+    $tok =~ s/([0-9][0-9]*) ' ([0-9][0-9]*) "/$1'$2"/g;
+    $tok =~ s/([0-9][0-9]*) : ([0-9][0-9])/$1:$2/g;
+    #detokenize some height formats
+    $tok =~ s/([0-9][0-9]*) ' ([0-9][0-9])/$1'$2/g;
+    #tokenize two dashes
+    $tok =~ s/\-\-/ \-\-/g;
+    #correct ºC tokenization
+    $tok =~ s/([0-9])( )?º( )?C/$1 ºC/g;
 #<<<<<<<<<<<<<<<
-      #changed by me (aitor) to format the output as a kind of dummy KAF format
-      chomp($tok);
+    #changed by me (aitor) to format the output as a kind of dummy KAF format
+    chomp($tok);
 
-      @tokens = split(/ /, $tok);
+    @tokens = split(/ /, $tok);
 
-      my $index = 0;
-      my $last_index = 0;
-      foreach my $token (@tokens) {
-        $index = index($_, $token, $last_index);
-        my $offset = $charcount + $index;
-        print "    <wf wid=\"w" . ++$counter . "\" sent=\"" . $sent . "\" para=\"" . $para . "\" offset=\"" . $offset . "\"><![CDATA[" . $token . "]]></wf>\n";
-        $last_index = $index + length($token);
+    my $index = 0;
+    my $last_index = 0;
+    foreach my $token (@tokens) {
+      $index = index($_, $token, $last_index);
+      my $offset = $charcount + $index;
+      print "    <wf wid=\"w" . ++$counter . "\" sent=\"" . $sent . "\" para=\"" . $para . "\" offset=\"" . $offset . "\"><![CDATA[" . $token . "]]></wf>\n";
+      if ($token eq ".") {
+        $sent++;
       }
+      $last_index = $index + length($token);
+    }
 #>>>>>>>>>>>>>>>
-      #print $tok;
-      $sent++;
-#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-    }#foreach sentence
-    if (length($_) == 0) {
-      $charcount += 1;
-    }
-    else {
-      $charcount += length($_);
-    }
+    #print $tok;
     $para++;
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
   }
-}#while(<STDIN>)
+  if (length($_) == 0) {
+    $charcount += 1;
+  }
+  else {
+    $charcount += length($_);
+  }
+}
 print "  </text>\n";
 print "</KAF>\n";
 
