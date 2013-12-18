@@ -64,17 +64,6 @@ Building a new Gem can be done as following:
 
 For more information invoke `rake -T` or take a look at the Rakefile.
 
-## Editing Java Code
-
-Editing the Java code can be done as following:
-
-    $ cd core
-    $ mvn eclipse:eclipse
-
-Then you can import the Java project to Eclipse (don't check the "Copy project
-content" checkbox to edit the actual code). Once you finish editing the code
-(and hopefully after some testing) you can commit your changes to git directly
-(no more copy-paste)
 
 ## Gem Installation
 
