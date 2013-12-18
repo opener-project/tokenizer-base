@@ -1,6 +1,7 @@
 #!/usr/bin/perl -w
 
 # Based on Preprocessor written by Philipp Koehn
+# Changed by aazpeitia (aazpeitia@vicomtech.org)
 
 use strict;
 
@@ -52,9 +53,12 @@ sub preprocess {
 	$text =~ s/ $//g;
 		
 	#####add sentence breaks as needed#####
-	
 	#non-period end of sentence markers (?!) followed by sentence starters.
-	$text =~ s/([?!]) +([\'\"\(\[\¿\¡\p{IsPi}]*[\p{IsUpper}])/$1\n$2/g;
+
+#>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+	#$text =~ s/([?!]) +([\'\"\(\[\¿\¡\p{IsPi}]*[\p{IsUpper}])/$1\n$2/g;
+	$text =~ s/([?!]) +([\'\"\(\[\¿\¡\p{IsPi}]*[\w])/$1\n$2/g;
+#<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 		
 	#multi-dots followed by sentence starters
 	$text =~ s/(\.[\.]+) +([\'\"\(\[\¿\¡\p{IsPi}]*[\p{IsUpper}])/$1\n$2/g;
