@@ -95,8 +95,8 @@ The output should be:
 <KAF version="v1.opener" xml:lang="en">
   <kafHeader>
     <linguisticProcessors layer="text">
-      <lp name="opener-sentence-splitter-it" timestamp="2013-05-31T11:39:31Z" version="0.0.1"/>
-      <lp name="opener-tokenizer-it" timestamp="2013-05-31T11:39:32Z" version="1.0.1"/>
+      <lp name="opener-sentence-splitter-en" timestamp="2013-05-31T11:39:31Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="2013-05-31T11:39:32Z" version="1.0.1"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -118,8 +118,8 @@ The output will be something along the lines of the following:
 <KAF version="v1.opener" xml:lang="en">
   <kafHeader>
     <linguisticProcessors layer="text">
-      <lp name="opener-sentence-splitter-it" timestamp="0000-00-00T00:00:00Z" version="0.0.1"/>
-      <lp name="opener-tokenizer-it" timestamp="0000-00-00T00:00:00Z" version="1.0.1"/>
+      <lp name="opener-sentence-splitter-en" timestamp="0000-00-00T00:00:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-en" timestamp="0000-00-00T00:00:00Z" version="1.0.1"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
