@@ -75,7 +75,7 @@ else {
 
 
 # get timestamp
-my $timestamp = "2013-02-05T13:35:22Z";
+my $timestamp = "0000-00-00T00:00:00Z";
 if ($NOTIMESTAMP == 0) {
   $timestamp = timestamp();
 }

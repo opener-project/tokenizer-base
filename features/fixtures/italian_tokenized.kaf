@@ -3,7 +3,8 @@
   <kafHeader>
     <fileDesc filename="italian" filetype="TXT" />
     <linguisticProcessors layer="text">
-      <lp name="opener-tokenizer-it" version="1.0" timestamp="2013-02-05T13:35:22Z"/>
+      <lp name="opener-sentence-splitter-it" version="0.0.1" timestamp="0000-00-00T00:00:00Z"/>
+      <lp name="opener-tokenizer-it" version="1.0.1" timestamp="0000-00-00T00:00:00Z"/>
     </linguisticProcessors>
   </kafHeader>
   <text>

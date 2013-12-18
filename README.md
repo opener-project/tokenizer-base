@@ -37,10 +37,9 @@ For more information about the available CLI options run the following:
 
 ## Requirements
 
-* Java 1.7 or newer (There are problems with encoding in older versions.)
+* Perl 5.14.2 or newer.
 * Ruby 1.9.3 or newer (1.9.2 should work too but 1.9.3. is recommended). Ruby
   2 is supported.
-* Maven (for building the Gem)
 
 ## Installation
 
@@ -107,8 +106,8 @@ The output should be:
 <KAF version="v1.opener" xml:lang="en">
   <kafHeader>
     <linguisticProcessors layer="text">
-      <lp name="opennlp-en-tok" timestamp="2013-05-31T11:39:31Z" version="1.0"/>
-      <lp name="opennlp-en-sent" timestamp="2013-05-31T11:39:32Z" version="1.0"/>
+      <lp name="opener-sentence-splitter-it" timestamp="2013-05-31T11:39:31Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="2013-05-31T11:39:32Z" version="1.0.1"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
@@ -130,8 +129,8 @@ The output will be something along the lines of the following:
 <KAF version="v1.opener" xml:lang="en">
   <kafHeader>
     <linguisticProcessors layer="text">
-      <lp name="opennlp-en-tok" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
-      <lp name="opennlp-en-sent" timestamp="0000-00-00T00:00:00Z" version="1.0"/>
+      <lp name="opener-sentence-splitter-it" timestamp="0000-00-00T00:00:00Z" version="0.0.1"/>
+      <lp name="opener-tokenizer-it" timestamp="0000-00-00T00:00:00Z" version="1.0.1"/>
     </linguisticProcessors>
   </kafHeader>
   <text>
