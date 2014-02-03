@@ -80,6 +80,7 @@ sub preprocess {
 			my $prefix = $1;
 			my $starting_punct = $2;
 			if($prefix && $NONBREAKING_PREFIX{$prefix} && $NONBREAKING_PREFIX{$prefix} == 1 && !$starting_punct) {
+
 				#not breaking;
 			} elsif ($words[$i] =~ /(\.)[\p{IsUpper}\-]+(\.+)$/) {
 				#not breaking - upper case acronym	

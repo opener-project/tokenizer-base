@@ -2,7 +2,7 @@
 
 # Sample Tokenizer
 # written by Josh Schroeder, based on code by Philipp Koehn
-# changed by Haritz Arzelus (#2012/11/19)
+# changed by Haritz Arzelus (#2012/11/19) Aitor García and Andoni Azpeitia
 
 use FindBin;
 
@@ -11,6 +11,7 @@ use lib "$FindBin::Bin/lib";
 use Encode::Guess;
 use Time::Stamp;
 
+require "$FindBin::Bin"."/text-fixer.pl";
 require "$FindBin::Bin"."/split-sentences.pl";
 require "$FindBin::Bin"."/tokenizer.pl";
 require "$FindBin::Bin"."/load-prefixes.pl";
@@ -57,6 +58,8 @@ my $LANGUAGE;
 my $NOTIMESTAMP = 0;
 my $HELP = 0;
 
+my $SUBSTITUTE = "####";
+
 if (checkArguments(\@ARGV) == 1) {
   if ($HELP == 1) {
     displayHelp();
@@ -70,6 +73,8 @@ else {
 
 # load nonbreaking prefixes and init both tokenizer and sentence splitter
 %NONBREAKING_PREFIX = %{ &load_prefixes($LANGUAGE) };
+
+&init_text_fixer($LANGUAGE, \%NONBREAKING_PREFIX);
 &init_sentence_splitter($LANGUAGE, \%NONBREAKING_PREFIX);
 &init_tokenizer($LANGUAGE, \%NONBREAKING_PREFIX);
 
@@ -106,11 +111,17 @@ while(<STDIN>) {
     #print $_;
   }
   else {
-    #split sentences
     
-    my @sentences = &split_sentences($_);
+    #fix input text
+    my $text = &fix_text($_);
+
+    #split sentences
+    my @sentences = &split_sentences($text);
+    my $index = 0;
+    my $last_index = 0;
+    my $last_offset = -1;
+    my $j = 0;
     foreach my $sentence (@sentences) {
-      
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
       #print &tokenize($_);
       $tok = tokenize($sentence);
@@ -133,25 +144,74 @@ while(<STDIN>) {
       $tok =~ s/\-\-/ \-\-/g;
       #correct ºC tokenization
       $tok =~ s/([0-9])( )?º( )?C/$1 ºC/g;
+      $tok =~ s/ +/ /g;
 #<<<<<<<<<<<<<<<
       #changed by me (aitor) to format the output as a kind of dummy KAF format
       chomp($tok);
 
       @tokens = split(/ /, $tok);
 
-      my $index = 0;
-      my $last_index = 0;
+      my $i = 0;
       foreach my $token (@tokens) {
+	
         $index = index($_, $token, $last_index);
+	
+	#if token was substituted at tokenization, be careful
+        if ( $token eq "\"".$SUBSTITUTE ) {
+          $index = index($_, "'", $last_index);
+	  $token = "\"";
+        }
+        elsif ( $token eq "\'".$SUBSTITUTE ) {
+          $index = index($_, "`", $last_index);
+	  $token = "\'";
+        }
+
         my $offset = $charcount + $index;
-        print "    <wf wid=\"w" . ++$counter . "\" sent=\"" . $sent . "\" para=\"" . $para . "\" offset=\"" . $offset . "\"><![CDATA[" . $token . "]]></wf>\n";
-        $last_index = $index + length($token);
+	#if input text has been preprocesed and tokens has been moved ( 'hello.' => 'hello'.),
+        # offset of the "." char is at the left of "'" char not at the right
+        if ( $index==-1 ) {
+	  $index = index($_, $token, $last_index-2);
+	  $offset = $charcount + $index;
+        }
+	#make sure that found offset is not an offset of the same char at other position so,
+	# find offset of the next token and compare
+	# next token is at the same sentence
+	elsif ( $i<scalar(@tokens)-1 ) {
+	  my $next_token_index = $charcount + index($_, $tokens[$i+1], length($token) + $last_index-1);
+          if ( $index==-1 || ($next_token_index > -1 && $offset > $next_token_index+1) ) {
+	    $index = index($_, $token, $last_index-2);
+	    $offset = $charcount + $index;
+	  }
+	}
+	#make sure that found offset is not an offset of the same char at other position so,
+	# find offset of the next token and compare
+	# next token is at next sentence
+	elsif ( $sent < scalar(@sentences)) {
+	  my $next_sentence = $sentences[$j+1];
+	  $next_sentence = &tokenize($next_sentence);
+	  my @next_tokens = split(/ /, $next_sentence);
+          my $next_token = $next_tokens[0];
+	  my $next_token_index = $charcount + index($_, $next_token, length($token) + $last_index-1);
+	  if ( ($next_token_index > -1 && $offset > $next_token_index+1) ) {
+	    $index = index($_, $token, $last_index-2);
+	    $offset = $charcount + $index;
+	  }
+	}
+	
+	my $token_length = length($token);
+	&print_line(++$counter, $sent, $para, $offset, $token_length, $token);
+        
+        $last_index = $index + $token_length;
+	$last_offset = $offset;
+        $i++;
       }
+
 #>>>>>>>>>>>>>>>
-      #print $tok;
+      $j++;
       $sent++;
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     }#foreach sentence
+
     if (length($_) == 0) {
       $charcount += 1;
     }
@@ -165,7 +225,18 @@ print "  </text>\n";
 print "</KAF>\n";
 
 
+#prints word form in kaf format
+sub print_line {
 
+  my $wid=shift(@_);
+  my $sent=shift(@_);
+  my $para=shift(@_);
+  my $offset=shift(@_);
+  my $length=shift(@_);
+  my $token=shift(@_);
+
+  print "    <wf wid=\"w".$wid."\" sent=\"".$sent."\" para=\"".$para."\" offset=\"".$offset."\" length=\"". $length."\"><![CDATA[".$token."]]></wf>\n";
+}
 
 #prints kaf xml fomat header
 sub print_kafheader {

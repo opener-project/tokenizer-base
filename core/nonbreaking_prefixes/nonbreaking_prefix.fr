@@ -411,6 +411,7 @@ sem
 S.Em
 s.e 
 o
+sep
 sept
 S.Exc
 sf
@@ -605,6 +606,7 @@ DR
 DRA
 Da
 Dec
+Déc
 Dep
 Dn
 Dr
@@ -626,6 +628,9 @@ Exo
 Fa
 Fco
 Feb
+Féb
+Febv
+Fébv
 Fig
 Fr
 Gar
@@ -641,8 +646,10 @@ Ilmo
 Insp
 J.-C
 Jan
+Janv
 Jeu
 Jr
+Juil
 Jul
 Jun
 Lda
@@ -677,6 +684,7 @@ Nov
 Npr
 Nr
 O.d.J
+Oct
 Okt
 Op
 Ord
@@ -805,6 +813,7 @@ d.c
 d.w.z
 dcha
 dec
+déc
 def
 dem
 dep
@@ -847,6 +856,9 @@ fam
 fasc
 fbg
 feb
+febv
+féb
+fébv
 fem
 fevr
 ff

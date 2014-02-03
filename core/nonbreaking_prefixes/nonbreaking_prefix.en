@@ -116,6 +116,7 @@ Affl
 Apr
 Art
 Asst
+Aug
 Av
 Avg
 B.ches-du-Rh
@@ -194,6 +195,7 @@ MS
 MSc
 Maj
 Mar
+May
 Me
 Mej
 Mer
@@ -215,6 +217,7 @@ Nov
 Npr
 Nr
 O.d.J
+Oct
 Okt
 Op
 Ord
@@ -299,9 +302,9 @@ anat
 angl
 appos
 apr
-apr 
 asc
 atm
+aug
 auj
 aux
 av
@@ -419,10 +422,13 @@ itn
 itp 
 izq
 j
+jan
 janv
 jhr
 jkvr
 jr
+jul
+jun
 l
 lat
 lex
@@ -444,6 +450,7 @@ maj
 mar
 mas
 max
+may
 med
 mevr
 min
@@ -458,6 +465,7 @@ n.f
 n.f.pl
 n.m
 n.m.pl
+nov
 npr
 o
 o.b.s
@@ -520,6 +528,8 @@ s.t.p
 s.v.p
 s/c
 sc
+sep
+sept
 sf
 sgt
 sl

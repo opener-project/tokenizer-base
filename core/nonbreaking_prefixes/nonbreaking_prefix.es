@@ -302,6 +302,7 @@ Mll
 #99
 
 #unified abbreviation list
+Abr
 Acad
 Adj
 Adm
@@ -337,6 +338,7 @@ DR
 DRA
 Da
 Dec
+Dic
 Dep
 Dn
 Dr
@@ -409,6 +411,7 @@ Nov
 Npr
 Nr
 O.d.J
+Oct
 Okt
 Op
 Ord
@@ -478,6 +481,7 @@ a./s
 a.C
 a.g.v
 a.l
+abr
 abrev
 abs
 ac
@@ -543,6 +547,7 @@ dem
 dep
 dept
 dhr
+dic
 dipl
 dispo
 div
@@ -617,6 +622,8 @@ janv
 jhr
 jkvr
 jr
+jun
+jul
 l
 lat
 lex
@@ -652,6 +659,7 @@ n.f
 n.f.pl
 n.m
 n.m.pl
+nov
 npr
 o
 o.b.s
@@ -714,6 +722,8 @@ s.t.p
 s.v.p
 s/c
 sc
+sep
+sept
 sf
 sgt
 sl

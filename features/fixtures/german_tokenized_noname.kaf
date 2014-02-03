@@ -8,215 +8,215 @@
     </linguisticProcessors>
   </kafHeader>
   <text>
-    <wf wid="w1" sent="1" para="1" offset="0"><![CDATA[Berlin]]></wf>
-    <wf wid="w2" sent="1" para="1" offset="7"><![CDATA[-]]></wf>
-    <wf wid="w3" sent="1" para="1" offset="9"><![CDATA[Angela]]></wf>
-    <wf wid="w4" sent="1" para="1" offset="16"><![CDATA[Merkel]]></wf>
-    <wf wid="w5" sent="1" para="1" offset="23"><![CDATA[ist]]></wf>
-    <wf wid="w6" sent="1" para="1" offset="27"><![CDATA[eine]]></wf>
-    <wf wid="w7" sent="1" para="1" offset="32"><![CDATA[äußerst]]></wf>
-    <wf wid="w8" sent="1" para="1" offset="40"><![CDATA[disziplinierte]]></wf>
-    <wf wid="w9" sent="1" para="1" offset="55"><![CDATA[Politikerin]]></wf>
-    <wf wid="w10" sent="1" para="1" offset="66"><![CDATA[.]]></wf>
-    <wf wid="w11" sent="2" para="1" offset="68"><![CDATA[Selbst]]></wf>
-    <wf wid="w12" sent="2" para="1" offset="75"><![CDATA[im]]></wf>
-    <wf wid="w13" sent="2" para="1" offset="78"><![CDATA[kleinen]]></wf>
-    <wf wid="w14" sent="2" para="1" offset="86"><![CDATA[Kreis]]></wf>
-    <wf wid="w15" sent="2" para="1" offset="92"><![CDATA[wägt]]></wf>
-    <wf wid="w16" sent="2" para="1" offset="97"><![CDATA[sie]]></wf>
-    <wf wid="w17" sent="2" para="1" offset="101"><![CDATA[ihre]]></wf>
-    <wf wid="w18" sent="2" para="1" offset="106"><![CDATA[Worte]]></wf>
-    <wf wid="w19" sent="2" para="1" offset="111"><![CDATA[,]]></wf>
-    <wf wid="w20" sent="2" para="1" offset="113"><![CDATA[Kraftausdrücke]]></wf>
-    <wf wid="w21" sent="2" para="1" offset="128"><![CDATA[gehören]]></wf>
-    <wf wid="w22" sent="2" para="1" offset="136"><![CDATA[gewöhnlich]]></wf>
-    <wf wid="w23" sent="2" para="1" offset="147"><![CDATA[nicht]]></wf>
-    <wf wid="w24" sent="2" para="1" offset="153"><![CDATA[zu]]></wf>
-    <wf wid="w25" sent="2" para="1" offset="156"><![CDATA[ihrem]]></wf>
-    <wf wid="w26" sent="2" para="1" offset="162"><![CDATA[rhetorischen]]></wf>
-    <wf wid="w27" sent="2" para="1" offset="175"><![CDATA[Repertoire]]></wf>
-    <wf wid="w28" sent="2" para="1" offset="185"><![CDATA[.]]></wf>
-    <wf wid="w29" sent="3" para="1" offset="187"><![CDATA[Doch]]></wf>
-    <wf wid="w30" sent="3" para="1" offset="192"><![CDATA[vor]]></wf>
-    <wf wid="w31" sent="3" para="1" offset="196"><![CDATA[einigen]]></wf>
-    <wf wid="w32" sent="3" para="1" offset="204"><![CDATA[Wochen]]></wf>
-    <wf wid="w33" sent="3" para="1" offset="210"><![CDATA[,]]></wf>
-    <wf wid="w34" sent="3" para="1" offset="212"><![CDATA[als]]></wf>
-    <wf wid="w35" sent="3" para="1" offset="216"><![CDATA[der]]></wf>
-    <wf wid="w36" sent="3" para="1" offset="220"><![CDATA[Chef]]></wf>
-    <wf wid="w37" sent="3" para="1" offset="225"><![CDATA[des]]></wf>
-    <wf wid="w38" sent="3" para="1" offset="229"><![CDATA[Bundesnachrichtendienstes]]></wf>
-    <wf wid="w39" sent="3" para="1" offset="254"><![CDATA[,]]></wf>
-    <wf wid="w40" sent="3" para="1" offset="256"><![CDATA[Gerhard]]></wf>
-    <wf wid="w41" sent="3" para="1" offset="264"><![CDATA[Schindler]]></wf>
-    <wf wid="w42" sent="3" para="1" offset="273"><![CDATA[,]]></wf>
-    <wf wid="w43" sent="3" para="1" offset="275"><![CDATA[im]]></wf>
-    <wf wid="w44" sent="3" para="1" offset="278"><![CDATA[geheim]]></wf>
-    <wf wid="w45" sent="3" para="1" offset="285"><![CDATA[tagenden]]></wf>
-    <wf wid="w46" sent="3" para="1" offset="294"><![CDATA[Bundesicherheitsrat]]></wf>
-    <wf wid="w47" sent="3" para="1" offset="314"><![CDATA[über]]></wf>
-    <wf wid="w48" sent="3" para="1" offset="319"><![CDATA[die]]></wf>
-    <wf wid="w49" sent="3" para="1" offset="323"><![CDATA[dramatische]]></wf>
-    <wf wid="w50" sent="3" para="1" offset="335"><![CDATA[Lage]]></wf>
-    <wf wid="w51" sent="3" para="1" offset="340"><![CDATA[in]]></wf>
-    <wf wid="w52" sent="3" para="1" offset="343"><![CDATA[Mali]]></wf>
-    <wf wid="w53" sent="3" para="1" offset="348"><![CDATA[referierte]]></wf>
-    <wf wid="w54" sent="3" para="1" offset="358"><![CDATA[,]]></wf>
-    <wf wid="w55" sent="3" para="1" offset="360"><![CDATA[da]]></wf>
-    <wf wid="w56" sent="3" para="1" offset="363"><![CDATA[entfuhr]]></wf>
-    <wf wid="w57" sent="3" para="1" offset="371"><![CDATA[es]]></wf>
-    <wf wid="w58" sent="3" para="1" offset="374"><![CDATA[der]]></wf>
-    <wf wid="w59" sent="3" para="1" offset="378"><![CDATA[Kanzlerin]]></wf>
-    <wf wid="w60" sent="3" para="1" offset="387"><![CDATA[:]]></wf>
-    <wf wid="w61" sent="3" para="1" offset="389"><![CDATA["]]></wf>
-    <wf wid="w62" sent="3" para="1" offset="390"><![CDATA[So]]></wf>
-    <wf wid="w63" sent="3" para="1" offset="393"><![CDATA[ein]]></wf>
-    <wf wid="w64" sent="3" para="1" offset="397"><![CDATA[Scheißgebiet]]></wf>
-    <wf wid="w65" sent="3" para="1" offset="409"><![CDATA[.]]></wf>
-    <wf wid="w66" sent="3" para="1" offset="410"><![CDATA["]]></wf>
-    <wf wid="w67" sent="4" para="2" offset="412"><![CDATA[Der]]></wf>
-    <wf wid="w68" sent="4" para="2" offset="416"><![CDATA[Angriff]]></wf>
-    <wf wid="w69" sent="4" para="2" offset="424"><![CDATA[habe]]></wf>
-    <wf wid="w70" sent="4" para="2" offset="429"><![CDATA[das]]></wf>
-    <wf wid="w71" sent="4" para="2" offset="433"><![CDATA[Leben]]></wf>
-    <wf wid="w72" sent="4" para="2" offset="439"><![CDATA[der]]></wf>
-    <wf wid="w73" sent="4" para="2" offset="443"><![CDATA[Geiseln]]></wf>
-    <wf wid="w74" sent="4" para="2" offset="451"><![CDATA[gefährdet]]></wf>
-    <wf wid="w75" sent="4" para="2" offset="460"><![CDATA[,]]></wf>
-    <wf wid="w76" sent="4" para="2" offset="462"><![CDATA[sagte]]></wf>
-    <wf wid="w77" sent="4" para="2" offset="468"><![CDATA[der]]></wf>
-    <wf wid="w78" sent="4" para="2" offset="472"><![CDATA[japanische]]></wf>
-    <wf wid="w79" sent="4" para="2" offset="483"><![CDATA[Ministerpräsident]]></wf>
-    <wf wid="w80" sent="4" para="2" offset="501"><![CDATA[Shinzo]]></wf>
-    <wf wid="w81" sent="4" para="2" offset="508"><![CDATA[Abe]]></wf>
-    <wf wid="w82" sent="4" para="2" offset="511"><![CDATA[.]]></wf>
-    <wf wid="w83" sent="5" para="2" offset="513"><![CDATA[Tokio]]></wf>
-    <wf wid="w84" sent="5" para="2" offset="519"><![CDATA[sei]]></wf>
-    <wf wid="w85" sent="5" para="2" offset="523"><![CDATA[zudem]]></wf>
-    <wf wid="w86" sent="5" para="2" offset="529"><![CDATA[über]]></wf>
-    <wf wid="w87" sent="5" para="2" offset="534"><![CDATA[die]]></wf>
-    <wf wid="w88" sent="5" para="2" offset="538"><![CDATA[Militäroperation]]></wf>
-    <wf wid="w89" sent="5" para="2" offset="555"><![CDATA[zur]]></wf>
-    <wf wid="w90" sent="5" para="2" offset="559"><![CDATA[Befreiung]]></wf>
-    <wf wid="w91" sent="5" para="2" offset="569"><![CDATA[der]]></wf>
-    <wf wid="w92" sent="5" para="2" offset="573"><![CDATA[Geiseln]]></wf>
-    <wf wid="w93" sent="5" para="2" offset="581"><![CDATA[nicht]]></wf>
-    <wf wid="w94" sent="5" para="2" offset="587"><![CDATA[informiert]]></wf>
-    <wf wid="w95" sent="5" para="2" offset="598"><![CDATA[worden]]></wf>
-    <wf wid="w96" sent="5" para="2" offset="604"><![CDATA[,]]></wf>
-    <wf wid="w97" sent="5" para="2" offset="606"><![CDATA[sagte]]></wf>
-    <wf wid="w98" sent="5" para="2" offset="612"><![CDATA[ein]]></wf>
-    <wf wid="w99" sent="5" para="2" offset="616"><![CDATA[japanischer]]></wf>
-    <wf wid="w100" sent="5" para="2" offset="628"><![CDATA[Regierungssprecher]]></wf>
-    <wf wid="w101" sent="5" para="2" offset="646"><![CDATA[.]]></wf>
-    <wf wid="w102" sent="6" para="2" offset="648"><![CDATA[Die]]></wf>
-    <wf wid="w103" sent="6" para="2" offset="652"><![CDATA[Operation]]></wf>
-    <wf wid="w104" sent="6" para="2" offset="662"><![CDATA[sei]]></wf>
-    <wf wid="w105" sent="6" para="2" offset="666"><![CDATA[bedauerlich]]></wf>
-    <wf wid="w106" sent="6" para="2" offset="677"><![CDATA[.]]></wf>
-    <wf wid="w107" sent="7" para="2" offset="679"><![CDATA[Unter]]></wf>
-    <wf wid="w108" sent="7" para="2" offset="685"><![CDATA[den]]></wf>
-    <wf wid="w109" sent="7" para="2" offset="689"><![CDATA[Toten]]></wf>
-    <wf wid="w110" sent="7" para="2" offset="695"><![CDATA[sollen]]></wf>
-    <wf wid="w111" sent="7" para="2" offset="702"><![CDATA[nach]]></wf>
-    <wf wid="w112" sent="7" para="2" offset="707"><![CDATA[ersten]]></wf>
-    <wf wid="w113" sent="7" para="2" offset="714"><![CDATA[Informationen]]></wf>
-    <wf wid="w114" sent="7" para="2" offset="728"><![CDATA[auch]]></wf>
-    <wf wid="w115" sent="7" para="2" offset="733"><![CDATA[zwei]]></wf>
-    <wf wid="w116" sent="7" para="2" offset="738"><![CDATA[Japaner]]></wf>
-    <wf wid="w117" sent="7" para="2" offset="746"><![CDATA[sein]]></wf>
-    <wf wid="w118" sent="7" para="2" offset="750"><![CDATA[.]]></wf>
-    <wf wid="w119" sent="8" para="2" offset="752"><![CDATA[Das]]></wf>
-    <wf wid="w120" sent="8" para="2" offset="756"><![CDATA[Schicksal]]></wf>
-    <wf wid="w121" sent="8" para="2" offset="766"><![CDATA[von]]></wf>
-    <wf wid="w122" sent="8" para="2" offset="770"><![CDATA[14]]></wf>
-    <wf wid="w123" sent="8" para="2" offset="773"><![CDATA[Landsleuten]]></wf>
-    <wf wid="w124" sent="8" para="2" offset="785"><![CDATA[sei]]></wf>
-    <wf wid="w125" sent="8" para="2" offset="789"><![CDATA[noch]]></wf>
-    <wf wid="w126" sent="8" para="2" offset="794"><![CDATA[unklar]]></wf>
-    <wf wid="w127" sent="8" para="2" offset="800"><![CDATA[,]]></wf>
-    <wf wid="w128" sent="8" para="2" offset="802"><![CDATA[hieß]]></wf>
-    <wf wid="w129" sent="8" para="2" offset="807"><![CDATA[es]]></wf>
-    <wf wid="w130" sent="8" para="2" offset="810"><![CDATA[in]]></wf>
-    <wf wid="w131" sent="8" para="2" offset="813"><![CDATA[Tokio]]></wf>
-    <wf wid="w132" sent="8" para="2" offset="818"><![CDATA[.]]></wf>
-    <wf wid="w133" sent="9" para="2" offset="820"><![CDATA[Drei]]></wf>
-    <wf wid="w134" sent="9" para="2" offset="825"><![CDATA[Japaner]]></wf>
-    <wf wid="w135" sent="9" para="2" offset="833"><![CDATA[seien]]></wf>
-    <wf wid="w136" sent="9" para="2" offset="839"><![CDATA[in]]></wf>
-    <wf wid="w137" sent="9" para="2" offset="842"><![CDATA[Sicherheit]]></wf>
-    <wf wid="w138" sent="9" para="2" offset="852"><![CDATA[.]]></wf>
-    <wf wid="w139" sent="10" para="3" offset="854"><![CDATA[Norwegens]]></wf>
-    <wf wid="w140" sent="10" para="3" offset="864"><![CDATA[Ministerpräsident]]></wf>
-    <wf wid="w141" sent="10" para="3" offset="882"><![CDATA[Jens]]></wf>
-    <wf wid="w142" sent="10" para="3" offset="887"><![CDATA[Stoltenberg]]></wf>
-    <wf wid="w143" sent="10" para="3" offset="899"><![CDATA[sagte]]></wf>
-    <wf wid="w144" sent="10" para="3" offset="905"><![CDATA[in]]></wf>
-    <wf wid="w145" sent="10" para="3" offset="908"><![CDATA[Oslo]]></wf>
-    <wf wid="w146" sent="10" para="3" offset="912"><![CDATA[,]]></wf>
-    <wf wid="w147" sent="10" para="3" offset="914"><![CDATA[seine]]></wf>
-    <wf wid="w148" sent="10" para="3" offset="920"><![CDATA[Regierung]]></wf>
-    <wf wid="w149" sent="10" para="3" offset="930"><![CDATA[habe]]></wf>
-    <wf wid="w150" sent="10" para="3" offset="935"><![CDATA[Algerien]]></wf>
-    <wf wid="w151" sent="10" para="3" offset="944"><![CDATA[offiziell]]></wf>
-    <wf wid="w152" sent="10" para="3" offset="954"><![CDATA[um]]></wf>
-    <wf wid="w153" sent="10" para="3" offset="957"><![CDATA[militärische]]></wf>
-    <wf wid="w154" sent="10" para="3" offset="970"><![CDATA[Zurückhaltung]]></wf>
-    <wf wid="w155" sent="10" para="3" offset="984"><![CDATA[zum]]></wf>
-    <wf wid="w156" sent="10" para="3" offset="988"><![CDATA[Schutz]]></wf>
-    <wf wid="w157" sent="10" para="3" offset="995"><![CDATA[der]]></wf>
-    <wf wid="w158" sent="10" para="3" offset="999"><![CDATA[Geiseln]]></wf>
-    <wf wid="w159" sent="10" para="3" offset="1007"><![CDATA[gebeten]]></wf>
-    <wf wid="w160" sent="10" para="3" offset="1014"><![CDATA[.]]></wf>
-    <wf wid="w161" sent="11" para="3" offset="1016"><![CDATA[Er]]></wf>
-    <wf wid="w162" sent="11" para="3" offset="1019"><![CDATA[sei]]></wf>
-    <wf wid="w163" sent="11" para="3" offset="1023"><![CDATA[dann]]></wf>
-    <wf wid="w164" sent="11" para="3" offset="1028"><![CDATA[am]]></wf>
-    <wf wid="w165" sent="11" para="3" offset="1031"><![CDATA[Donnerstagmittag]]></wf>
-    <wf wid="w166" sent="11" para="3" offset="1048"><![CDATA[um]]></wf>
-    <wf wid="w167" sent="11" para="3" offset="1051"><![CDATA[12]]></wf>
-    <wf wid="w168" sent="11" para="3" offset="1054"><![CDATA[Uhr]]></wf>
-    <wf wid="w169" sent="11" para="3" offset="1058"><![CDATA[telefonisch]]></wf>
-    <wf wid="w170" sent="11" para="3" offset="1070"><![CDATA[von]]></wf>
-    <wf wid="w171" sent="11" para="3" offset="1074"><![CDATA[seinem]]></wf>
-    <wf wid="w172" sent="11" para="3" offset="1081"><![CDATA[algerischen]]></wf>
-    <wf wid="w173" sent="11" para="3" offset="1093"><![CDATA[Kollegen]]></wf>
-    <wf wid="w174" sent="11" para="3" offset="1102"><![CDATA[lediglich]]></wf>
-    <wf wid="w175" sent="11" para="3" offset="1112"><![CDATA[über]]></wf>
-    <wf wid="w176" sent="11" para="3" offset="1117"><![CDATA[die]]></wf>
-    <wf wid="w177" sent="11" para="3" offset="1121"><![CDATA[bereits]]></wf>
-    <wf wid="w178" sent="11" para="3" offset="1129"><![CDATA[laufende]]></wf>
-    <wf wid="w179" sent="11" para="3" offset="1138"><![CDATA[Militäraktion]]></wf>
-    <wf wid="w180" sent="11" para="3" offset="1152"><![CDATA[informiert]]></wf>
-    <wf wid="w181" sent="11" para="3" offset="1163"><![CDATA[worden]]></wf>
-    <wf wid="w182" sent="11" para="3" offset="1169"><![CDATA[.]]></wf>
-    <wf wid="w183" sent="12" para="3" offset="1171"><![CDATA[Die]]></wf>
-    <wf wid="w184" sent="12" para="3" offset="1175"><![CDATA[offiziellen]]></wf>
-    <wf wid="w185" sent="12" para="3" offset="1187"><![CDATA[Informationen]]></wf>
-    <wf wid="w186" sent="12" para="3" offset="1201"><![CDATA[aus]]></wf>
-    <wf wid="w187" sent="12" para="3" offset="1205"><![CDATA[Algier]]></wf>
-    <wf wid="w188" sent="12" para="3" offset="1212"><![CDATA[nach]]></wf>
-    <wf wid="w189" sent="12" para="3" offset="1217"><![CDATA[dem]]></wf>
-    <wf wid="w190" sent="12" para="3" offset="1221"><![CDATA[vermutlichen]]></wf>
-    <wf wid="w191" sent="12" para="3" offset="1234"><![CDATA[Abschluss]]></wf>
-    <wf wid="w192" sent="12" para="3" offset="1244"><![CDATA[des]]></wf>
-    <wf wid="w193" sent="12" para="3" offset="1248"><![CDATA[Militäreinsatzes]]></wf>
-    <wf wid="w194" sent="12" para="3" offset="1265"><![CDATA[seien]]></wf>
-    <wf wid="w195" sent="12" para="3" offset="1271"><![CDATA[unvollständig]]></wf>
-    <wf wid="w196" sent="12" para="3" offset="1285"><![CDATA[gewesen]]></wf>
-    <wf wid="w197" sent="12" para="3" offset="1292"><![CDATA[.]]></wf>
-    <wf wid="w198" sent="13" para="3" offset="1294"><![CDATA[Man]]></wf>
-    <wf wid="w199" sent="13" para="3" offset="1298"><![CDATA[habe]]></wf>
-    <wf wid="w200" sent="13" para="3" offset="1303"><![CDATA[noch]]></wf>
-    <wf wid="w201" sent="13" para="3" offset="1308"><![CDATA[immer]]></wf>
-    <wf wid="w202" sent="13" para="3" offset="1314"><![CDATA[keine]]></wf>
-    <wf wid="w203" sent="13" para="3" offset="1320"><![CDATA[sicheren]]></wf>
-    <wf wid="w204" sent="13" para="3" offset="1329"><![CDATA[Informationen]]></wf>
-    <wf wid="w205" sent="13" para="3" offset="1343"><![CDATA[über]]></wf>
-    <wf wid="w206" sent="13" para="3" offset="1348"><![CDATA[das]]></wf>
-    <wf wid="w207" sent="13" para="3" offset="1352"><![CDATA[Schicksal]]></wf>
-    <wf wid="w208" sent="13" para="3" offset="1362"><![CDATA[der]]></wf>
-    <wf wid="w209" sent="13" para="3" offset="1366"><![CDATA[Geiseln]]></wf>
-    <wf wid="w210" sent="13" para="3" offset="1373"><![CDATA[.]]></wf>
+    <wf wid="w1" sent="1" para="1" offset="0" length="6"><![CDATA[Berlin]]></wf>
+    <wf wid="w2" sent="1" para="1" offset="7" length="1"><![CDATA[-]]></wf>
+    <wf wid="w3" sent="1" para="1" offset="9" length="6"><![CDATA[Angela]]></wf>
+    <wf wid="w4" sent="1" para="1" offset="16" length="6"><![CDATA[Merkel]]></wf>
+    <wf wid="w5" sent="1" para="1" offset="23" length="3"><![CDATA[ist]]></wf>
+    <wf wid="w6" sent="1" para="1" offset="27" length="4"><![CDATA[eine]]></wf>
+    <wf wid="w7" sent="1" para="1" offset="32" length="7"><![CDATA[äußerst]]></wf>
+    <wf wid="w8" sent="1" para="1" offset="40" length="14"><![CDATA[disziplinierte]]></wf>
+    <wf wid="w9" sent="1" para="1" offset="55" length="11"><![CDATA[Politikerin]]></wf>
+    <wf wid="w10" sent="1" para="1" offset="66" length="1"><![CDATA[.]]></wf>
+    <wf wid="w11" sent="2" para="1" offset="68" length="6"><![CDATA[Selbst]]></wf>
+    <wf wid="w12" sent="2" para="1" offset="75" length="2"><![CDATA[im]]></wf>
+    <wf wid="w13" sent="2" para="1" offset="78" length="7"><![CDATA[kleinen]]></wf>
+    <wf wid="w14" sent="2" para="1" offset="86" length="5"><![CDATA[Kreis]]></wf>
+    <wf wid="w15" sent="2" para="1" offset="92" length="4"><![CDATA[wägt]]></wf>
+    <wf wid="w16" sent="2" para="1" offset="97" length="3"><![CDATA[sie]]></wf>
+    <wf wid="w17" sent="2" para="1" offset="101" length="4"><![CDATA[ihre]]></wf>
+    <wf wid="w18" sent="2" para="1" offset="106" length="5"><![CDATA[Worte]]></wf>
+    <wf wid="w19" sent="2" para="1" offset="111" length="1"><![CDATA[,]]></wf>
+    <wf wid="w20" sent="2" para="1" offset="113" length="14"><![CDATA[Kraftausdrücke]]></wf>
+    <wf wid="w21" sent="2" para="1" offset="128" length="7"><![CDATA[gehören]]></wf>
+    <wf wid="w22" sent="2" para="1" offset="136" length="10"><![CDATA[gewöhnlich]]></wf>
+    <wf wid="w23" sent="2" para="1" offset="147" length="5"><![CDATA[nicht]]></wf>
+    <wf wid="w24" sent="2" para="1" offset="153" length="2"><![CDATA[zu]]></wf>
+    <wf wid="w25" sent="2" para="1" offset="156" length="5"><![CDATA[ihrem]]></wf>
+    <wf wid="w26" sent="2" para="1" offset="162" length="12"><![CDATA[rhetorischen]]></wf>
+    <wf wid="w27" sent="2" para="1" offset="175" length="10"><![CDATA[Repertoire]]></wf>
+    <wf wid="w28" sent="2" para="1" offset="185" length="1"><![CDATA[.]]></wf>
+    <wf wid="w29" sent="3" para="1" offset="187" length="4"><![CDATA[Doch]]></wf>
+    <wf wid="w30" sent="3" para="1" offset="192" length="3"><![CDATA[vor]]></wf>
+    <wf wid="w31" sent="3" para="1" offset="196" length="7"><![CDATA[einigen]]></wf>
+    <wf wid="w32" sent="3" para="1" offset="204" length="6"><![CDATA[Wochen]]></wf>
+    <wf wid="w33" sent="3" para="1" offset="210" length="1"><![CDATA[,]]></wf>
+    <wf wid="w34" sent="3" para="1" offset="212" length="3"><![CDATA[als]]></wf>
+    <wf wid="w35" sent="3" para="1" offset="216" length="3"><![CDATA[der]]></wf>
+    <wf wid="w36" sent="3" para="1" offset="220" length="4"><![CDATA[Chef]]></wf>
+    <wf wid="w37" sent="3" para="1" offset="225" length="3"><![CDATA[des]]></wf>
+    <wf wid="w38" sent="3" para="1" offset="229" length="25"><![CDATA[Bundesnachrichtendienstes]]></wf>
+    <wf wid="w39" sent="3" para="1" offset="254" length="1"><![CDATA[,]]></wf>
+    <wf wid="w40" sent="3" para="1" offset="256" length="7"><![CDATA[Gerhard]]></wf>
+    <wf wid="w41" sent="3" para="1" offset="264" length="9"><![CDATA[Schindler]]></wf>
+    <wf wid="w42" sent="3" para="1" offset="273" length="1"><![CDATA[,]]></wf>
+    <wf wid="w43" sent="3" para="1" offset="275" length="2"><![CDATA[im]]></wf>
+    <wf wid="w44" sent="3" para="1" offset="278" length="6"><![CDATA[geheim]]></wf>
+    <wf wid="w45" sent="3" para="1" offset="285" length="8"><![CDATA[tagenden]]></wf>
+    <wf wid="w46" sent="3" para="1" offset="294" length="19"><![CDATA[Bundesicherheitsrat]]></wf>
+    <wf wid="w47" sent="3" para="1" offset="314" length="4"><![CDATA[über]]></wf>
+    <wf wid="w48" sent="3" para="1" offset="319" length="3"><![CDATA[die]]></wf>
+    <wf wid="w49" sent="3" para="1" offset="323" length="11"><![CDATA[dramatische]]></wf>
+    <wf wid="w50" sent="3" para="1" offset="335" length="4"><![CDATA[Lage]]></wf>
+    <wf wid="w51" sent="3" para="1" offset="340" length="2"><![CDATA[in]]></wf>
+    <wf wid="w52" sent="3" para="1" offset="343" length="4"><![CDATA[Mali]]></wf>
+    <wf wid="w53" sent="3" para="1" offset="348" length="10"><![CDATA[referierte]]></wf>
+    <wf wid="w54" sent="3" para="1" offset="358" length="1"><![CDATA[,]]></wf>
+    <wf wid="w55" sent="3" para="1" offset="360" length="2"><![CDATA[da]]></wf>
+    <wf wid="w56" sent="3" para="1" offset="363" length="7"><![CDATA[entfuhr]]></wf>
+    <wf wid="w57" sent="3" para="1" offset="371" length="2"><![CDATA[es]]></wf>
+    <wf wid="w58" sent="3" para="1" offset="374" length="3"><![CDATA[der]]></wf>
+    <wf wid="w59" sent="3" para="1" offset="378" length="9"><![CDATA[Kanzlerin]]></wf>
+    <wf wid="w60" sent="3" para="1" offset="387" length="1"><![CDATA[:]]></wf>
+    <wf wid="w61" sent="3" para="1" offset="389" length="1"><![CDATA["]]></wf>
+    <wf wid="w62" sent="3" para="1" offset="390" length="2"><![CDATA[So]]></wf>
+    <wf wid="w63" sent="3" para="1" offset="393" length="3"><![CDATA[ein]]></wf>
+    <wf wid="w64" sent="3" para="1" offset="397" length="12"><![CDATA[Scheißgebiet]]></wf>
+    <wf wid="w65" sent="3" para="1" offset="409" length="1"><![CDATA[.]]></wf>
+    <wf wid="w66" sent="3" para="1" offset="410" length="1"><![CDATA["]]></wf>
+    <wf wid="w67" sent="4" para="2" offset="412" length="3"><![CDATA[Der]]></wf>
+    <wf wid="w68" sent="4" para="2" offset="416" length="7"><![CDATA[Angriff]]></wf>
+    <wf wid="w69" sent="4" para="2" offset="424" length="4"><![CDATA[habe]]></wf>
+    <wf wid="w70" sent="4" para="2" offset="429" length="3"><![CDATA[das]]></wf>
+    <wf wid="w71" sent="4" para="2" offset="433" length="5"><![CDATA[Leben]]></wf>
+    <wf wid="w72" sent="4" para="2" offset="439" length="3"><![CDATA[der]]></wf>
+    <wf wid="w73" sent="4" para="2" offset="443" length="7"><![CDATA[Geiseln]]></wf>
+    <wf wid="w74" sent="4" para="2" offset="451" length="9"><![CDATA[gefährdet]]></wf>
+    <wf wid="w75" sent="4" para="2" offset="460" length="1"><![CDATA[,]]></wf>
+    <wf wid="w76" sent="4" para="2" offset="462" length="5"><![CDATA[sagte]]></wf>
+    <wf wid="w77" sent="4" para="2" offset="468" length="3"><![CDATA[der]]></wf>
+    <wf wid="w78" sent="4" para="2" offset="472" length="10"><![CDATA[japanische]]></wf>
+    <wf wid="w79" sent="4" para="2" offset="483" length="17"><![CDATA[Ministerpräsident]]></wf>
+    <wf wid="w80" sent="4" para="2" offset="501" length="6"><![CDATA[Shinzo]]></wf>
+    <wf wid="w81" sent="4" para="2" offset="508" length="3"><![CDATA[Abe]]></wf>
+    <wf wid="w82" sent="4" para="2" offset="511" length="1"><![CDATA[.]]></wf>
+    <wf wid="w83" sent="5" para="2" offset="513" length="5"><![CDATA[Tokio]]></wf>
+    <wf wid="w84" sent="5" para="2" offset="519" length="3"><![CDATA[sei]]></wf>
+    <wf wid="w85" sent="5" para="2" offset="523" length="5"><![CDATA[zudem]]></wf>
+    <wf wid="w86" sent="5" para="2" offset="529" length="4"><![CDATA[über]]></wf>
+    <wf wid="w87" sent="5" para="2" offset="534" length="3"><![CDATA[die]]></wf>
+    <wf wid="w88" sent="5" para="2" offset="538" length="16"><![CDATA[Militäroperation]]></wf>
+    <wf wid="w89" sent="5" para="2" offset="555" length="3"><![CDATA[zur]]></wf>
+    <wf wid="w90" sent="5" para="2" offset="559" length="9"><![CDATA[Befreiung]]></wf>
+    <wf wid="w91" sent="5" para="2" offset="569" length="3"><![CDATA[der]]></wf>
+    <wf wid="w92" sent="5" para="2" offset="573" length="7"><![CDATA[Geiseln]]></wf>
+    <wf wid="w93" sent="5" para="2" offset="581" length="5"><![CDATA[nicht]]></wf>
+    <wf wid="w94" sent="5" para="2" offset="587" length="10"><![CDATA[informiert]]></wf>
+    <wf wid="w95" sent="5" para="2" offset="598" length="6"><![CDATA[worden]]></wf>
+    <wf wid="w96" sent="5" para="2" offset="604" length="1"><![CDATA[,]]></wf>
+    <wf wid="w97" sent="5" para="2" offset="606" length="5"><![CDATA[sagte]]></wf>
+    <wf wid="w98" sent="5" para="2" offset="612" length="3"><![CDATA[ein]]></wf>
+    <wf wid="w99" sent="5" para="2" offset="616" length="11"><![CDATA[japanischer]]></wf>
+    <wf wid="w100" sent="5" para="2" offset="628" length="18"><![CDATA[Regierungssprecher]]></wf>
+    <wf wid="w101" sent="5" para="2" offset="646" length="1"><![CDATA[.]]></wf>
+    <wf wid="w102" sent="6" para="2" offset="648" length="3"><![CDATA[Die]]></wf>
+    <wf wid="w103" sent="6" para="2" offset="652" length="9"><![CDATA[Operation]]></wf>
+    <wf wid="w104" sent="6" para="2" offset="662" length="3"><![CDATA[sei]]></wf>
+    <wf wid="w105" sent="6" para="2" offset="666" length="11"><![CDATA[bedauerlich]]></wf>
+    <wf wid="w106" sent="6" para="2" offset="677" length="1"><![CDATA[.]]></wf>
+    <wf wid="w107" sent="7" para="2" offset="679" length="5"><![CDATA[Unter]]></wf>
+    <wf wid="w108" sent="7" para="2" offset="685" length="3"><![CDATA[den]]></wf>
+    <wf wid="w109" sent="7" para="2" offset="689" length="5"><![CDATA[Toten]]></wf>
+    <wf wid="w110" sent="7" para="2" offset="695" length="6"><![CDATA[sollen]]></wf>
+    <wf wid="w111" sent="7" para="2" offset="702" length="4"><![CDATA[nach]]></wf>
+    <wf wid="w112" sent="7" para="2" offset="707" length="6"><![CDATA[ersten]]></wf>
+    <wf wid="w113" sent="7" para="2" offset="714" length="13"><![CDATA[Informationen]]></wf>
+    <wf wid="w114" sent="7" para="2" offset="728" length="4"><![CDATA[auch]]></wf>
+    <wf wid="w115" sent="7" para="2" offset="733" length="4"><![CDATA[zwei]]></wf>
+    <wf wid="w116" sent="7" para="2" offset="738" length="7"><![CDATA[Japaner]]></wf>
+    <wf wid="w117" sent="7" para="2" offset="746" length="4"><![CDATA[sein]]></wf>
+    <wf wid="w118" sent="7" para="2" offset="750" length="1"><![CDATA[.]]></wf>
+    <wf wid="w119" sent="8" para="2" offset="752" length="3"><![CDATA[Das]]></wf>
+    <wf wid="w120" sent="8" para="2" offset="756" length="9"><![CDATA[Schicksal]]></wf>
+    <wf wid="w121" sent="8" para="2" offset="766" length="3"><![CDATA[von]]></wf>
+    <wf wid="w122" sent="8" para="2" offset="770" length="2"><![CDATA[14]]></wf>
+    <wf wid="w123" sent="8" para="2" offset="773" length="11"><![CDATA[Landsleuten]]></wf>
+    <wf wid="w124" sent="8" para="2" offset="785" length="3"><![CDATA[sei]]></wf>
+    <wf wid="w125" sent="8" para="2" offset="789" length="4"><![CDATA[noch]]></wf>
+    <wf wid="w126" sent="8" para="2" offset="794" length="6"><![CDATA[unklar]]></wf>
+    <wf wid="w127" sent="8" para="2" offset="800" length="1"><![CDATA[,]]></wf>
+    <wf wid="w128" sent="8" para="2" offset="802" length="4"><![CDATA[hieß]]></wf>
+    <wf wid="w129" sent="8" para="2" offset="807" length="2"><![CDATA[es]]></wf>
+    <wf wid="w130" sent="8" para="2" offset="810" length="2"><![CDATA[in]]></wf>
+    <wf wid="w131" sent="8" para="2" offset="813" length="5"><![CDATA[Tokio]]></wf>
+    <wf wid="w132" sent="8" para="2" offset="818" length="1"><![CDATA[.]]></wf>
+    <wf wid="w133" sent="9" para="2" offset="820" length="4"><![CDATA[Drei]]></wf>
+    <wf wid="w134" sent="9" para="2" offset="825" length="7"><![CDATA[Japaner]]></wf>
+    <wf wid="w135" sent="9" para="2" offset="833" length="5"><![CDATA[seien]]></wf>
+    <wf wid="w136" sent="9" para="2" offset="839" length="2"><![CDATA[in]]></wf>
+    <wf wid="w137" sent="9" para="2" offset="842" length="10"><![CDATA[Sicherheit]]></wf>
+    <wf wid="w138" sent="9" para="2" offset="852" length="1"><![CDATA[.]]></wf>
+    <wf wid="w139" sent="10" para="3" offset="854" length="9"><![CDATA[Norwegens]]></wf>
+    <wf wid="w140" sent="10" para="3" offset="864" length="17"><![CDATA[Ministerpräsident]]></wf>
+    <wf wid="w141" sent="10" para="3" offset="882" length="4"><![CDATA[Jens]]></wf>
+    <wf wid="w142" sent="10" para="3" offset="887" length="11"><![CDATA[Stoltenberg]]></wf>
+    <wf wid="w143" sent="10" para="3" offset="899" length="5"><![CDATA[sagte]]></wf>
+    <wf wid="w144" sent="10" para="3" offset="905" length="2"><![CDATA[in]]></wf>
+    <wf wid="w145" sent="10" para="3" offset="908" length="4"><![CDATA[Oslo]]></wf>
+    <wf wid="w146" sent="10" para="3" offset="912" length="1"><![CDATA[,]]></wf>
+    <wf wid="w147" sent="10" para="3" offset="914" length="5"><![CDATA[seine]]></wf>
+    <wf wid="w148" sent="10" para="3" offset="920" length="9"><![CDATA[Regierung]]></wf>
+    <wf wid="w149" sent="10" para="3" offset="930" length="4"><![CDATA[habe]]></wf>
+    <wf wid="w150" sent="10" para="3" offset="935" length="8"><![CDATA[Algerien]]></wf>
+    <wf wid="w151" sent="10" para="3" offset="944" length="9"><![CDATA[offiziell]]></wf>
+    <wf wid="w152" sent="10" para="3" offset="954" length="2"><![CDATA[um]]></wf>
+    <wf wid="w153" sent="10" para="3" offset="957" length="12"><![CDATA[militärische]]></wf>
+    <wf wid="w154" sent="10" para="3" offset="970" length="13"><![CDATA[Zurückhaltung]]></wf>
+    <wf wid="w155" sent="10" para="3" offset="984" length="3"><![CDATA[zum]]></wf>
+    <wf wid="w156" sent="10" para="3" offset="988" length="6"><![CDATA[Schutz]]></wf>
+    <wf wid="w157" sent="10" para="3" offset="995" length="3"><![CDATA[der]]></wf>
+    <wf wid="w158" sent="10" para="3" offset="999" length="7"><![CDATA[Geiseln]]></wf>
+    <wf wid="w159" sent="10" para="3" offset="1007" length="7"><![CDATA[gebeten]]></wf>
+    <wf wid="w160" sent="10" para="3" offset="1014" length="1"><![CDATA[.]]></wf>
+    <wf wid="w161" sent="11" para="3" offset="1016" length="2"><![CDATA[Er]]></wf>
+    <wf wid="w162" sent="11" para="3" offset="1019" length="3"><![CDATA[sei]]></wf>
+    <wf wid="w163" sent="11" para="3" offset="1023" length="4"><![CDATA[dann]]></wf>
+    <wf wid="w164" sent="11" para="3" offset="1028" length="2"><![CDATA[am]]></wf>
+    <wf wid="w165" sent="11" para="3" offset="1031" length="16"><![CDATA[Donnerstagmittag]]></wf>
+    <wf wid="w166" sent="11" para="3" offset="1048" length="2"><![CDATA[um]]></wf>
+    <wf wid="w167" sent="11" para="3" offset="1051" length="2"><![CDATA[12]]></wf>
+    <wf wid="w168" sent="11" para="3" offset="1054" length="3"><![CDATA[Uhr]]></wf>
+    <wf wid="w169" sent="11" para="3" offset="1058" length="11"><![CDATA[telefonisch]]></wf>
+    <wf wid="w170" sent="11" para="3" offset="1070" length="3"><![CDATA[von]]></wf>
+    <wf wid="w171" sent="11" para="3" offset="1074" length="6"><![CDATA[seinem]]></wf>
+    <wf wid="w172" sent="11" para="3" offset="1081" length="11"><![CDATA[algerischen]]></wf>
+    <wf wid="w173" sent="11" para="3" offset="1093" length="8"><![CDATA[Kollegen]]></wf>
+    <wf wid="w174" sent="11" para="3" offset="1102" length="9"><![CDATA[lediglich]]></wf>
+    <wf wid="w175" sent="11" para="3" offset="1112" length="4"><![CDATA[über]]></wf>
+    <wf wid="w176" sent="11" para="3" offset="1117" length="3"><![CDATA[die]]></wf>
+    <wf wid="w177" sent="11" para="3" offset="1121" length="7"><![CDATA[bereits]]></wf>
+    <wf wid="w178" sent="11" para="3" offset="1129" length="8"><![CDATA[laufende]]></wf>
+    <wf wid="w179" sent="11" para="3" offset="1138" length="13"><![CDATA[Militäraktion]]></wf>
+    <wf wid="w180" sent="11" para="3" offset="1152" length="10"><![CDATA[informiert]]></wf>
+    <wf wid="w181" sent="11" para="3" offset="1163" length="6"><![CDATA[worden]]></wf>
+    <wf wid="w182" sent="11" para="3" offset="1169" length="1"><![CDATA[.]]></wf>
+    <wf wid="w183" sent="12" para="3" offset="1171" length="3"><![CDATA[Die]]></wf>
+    <wf wid="w184" sent="12" para="3" offset="1175" length="11"><![CDATA[offiziellen]]></wf>
+    <wf wid="w185" sent="12" para="3" offset="1187" length="13"><![CDATA[Informationen]]></wf>
+    <wf wid="w186" sent="12" para="3" offset="1201" length="3"><![CDATA[aus]]></wf>
+    <wf wid="w187" sent="12" para="3" offset="1205" length="6"><![CDATA[Algier]]></wf>
+    <wf wid="w188" sent="12" para="3" offset="1212" length="4"><![CDATA[nach]]></wf>
+    <wf wid="w189" sent="12" para="3" offset="1217" length="3"><![CDATA[dem]]></wf>
+    <wf wid="w190" sent="12" para="3" offset="1221" length="12"><![CDATA[vermutlichen]]></wf>
+    <wf wid="w191" sent="12" para="3" offset="1234" length="9"><![CDATA[Abschluss]]></wf>
+    <wf wid="w192" sent="12" para="3" offset="1244" length="3"><![CDATA[des]]></wf>
+    <wf wid="w193" sent="12" para="3" offset="1248" length="16"><![CDATA[Militäreinsatzes]]></wf>
+    <wf wid="w194" sent="12" para="3" offset="1265" length="5"><![CDATA[seien]]></wf>
+    <wf wid="w195" sent="12" para="3" offset="1271" length="13"><![CDATA[unvollständig]]></wf>
+    <wf wid="w196" sent="12" para="3" offset="1285" length="7"><![CDATA[gewesen]]></wf>
+    <wf wid="w197" sent="12" para="3" offset="1292" length="1"><![CDATA[.]]></wf>
+    <wf wid="w198" sent="13" para="3" offset="1294" length="3"><![CDATA[Man]]></wf>
+    <wf wid="w199" sent="13" para="3" offset="1298" length="4"><![CDATA[habe]]></wf>
+    <wf wid="w200" sent="13" para="3" offset="1303" length="4"><![CDATA[noch]]></wf>
+    <wf wid="w201" sent="13" para="3" offset="1308" length="5"><![CDATA[immer]]></wf>
+    <wf wid="w202" sent="13" para="3" offset="1314" length="5"><![CDATA[keine]]></wf>
+    <wf wid="w203" sent="13" para="3" offset="1320" length="8"><![CDATA[sicheren]]></wf>
+    <wf wid="w204" sent="13" para="3" offset="1329" length="13"><![CDATA[Informationen]]></wf>
+    <wf wid="w205" sent="13" para="3" offset="1343" length="4"><![CDATA[über]]></wf>
+    <wf wid="w206" sent="13" para="3" offset="1348" length="3"><![CDATA[das]]></wf>
+    <wf wid="w207" sent="13" para="3" offset="1352" length="9"><![CDATA[Schicksal]]></wf>
+    <wf wid="w208" sent="13" para="3" offset="1362" length="3"><![CDATA[der]]></wf>
+    <wf wid="w209" sent="13" para="3" offset="1366" length="7"><![CDATA[Geiseln]]></wf>
+    <wf wid="w210" sent="13" para="3" offset="1373" length="1"><![CDATA[.]]></wf>
   </text>
 </KAF>

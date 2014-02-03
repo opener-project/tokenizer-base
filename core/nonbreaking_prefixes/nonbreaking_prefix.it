@@ -61,6 +61,7 @@ Drs
 Egr
 Ens
 Gen
+Genn
 Geom
 Gov
 Hon
@@ -186,6 +187,7 @@ Adj
 Adm
 Adv
 Affl
+Ag
 Apr
 Art
 Asst
@@ -217,6 +219,7 @@ DRA
 Da
 Dec
 Dep
+Dic
 Dn
 Dr
 Dra
@@ -237,6 +240,7 @@ Exo
 Fa
 Fco
 Feb
+Febbr
 Fig
 Fr
 Gar
@@ -265,6 +269,7 @@ MR
 MRS
 MS
 MSc
+Magg
 Maj
 Mar
 Me
@@ -291,6 +296,7 @@ O.d.J
 Okt
 Op
 Ord
+Ott
 Oz
 P 
 P.D
@@ -319,6 +325,7 @@ Sen
 Sens
 Sep
 Sept
+Sett
 Sfc
 Sgt
 Sl
@@ -365,6 +372,7 @@ adj
 adm
 adr
 adv
+ag
 alt
 anal
 anat
@@ -421,6 +429,7 @@ dem
 dep
 dept
 dhr
+dic
 dipl
 dispo
 div
@@ -458,6 +467,7 @@ fam
 fasc
 fbg
 feb
+febbr
 fem
 fevr
 ff
@@ -471,6 +481,7 @@ gde
 gdes
 gds
 gen
+genn
 gl 
 grd
 h.-t
@@ -512,6 +523,7 @@ m.b.v
 m.h.o
 m.i
 m.i.v
+magg
 maj
 mar
 mas
@@ -530,6 +542,7 @@ n.f
 n.f.pl
 n.m
 n.m.pl
+nov
 npr
 o
 o.b.s
@@ -537,6 +550,7 @@ obs
 oct
 okt
 ord 
+ott
 oz
 p
 p 
@@ -592,6 +606,7 @@ s.t.p
 s.v.p
 s/c
 sc
+sett
 sf
 sgt
 sl

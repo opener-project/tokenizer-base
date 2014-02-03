@@ -75,11 +75,13 @@ Y
 Z
 
 #unified abbreviation list
+Abr
 Acad
 Adj
 Adm
 Adv
 Affl
+Ago
 Apr
 Art
 Asst
@@ -159,6 +161,7 @@ MR
 MRS
 MS
 MSc
+Mai
 Maj
 Mar
 Me
@@ -182,6 +185,7 @@ Nov
 Npr
 Nr
 O.d.J
+Oct
 Okt
 Op
 Ord
@@ -251,6 +255,7 @@ a./s
 a.C
 a.g.v
 a.l
+abr
 abrev
 abs
 ac
@@ -261,6 +266,7 @@ adm
 adr
 adv
 alt
+ago
 anal
 anat
 angl
@@ -390,6 +396,8 @@ janv
 jhr
 jkvr
 jr
+jul
+jun
 l
 lat
 lex
@@ -407,6 +415,7 @@ m.b.v
 m.h.o
 m.i
 m.i.v
+mai
 maj
 mar
 mas
@@ -425,6 +434,7 @@ n.f
 n.f.pl
 n.m
 n.m.pl
+nov
 npr
 o
 o.b.s
@@ -487,6 +497,8 @@ s.t.p
 s.v.p
 s/c
 sc
+sep
+sept
 sf
 sgt
 sl

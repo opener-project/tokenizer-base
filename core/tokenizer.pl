@@ -1,10 +1,15 @@
 #!/usr/bin/perl -w
 
+# This class tokenizes input sentence
+# Implements Moses tokenizer and it has been modified
+# for OpeNER by Aitor García and Andoni Azpeitia
+
 use FindBin;
 use utf8;
 
 my %NONBREAKING_PREFIX = ();
 my $LANGUAGE;
+my $SUBSTITUTE = "####";
 
 sub init_tokenizer {
 	$LANGUAGE = shift(@_);
@@ -12,9 +17,8 @@ sub init_tokenizer {
 }
 
 sub tokenize {
-
-	my($text) = shift(@_);
 	
+	my($text) = shift(@_);
 	chomp($text);
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 	#tokenize the dashes of the beginning of the lines
@@ -25,7 +29,6 @@ sub tokenize {
 #<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 	$text = " $text ";
-
 	# seperate out all "other" special characters
 	$text =~ s/([^\p{IsAlnum}\s\.\'\`\,\-\’])/ $1 /g;
         #$text =~ s/([^\p{IsAlnum}\s\.\'\`\,\-])/ $1 /g;
@@ -42,10 +45,10 @@ sub tokenize {
 	$text =~ s/([^\p{IsN}])[,]([\p{IsN}])/$1 , $2/g;
 
 	# turn `into '
-	$text =~ s/\`/\'/g;
+	$text =~ s/\`/\'$SUBSTITUTE/g;
 
 	#turn '' into "
-	$text =~ s/\'\'/ \" /g;
+	$text =~ s/\'\'/ \"$SUBSTITUTE /g;
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 	#tokenize the words like '05-'06
 	$text =~ s/(['|’])([0-9][0-9])\-(['|’])([0-9][0-9])/$1$2 - $3$4/g;
@@ -103,8 +106,32 @@ sub tokenize {
 	}
 	$text =~ s/DOTMULTI/./g;
 
+	#detokenize URLs
+	$text = &detokenize_urls($text);
+	
 	#ensure final line break
 	$text .= "\n" unless $text =~ /\n$/;
+	return $text;
+}
+
+sub detokenize_urls {
+
+	my($text) = shift(@_);
+
+	$text =~ s/(\w{3,9}) : \/ \/ /$1:\/\//g;
+	my $URL_HEAD_PATTERN = "\\w{3,9}:\\/\\/|www";
+	my $URL_BODY_PATTERN = "\\w\\d\\.\\/\\-\\#;:=\\+\\?&_";
+	my $URL_SPECIAL_PATTERN = "\\/|\\?|=|&|\\+|_|\\#|:|;|\\-";
+	while ( $text =~ /($URL_HEAD_PATTERN)[$URL_BODY_PATTERN]+ ($URL_SPECIAL_PATTERN)/ ) {
+		$text =~ s/($URL_HEAD_PATTERN)([$URL_BODY_PATTERN]+) ($URL_SPECIAL_PATTERN) {0,1}(($URL_SPECIAL_PATTERN? {0,1})+)/$1.$2.$3.&clean($4)/eg;
+	}
+	
+	return $text;
+}
+
+sub clean {
+	my $text = shift(@_);
+	$text = s/ //g;
 	return $text;
 }
 

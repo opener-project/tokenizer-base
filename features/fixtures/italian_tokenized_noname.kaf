@@ -8,107 +8,107 @@
     </linguisticProcessors>
   </kafHeader>
   <text>
-    <wf wid="w1" sent="1" para="1" offset="0"><![CDATA[«]]></wf>
-    <wf wid="w2" sent="1" para="1" offset="1"><![CDATA[Esistono]]></wf>
-    <wf wid="w3" sent="1" para="1" offset="10"><![CDATA[situazioni]]></wf>
-    <wf wid="w4" sent="1" para="1" offset="21"><![CDATA[-]]></wf>
-    <wf wid="w5" sent="1" para="1" offset="23"><![CDATA[ha]]></wf>
-    <wf wid="w6" sent="1" para="1" offset="26"><![CDATA[sottolineato]]></wf>
-    <wf wid="w7" sent="1" para="1" offset="39"><![CDATA[Giampaolino]]></wf>
-    <wf wid="w8" sent="1" para="1" offset="51"><![CDATA[-]]></wf>
-    <wf wid="w9" sent="1" para="1" offset="53"><![CDATA[in]]></wf>
-    <wf wid="w10" sent="1" para="1" offset="56"><![CDATA[cui]]></wf>
-    <wf wid="w11" sent="1" para="1" offset="60"><![CDATA[la]]></wf>
-    <wf wid="w12" sent="1" para="1" offset="63"><![CDATA[titolarità]]></wf>
-    <wf wid="w13" sent="1" para="1" offset="74"><![CDATA[formale]]></wf>
-    <wf wid="w14" sent="1" para="1" offset="82"><![CDATA[di]]></wf>
-    <wf wid="w15" sent="1" para="1" offset="85"><![CDATA[utenze]]></wf>
-    <wf wid="w16" sent="1" para="1" offset="92"><![CDATA[e]]></wf>
-    <wf wid="w17" sent="1" para="1" offset="94"><![CDATA[canoni]]></wf>
-    <wf wid="w18" sent="1" para="1" offset="101"><![CDATA[non]]></wf>
-    <wf wid="w19" sent="1" para="1" offset="105"><![CDATA[coincide]]></wf>
-    <wf wid="w20" sent="1" para="1" offset="114"><![CDATA[con]]></wf>
-    <wf wid="w21" sent="1" para="1" offset="118"><![CDATA[coloro]]></wf>
-    <wf wid="w22" sent="1" para="1" offset="125"><![CDATA[che]]></wf>
-    <wf wid="w23" sent="1" para="1" offset="129"><![CDATA[ne]]></wf>
-    <wf wid="w24" sent="1" para="1" offset="132"><![CDATA[supportano]]></wf>
-    <wf wid="w25" sent="1" para="1" offset="143"><![CDATA[l']]></wf>
-    <wf wid="w26" sent="1" para="1" offset="145"><![CDATA[onere]]></wf>
-    <wf wid="w27" sent="1" para="1" offset="151"><![CDATA[finanziario]]></wf>
-    <wf wid="w28" sent="1" para="1" offset="162"><![CDATA[.]]></wf>
-    <wf wid="w29" sent="2" para="1" offset="164"><![CDATA[In]]></wf>
-    <wf wid="w30" sent="2" para="1" offset="167"><![CDATA[questi]]></wf>
-    <wf wid="w31" sent="2" para="1" offset="174"><![CDATA[casi]]></wf>
-    <wf wid="w32" sent="2" para="1" offset="179"><![CDATA[occorrerà]]></wf>
-    <wf wid="w33" sent="2" para="1" offset="189"><![CDATA[che]]></wf>
-    <wf wid="w34" sent="2" para="1" offset="193"><![CDATA[gli]]></wf>
-    <wf wid="w35" sent="2" para="1" offset="197"><![CDATA[uffici]]></wf>
-    <wf wid="w36" sent="2" para="1" offset="204"><![CDATA[procedano]]></wf>
-    <wf wid="w37" sent="2" para="1" offset="214"><![CDATA[con]]></wf>
-    <wf wid="w38" sent="2" para="1" offset="218"><![CDATA[grande]]></wf>
-    <wf wid="w39" sent="2" para="1" offset="225"><![CDATA[attenzione]]></wf>
-    <wf wid="w40" sent="2" para="1" offset="236"><![CDATA[per]]></wf>
-    <wf wid="w41" sent="2" para="1" offset="240"><![CDATA[arrivare]]></wf>
-    <wf wid="w42" sent="2" para="1" offset="249"><![CDATA[all']]></wf>
-    <wf wid="w43" sent="2" para="1" offset="253"><![CDATA[effettiva]]></wf>
-    <wf wid="w44" sent="2" para="1" offset="263"><![CDATA[titolarità]]></wf>
-    <wf wid="w45" sent="2" para="1" offset="274"><![CDATA[soggettiva]]></wf>
-    <wf wid="w46" sent="2" para="1" offset="284"><![CDATA[»]]></wf>
-    <wf wid="w47" sent="2" para="1" offset="285"><![CDATA[.]]></wf>
-    <wf wid="w48" sent="3" para="2" offset="287"><![CDATA[Non]]></wf>
-    <wf wid="w49" sent="3" para="2" offset="291"><![CDATA[si]]></wf>
-    <wf wid="w50" sent="3" para="2" offset="294"><![CDATA[è]]></wf>
-    <wf wid="w51" sent="3" para="2" offset="296"><![CDATA[fatta]]></wf>
-    <wf wid="w52" sent="3" para="2" offset="302"><![CDATA[attendere]]></wf>
-    <wf wid="w53" sent="3" para="2" offset="312"><![CDATA[la]]></wf>
-    <wf wid="w54" sent="3" para="2" offset="315"><![CDATA[replica]]></wf>
-    <wf wid="w55" sent="3" para="2" offset="323"><![CDATA[(]]></wf>
-    <wf wid="w56" sent="3" para="2" offset="324"><![CDATA[indiretta]]></wf>
-    <wf wid="w57" sent="3" para="2" offset="333"><![CDATA[)]]></wf>
-    <wf wid="w58" sent="3" para="2" offset="335"><![CDATA[del]]></wf>
-    <wf wid="w59" sent="3" para="2" offset="339"><![CDATA[numero]]></wf>
-    <wf wid="w60" sent="3" para="2" offset="346"><![CDATA[due]]></wf>
-    <wf wid="w61" sent="3" para="2" offset="350"><![CDATA[dell']]></wf>
-    <wf wid="w62" sent="3" para="2" offset="355"><![CDATA[Agenzia]]></wf>
-    <wf wid="w63" sent="3" para="2" offset="363"><![CDATA[delle]]></wf>
-    <wf wid="w64" sent="3" para="2" offset="369"><![CDATA[Entrate]]></wf>
-    <wf wid="w65" sent="3" para="2" offset="376"><![CDATA[,]]></wf>
-    <wf wid="w66" sent="3" para="2" offset="378"><![CDATA[Marco]]></wf>
-    <wf wid="w67" sent="3" para="2" offset="384"><![CDATA[di]]></wf>
-    <wf wid="w68" sent="3" para="2" offset="387"><![CDATA[Capua]]></wf>
-    <wf wid="w69" sent="3" para="2" offset="392"><![CDATA[:]]></wf>
-    <wf wid="w70" sent="3" para="2" offset="394"><![CDATA[«]]></wf>
-    <wf wid="w71" sent="3" para="2" offset="395"><![CDATA[Il]]></wf>
-    <wf wid="w72" sent="3" para="2" offset="398"><![CDATA[redditometro]]></wf>
-    <wf wid="w73" sent="3" para="2" offset="411"><![CDATA[ha]]></wf>
-    <wf wid="w74" sent="3" para="2" offset="414"><![CDATA[l']]></wf>
-    <wf wid="w75" sent="3" para="2" offset="416"><![CDATA[obiettivo]]></wf>
-    <wf wid="w76" sent="3" para="2" offset="426"><![CDATA[di]]></wf>
-    <wf wid="w77" sent="3" para="2" offset="429"><![CDATA[«]]></wf>
-    <wf wid="w78" sent="3" para="2" offset="430"><![CDATA[intercettare]]></wf>
-    <wf wid="w79" sent="3" para="2" offset="443"><![CDATA[forme]]></wf>
-    <wf wid="w80" sent="3" para="2" offset="449"><![CDATA[di]]></wf>
-    <wf wid="w81" sent="3" para="2" offset="452"><![CDATA[evasione]]></wf>
-    <wf wid="w82" sent="3" para="2" offset="461"><![CDATA[spudorata]]></wf>
-    <wf wid="w83" sent="3" para="2" offset="470"><![CDATA[»]]></wf>
-    <wf wid="w84" sent="3" para="2" offset="472"><![CDATA[e]]></wf>
-    <wf wid="w85" sent="3" para="2" offset="474"><![CDATA[«]]></wf>
-    <wf wid="w86" sent="3" para="2" offset="475"><![CDATA[i]]></wf>
-    <wf wid="w87" sent="3" para="2" offset="477"><![CDATA[finti]]></wf>
-    <wf wid="w88" sent="3" para="2" offset="483"><![CDATA[poveri]]></wf>
-    <wf wid="w89" sent="3" para="2" offset="489"><![CDATA[»]]></wf>
-    <wf wid="w90" sent="3" para="2" offset="490"><![CDATA[.]]></wf>
-    <wf wid="w91" sent="4" para="2" offset="492"><![CDATA[Sottolineando]]></wf>
-    <wf wid="w92" sent="4" para="2" offset="506"><![CDATA[che]]></wf>
-    <wf wid="w93" sent="4" para="2" offset="510"><![CDATA[«]]></wf>
-    <wf wid="w94" sent="4" para="2" offset="511"><![CDATA[non]]></wf>
-    <wf wid="w95" sent="4" para="2" offset="515"><![CDATA[è]]></wf>
-    <wf wid="w96" sent="4" para="2" offset="517"><![CDATA[uno]]></wf>
-    <wf wid="w97" sent="4" para="2" offset="521"><![CDATA[strumento]]></wf>
-    <wf wid="w98" sent="4" para="2" offset="531"><![CDATA[di]]></wf>
-    <wf wid="w99" sent="4" para="2" offset="534"><![CDATA[accertamento]]></wf>
-    <wf wid="w100" sent="4" para="2" offset="547"><![CDATA[di]]></wf>
-    <wf wid="w101" sent="4" para="2" offset="550"><![CDATA[massa]]></wf>
-    <wf wid="w102" sent="4" para="2" offset="555"><![CDATA[»]]></wf>
+    <wf wid="w1" sent="1" para="1" offset="0" length="1"><![CDATA[«]]></wf>
+    <wf wid="w2" sent="1" para="1" offset="1" length="8"><![CDATA[Esistono]]></wf>
+    <wf wid="w3" sent="1" para="1" offset="10" length="10"><![CDATA[situazioni]]></wf>
+    <wf wid="w4" sent="1" para="1" offset="21" length="1"><![CDATA[-]]></wf>
+    <wf wid="w5" sent="1" para="1" offset="23" length="2"><![CDATA[ha]]></wf>
+    <wf wid="w6" sent="1" para="1" offset="26" length="12"><![CDATA[sottolineato]]></wf>
+    <wf wid="w7" sent="1" para="1" offset="39" length="11"><![CDATA[Giampaolino]]></wf>
+    <wf wid="w8" sent="1" para="1" offset="51" length="1"><![CDATA[-]]></wf>
+    <wf wid="w9" sent="1" para="1" offset="53" length="2"><![CDATA[in]]></wf>
+    <wf wid="w10" sent="1" para="1" offset="56" length="3"><![CDATA[cui]]></wf>
+    <wf wid="w11" sent="1" para="1" offset="60" length="2"><![CDATA[la]]></wf>
+    <wf wid="w12" sent="1" para="1" offset="63" length="10"><![CDATA[titolarità]]></wf>
+    <wf wid="w13" sent="1" para="1" offset="74" length="7"><![CDATA[formale]]></wf>
+    <wf wid="w14" sent="1" para="1" offset="82" length="2"><![CDATA[di]]></wf>
+    <wf wid="w15" sent="1" para="1" offset="85" length="6"><![CDATA[utenze]]></wf>
+    <wf wid="w16" sent="1" para="1" offset="92" length="1"><![CDATA[e]]></wf>
+    <wf wid="w17" sent="1" para="1" offset="94" length="6"><![CDATA[canoni]]></wf>
+    <wf wid="w18" sent="1" para="1" offset="101" length="3"><![CDATA[non]]></wf>
+    <wf wid="w19" sent="1" para="1" offset="105" length="8"><![CDATA[coincide]]></wf>
+    <wf wid="w20" sent="1" para="1" offset="114" length="3"><![CDATA[con]]></wf>
+    <wf wid="w21" sent="1" para="1" offset="118" length="6"><![CDATA[coloro]]></wf>
+    <wf wid="w22" sent="1" para="1" offset="125" length="3"><![CDATA[che]]></wf>
+    <wf wid="w23" sent="1" para="1" offset="129" length="2"><![CDATA[ne]]></wf>
+    <wf wid="w24" sent="1" para="1" offset="132" length="10"><![CDATA[supportano]]></wf>
+    <wf wid="w25" sent="1" para="1" offset="143" length="2"><![CDATA[l']]></wf>
+    <wf wid="w26" sent="1" para="1" offset="145" length="5"><![CDATA[onere]]></wf>
+    <wf wid="w27" sent="1" para="1" offset="151" length="11"><![CDATA[finanziario]]></wf>
+    <wf wid="w28" sent="1" para="1" offset="162" length="1"><![CDATA[.]]></wf>
+    <wf wid="w29" sent="2" para="1" offset="164" length="2"><![CDATA[In]]></wf>
+    <wf wid="w30" sent="2" para="1" offset="167" length="6"><![CDATA[questi]]></wf>
+    <wf wid="w31" sent="2" para="1" offset="174" length="4"><![CDATA[casi]]></wf>
+    <wf wid="w32" sent="2" para="1" offset="179" length="9"><![CDATA[occorrerà]]></wf>
+    <wf wid="w33" sent="2" para="1" offset="189" length="3"><![CDATA[che]]></wf>
+    <wf wid="w34" sent="2" para="1" offset="193" length="3"><![CDATA[gli]]></wf>
+    <wf wid="w35" sent="2" para="1" offset="197" length="6"><![CDATA[uffici]]></wf>
+    <wf wid="w36" sent="2" para="1" offset="204" length="9"><![CDATA[procedano]]></wf>
+    <wf wid="w37" sent="2" para="1" offset="214" length="3"><![CDATA[con]]></wf>
+    <wf wid="w38" sent="2" para="1" offset="218" length="6"><![CDATA[grande]]></wf>
+    <wf wid="w39" sent="2" para="1" offset="225" length="10"><![CDATA[attenzione]]></wf>
+    <wf wid="w40" sent="2" para="1" offset="236" length="3"><![CDATA[per]]></wf>
+    <wf wid="w41" sent="2" para="1" offset="240" length="8"><![CDATA[arrivare]]></wf>
+    <wf wid="w42" sent="2" para="1" offset="249" length="4"><![CDATA[all']]></wf>
+    <wf wid="w43" sent="2" para="1" offset="253" length="9"><![CDATA[effettiva]]></wf>
+    <wf wid="w44" sent="2" para="1" offset="263" length="10"><![CDATA[titolarità]]></wf>
+    <wf wid="w45" sent="2" para="1" offset="274" length="10"><![CDATA[soggettiva]]></wf>
+    <wf wid="w46" sent="2" para="1" offset="284" length="1"><![CDATA[»]]></wf>
+    <wf wid="w47" sent="2" para="1" offset="285" length="1"><![CDATA[.]]></wf>
+    <wf wid="w48" sent="3" para="2" offset="287" length="3"><![CDATA[Non]]></wf>
+    <wf wid="w49" sent="3" para="2" offset="291" length="2"><![CDATA[si]]></wf>
+    <wf wid="w50" sent="3" para="2" offset="294" length="1"><![CDATA[è]]></wf>
+    <wf wid="w51" sent="3" para="2" offset="296" length="5"><![CDATA[fatta]]></wf>
+    <wf wid="w52" sent="3" para="2" offset="302" length="9"><![CDATA[attendere]]></wf>
+    <wf wid="w53" sent="3" para="2" offset="312" length="2"><![CDATA[la]]></wf>
+    <wf wid="w54" sent="3" para="2" offset="315" length="7"><![CDATA[replica]]></wf>
+    <wf wid="w55" sent="3" para="2" offset="323" length="1"><![CDATA[(]]></wf>
+    <wf wid="w56" sent="3" para="2" offset="324" length="9"><![CDATA[indiretta]]></wf>
+    <wf wid="w57" sent="3" para="2" offset="333" length="1"><![CDATA[)]]></wf>
+    <wf wid="w58" sent="3" para="2" offset="335" length="3"><![CDATA[del]]></wf>
+    <wf wid="w59" sent="3" para="2" offset="339" length="6"><![CDATA[numero]]></wf>
+    <wf wid="w60" sent="3" para="2" offset="346" length="3"><![CDATA[due]]></wf>
+    <wf wid="w61" sent="3" para="2" offset="350" length="5"><![CDATA[dell']]></wf>
+    <wf wid="w62" sent="3" para="2" offset="355" length="7"><![CDATA[Agenzia]]></wf>
+    <wf wid="w63" sent="3" para="2" offset="363" length="5"><![CDATA[delle]]></wf>
+    <wf wid="w64" sent="3" para="2" offset="369" length="7"><![CDATA[Entrate]]></wf>
+    <wf wid="w65" sent="3" para="2" offset="376" length="1"><![CDATA[,]]></wf>
+    <wf wid="w66" sent="3" para="2" offset="378" length="5"><![CDATA[Marco]]></wf>
+    <wf wid="w67" sent="3" para="2" offset="384" length="2"><![CDATA[di]]></wf>
+    <wf wid="w68" sent="3" para="2" offset="387" length="5"><![CDATA[Capua]]></wf>
+    <wf wid="w69" sent="3" para="2" offset="392" length="1"><![CDATA[:]]></wf>
+    <wf wid="w70" sent="3" para="2" offset="394" length="1"><![CDATA[«]]></wf>
+    <wf wid="w71" sent="3" para="2" offset="395" length="2"><![CDATA[Il]]></wf>
+    <wf wid="w72" sent="3" para="2" offset="398" length="12"><![CDATA[redditometro]]></wf>
+    <wf wid="w73" sent="3" para="2" offset="411" length="2"><![CDATA[ha]]></wf>
+    <wf wid="w74" sent="3" para="2" offset="414" length="2"><![CDATA[l']]></wf>
+    <wf wid="w75" sent="3" para="2" offset="416" length="9"><![CDATA[obiettivo]]></wf>
+    <wf wid="w76" sent="3" para="2" offset="426" length="2"><![CDATA[di]]></wf>
+    <wf wid="w77" sent="3" para="2" offset="429" length="1"><![CDATA[«]]></wf>
+    <wf wid="w78" sent="3" para="2" offset="430" length="12"><![CDATA[intercettare]]></wf>
+    <wf wid="w79" sent="3" para="2" offset="443" length="5"><![CDATA[forme]]></wf>
+    <wf wid="w80" sent="3" para="2" offset="449" length="2"><![CDATA[di]]></wf>
+    <wf wid="w81" sent="3" para="2" offset="452" length="8"><![CDATA[evasione]]></wf>
+    <wf wid="w82" sent="3" para="2" offset="461" length="9"><![CDATA[spudorata]]></wf>
+    <wf wid="w83" sent="3" para="2" offset="470" length="1"><![CDATA[»]]></wf>
+    <wf wid="w84" sent="3" para="2" offset="472" length="1"><![CDATA[e]]></wf>
+    <wf wid="w85" sent="3" para="2" offset="474" length="1"><![CDATA[«]]></wf>
+    <wf wid="w86" sent="3" para="2" offset="475" length="1"><![CDATA[i]]></wf>
+    <wf wid="w87" sent="3" para="2" offset="477" length="5"><![CDATA[finti]]></wf>
+    <wf wid="w88" sent="3" para="2" offset="483" length="6"><![CDATA[poveri]]></wf>
+    <wf wid="w89" sent="3" para="2" offset="489" length="1"><![CDATA[»]]></wf>
+    <wf wid="w90" sent="3" para="2" offset="490" length="1"><![CDATA[.]]></wf>
+    <wf wid="w91" sent="4" para="2" offset="492" length="13"><![CDATA[Sottolineando]]></wf>
+    <wf wid="w92" sent="4" para="2" offset="506" length="3"><![CDATA[che]]></wf>
+    <wf wid="w93" sent="4" para="2" offset="510" length="1"><![CDATA[«]]></wf>
+    <wf wid="w94" sent="4" para="2" offset="511" length="3"><![CDATA[non]]></wf>
+    <wf wid="w95" sent="4" para="2" offset="515" length="1"><![CDATA[è]]></wf>
+    <wf wid="w96" sent="4" para="2" offset="517" length="3"><![CDATA[uno]]></wf>
+    <wf wid="w97" sent="4" para="2" offset="521" length="9"><![CDATA[strumento]]></wf>
+    <wf wid="w98" sent="4" para="2" offset="531" length="2"><![CDATA[di]]></wf>
+    <wf wid="w99" sent="4" para="2" offset="534" length="12"><![CDATA[accertamento]]></wf>
+    <wf wid="w100" sent="4" para="2" offset="547" length="2"><![CDATA[di]]></wf>
+    <wf wid="w101" sent="4" para="2" offset="550" length="5"><![CDATA[massa]]></wf>
+    <wf wid="w102" sent="4" para="2" offset="555" length="1"><![CDATA[»]]></wf>
   </text>
 </KAF>

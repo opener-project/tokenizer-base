@@ -294,6 +294,7 @@ Affl
 Apr
 Art
 Asst
+Aug
 Av
 Avg
 B.ches-du-Rh
@@ -393,6 +394,7 @@ Nov
 Npr
 Nr
 O.d.J
+Oct
 Okt
 Op
 Ord
@@ -480,6 +482,7 @@ apr
 apr 
 asc
 atm
+aug
 auj
 aux
 av
@@ -597,6 +600,7 @@ itn
 itp 
 izq
 j
+jan
 janv
 jhr
 jkvr
@@ -636,6 +640,7 @@ n.f
 n.f.pl
 n.m
 n.m.pl
+nov
 npr
 o
 o.b.s
@@ -698,6 +703,8 @@ s.t.p
 s.v.p
 s/c
 sc
+sep
+sept
 sf
 sgt
 sl
