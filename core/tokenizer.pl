@@ -63,12 +63,19 @@ sub tokenize {
 		$text =~ s/([\p{IsAlpha}])(['|’])([\p{IsAlpha}])/$1 $2$3/g;
 		#special case for "1990's"
 		$text =~ s/([\p{IsN}])(['|’])([s])/$1 $2$3/g;
-	} elsif (($LANGUAGE eq "fr") or ($LANGUAGE eq "it")) {
+	} elsif ($LANGUAGE eq "fr") {
 		#split contractions left
 		$text =~ s/([^\p{IsAlpha}])(['|’])([^\p{IsAlpha}])/$1 $2 $3/g;
 		$text =~ s/([^\p{IsAlpha}])(['|’])([\p{IsAlpha}])/$1 $2 $3/g;
 		$text =~ s/([\p{IsAlpha}])(['|’])([^\p{IsAlpha}])/$1 $2 $3/g;
 		$text =~ s/([\p{IsAlpha}])(['|’])([\p{IsAlpha}])/$1$2 $3/g;
+	} elsif ($LANGUAGE eq "it") {
+		#split contractions left
+		$text =~ s/([^\p{IsAlpha}])(['|’])([^\p{IsAlpha}])/$1 $2 $3/g;
+		$text =~ s/([^\p{IsAlpha}])(['|’])([\p{IsAlpha}])/$1 $2 $3/g;
+		$text =~ s/([\p{IsAlpha}])(['|’])([^\p{IsAlpha}])/$1 $2 $3/g;
+		$text =~ s/([\p{IsAlpha}])(['|’])([\p{IsAlpha}])/$1$2 $3/g;
+		$text =~ s/([^\p{IsAlpha}\p{IsN}]po) (['|’])([^\p{IsAlpha}])/$1$2 $3/g; # rule for "po'"
 	} else {
 		$text =~ s/\'/ \' /g;
 	}
