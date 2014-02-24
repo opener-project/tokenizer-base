@@ -111,7 +111,7 @@ while(<STDIN>) {
     #print $_;
   }
   else {
-    
+
     #fix input text
     my $text = &fix_text($_);
 
@@ -153,9 +153,9 @@ while(<STDIN>) {
 
       my $i = 0;
       foreach my $token (@tokens) {
-	
+
         $index = index($_, $token, $last_index);
-	
+
 	#if token was substituted at tokenization, be careful
         if ( $token eq "\"".$SUBSTITUTE ) {
           $index = index($_, "'", $last_index);
@@ -197,10 +197,10 @@ while(<STDIN>) {
 	    $offset = $charcount + $index;
 	  }
 	}
-	
+
 	my $token_length = length($token);
 	&print_line(++$counter, $sent, $para, $offset, $token_length, $token);
-        
+
         $last_index = $index + $token_length;
 	$last_offset = $offset;
         $i++;
@@ -332,7 +332,7 @@ sub checkLanguage {
 
 sub displayHelp {
   print STDERR "\nThis aplication reads a text from standard input in order to tokenize.\n";
-  print STDERR "Aplication arguments:\n";
+  print STDERR "Application arguments:\n";
   print STDERR "-l, --language  input text's language.\n";
   print STDERR "-f, --filename  (optional) file's name.\n";
   print STDERR "-t,             (optional) o use static timestamp at KAF header.\n";

@@ -16,7 +16,7 @@ module Opener
       def run(opts=ARGV)
         `#{command(opts)}`
       end
-      
+
       def set_language(language)
         @language = language
       end
@@ -28,7 +28,7 @@ module Opener
       end
 
       def kernel
-        File.join(core_dir,'tokenizer-modified_OpeNER.pl')
+        File.join(core_dir,'tokenizer-cli.pl')
       end
 
       def lib
@@ -38,37 +38,37 @@ module Opener
       def language
         return @language.nil? ? nil : "-l #{@language}"
       end
-      
+
       def lang
         'en'
       end
 
     end
-    
+
     class EN < Base
       def lang
         'en'
       end
     end
-    
+
     class DE < Base
       def lang
         'de'
       end
     end
-    
+
     class NL < Base
       def lang
         'nl'
       end
     end
-    
+
     class ES < Base
       def lang
         'es'
       end
     end
-    
+
     class IT < Base
       def lang
         'it'
