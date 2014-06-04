@@ -7,13 +7,15 @@ module Opener
 
       def initialize(opts={})
         @language ||= opts[:language] || lang
+        @file ||= opts[:file] || file
       end
 
       def command(opts=[])
-        "perl -I #{lib} #{kernel} #{language} #{opts.join(' ')}"
+        "perl -I #{lib} #{kernel} #{language} #{file} #{opts.join(' ')}"
       end
 
       def run(opts=ARGV)
+        puts "kakakkakakakkakaak**************************"
         `#{command(opts)}`
       end
 
@@ -37,6 +39,10 @@ module Opener
 
       def language
         return @language.nil? ? nil : "-l #{@language}"
+      end
+
+      def file
+        return @file.nil? ? nil : "-f #{@file}"
       end
 
       def lang
