@@ -1,4 +1,7 @@
-require "bundler/gem_tasks"
+require 'bundler/gem_tasks'
+require 'rake/clean'
+
+CLEAN.include('tmp/*')
 
 desc 'Runs the tests'
 task :test do
