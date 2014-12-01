@@ -1,4 +1,3 @@
-[![Build Status](https://drone.io/github.com/opener-project/tokenizer-base/status.png)](https://drone.io/github.com/opener-project/tokenizer-base/latest)
 # Opener::Tokenizer::Base
 
 Base tokenizer for various languages such as English, German and Italian. Keep
