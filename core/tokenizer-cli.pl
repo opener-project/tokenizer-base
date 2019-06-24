@@ -17,7 +17,6 @@ require "$FindBin::Bin"."/tokenizer.pl";
 require "$FindBin::Bin"."/load-prefixes.pl";
 
 no warnings;
-use encoding 'utf8';
 
 binmode(STDIN, ":utf8");
 binmode(STDOUT, ":utf8");
